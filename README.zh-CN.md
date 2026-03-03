@@ -1,5 +1,7 @@
 # OneEval
 
+![OneEval logo](assets/logo.png)
+
 OneEval 是一个以仓库为中心发布的开放模型评测产物（artifacts）集合。
 
 ## 动机

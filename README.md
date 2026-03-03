@@ -1,5 +1,7 @@
 # OneEval
 
+![OneEval logo](assets/logo.png)
+
 OneEval is a repository-first release of open-model evaluation artifacts.
 
 Project overview (Chinese): [README.zh-CN.md](README.zh-CN.md).
