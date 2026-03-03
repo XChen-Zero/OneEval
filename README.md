@@ -1,8 +1,8 @@
 # OneEval
 
-OneEval is a repository-first release of open-model evaluation evidence.
+OneEval is a repository-first release of open-model evaluation artifacts.
 
-中文说明见 [README.zh-CN.md](README.zh-CN.md).
+Project overview (Chinese): [README.zh-CN.md](README.zh-CN.md).
 
 **Authors**
 
@@ -10,49 +10,58 @@ OneEval is a repository-first release of open-model evaluation evidence.
 - Qiuxuan Chen (<482501090@qq.com>)
 - Bo Liu (<mjv1cp@gmail.com>)
 
-The project exists to address two recurring problems in open LLM evaluation:
+**Website**
 
-- results that are difficult to reproduce because the exact evaluation setup is underspecified
-- benchmark reports that publish only headline aggregates while hiding subset-level behavior
+- https://XChen-Zero.github.io/OneEval/
 
-OneEval uses EvalScope to run a unified suite across open Llama, Qwen, DeepSeek-R1-Qwen3, and Qwen3.5 models, then publishes the pieces that are usually missing from benchmark releases: launch scripts, protocol assumptions, and detailed result slices.
+## Motivation
 
-This repository is intentionally **not** a leaderboard. It is a publication surface for reproducible evaluation artifacts.
+Open LLM evaluation results are frequently hard to audit and difficult to reproduce. Two recurring gaps appear across benchmark reports and evaluation framework issue threads:
 
-## What This Repository Publishes
+- the exact evaluation protocol (sampling knobs, run repetitions, and runtime assumptions) is often underspecified
+- rich benchmarks are commonly reduced to headline aggregates, obscuring subset-level behavior (e.g., MMLU-Pro domains) or multi-sample behavior (e.g., pass@k curves)
 
+OneEval addresses these gaps by publishing the evidence needed for inspection: the scripts used to run the suite, a sanitized protocol summary, and the detailed result slices that explain how an overall number is composed.
+
+## Scope
+
+This repository is not a leaderboard and does not publish a composite score. The emphasis is on artifact release and auditability rather than ranking.
+
+## What Is Released
+
+- [site/](site/): the static website (GitHub Pages), organized by benchmark type
 - [published_results/](published_results/): the public result tree, organized as `models/<model>/<benchmark>/<mode>/<run_id>/`
-- [site/](site/): a GitHub Pages-friendly static site for browsing results by benchmark type
-- [site/data/detailed_results.json](site/data/detailed_results.json): detailed rows used by the site
-- [evaluation_code/](evaluation_code/): the launch scripts and targeted monkey patches used to run the evaluations
-- [evaluation_code/oneeval/](evaluation_code/oneeval/): OneEval-side EvalScope launch entrypoints and orchestration scripts
-- [scripts/extract_results.py](scripts/extract_results.py): extracts valid artifacts, sanitizes config metadata, and materializes `published_results/`
-- [scripts/build_site_data.py](scripts/build_site_data.py): rebuilds the static site data bundles
-- [scripts/validate_raw_results.py](scripts/validate_raw_results.py): verifies consistency and checks for leaks
+- [site/data/](site/data/): site-side data bundles, derived from the public results
+- [evaluation_code/](evaluation_code/): launch scripts and targeted monkey patches used for the runs
+- [scripts/](scripts/): extraction, site-data build, and validation utilities
 
-The public site separates results into four academic reading tracks:
+## Reading Guide (Website)
+
+The website organizes benchmarks into four reading tracks with benchmark-specific views:
 
 - Knowledge
 - Agentic
 - IF (Instruction Following)
 - Reasoning
 
-## Why OneEval Is Useful
+The tables prioritize academic readability:
 
-Most public benchmark writeups stop at a single average, even when the benchmark itself contains much richer structure. This is common in:
+- QA-style benchmarks expose `Correct / Incorrect / Abstain` explicitly
+- subset-heavy benchmarks use an overall table with subset drilldowns
+- pass@k benchmarks provide milestone summaries (k=1/8/32/64) and an interactive curve view
 
-- MMLU-Pro, where many reports show only one overall score while domain subsets remain hidden
-- AIME-style reasoning benchmarks, where papers often emphasize `pass@64` or one aggregate instead of the full curve
+## Benchmarks In This Release
 
-OneEval keeps those internal distributions visible. The release is meant to answer:
+Current benchmark set (as published in the site data):
 
-- what was actually run
-- with which sampling assumptions
-- and how the result decomposes beyond one headline number
+- Knowledge: `chinese_simpleqa`, `gpqa_diamond`, `mmlu_pro`, `simple_qa`, `super_gpqa`
+- Agentic: `bfcl_v3`
+- IF: `ifeval`
+- Reasoning: `aime24`, `aime25`, `hmmt25`, `zebralogicbench`
 
 ## Evaluation Stack
 
-The evaluation stack used in this release is fixed and should be read as part of the methodology:
+The evaluation stack used for the published artifacts:
 
 - EvalScope: `1.4.1`
 - BFCL Eval: `2026.2.9`
@@ -61,60 +70,23 @@ The evaluation stack used in this release is fixed and should be read as part of
 - Qwen3.5 series inference path: DashScope-compatible API
 - Qwen3.5 series agent tooling: `qwen_agent 0.0.34`
 
-Operational notes:
+Operational notes (as reflected in the published protocol summary on the site):
 
 - Qwen3 family models, including DeepSeek-R1-Qwen3 variants, are evaluated under the unified sampling protocol documented in the site.
 - Llama-family runs use fixed single-repeat settings where the sampling configuration is deterministic.
 - BFCL v3 agentic evaluation uses a YaRN-extended context setup to `131072` where applicable.
 
-## Security Boundary
+## Notes On Rebuilding
 
-The private raw source tree may contain local paths, internal names, and config/log material that must not be published. OneEval treats that raw tree as a build input only.
+This repository ships a materialized public release (`published_results/` and `site/data/`). The build scripts in [scripts/](scripts/) are provided for maintainers who have access to the corresponding raw inputs.
 
-Public outputs are restricted to:
-
-- sanitized result files copied into [published_results/](published_results/)
-- derived site data under [site/data/](site/data/)
-- the static frontend under [site/](site/)
-
-The build pipeline never publishes raw config files. It only extracts a strict allowlist of safe evaluation metadata, such as:
-
-- `evalscope_version`
-- `eval_backend`
-- `eval_batch_size`
-- `eval_type`
-- `judge_strategy`
-- `limit`
-- `debug`
-- selected `generation_config` fields like `temperature`, `top_p`, `top_k`, `max_tokens`, and `do_sample`
-
-Known invalid or intentionally excluded sources are filtered out before publication:
-
-- xeval code-style benchmarks
-- xeval `bfcl_v3`
-- xeval files whose names contain `code`, `humaneval`, `mbpp`, or `bfcl`
-
-## Rebuild The Release
-
-Rebuild the public result tree and site data:
-
-```bash
-.venv/bin/python scripts/build_site_data.py
-```
-
-Run the consistency and leakage checks:
+For local verification of the published release:
 
 ```bash
 .venv/bin/python scripts/validate_raw_results.py
 ```
 
-If you need the extracted flat bundle for debugging:
-
-```bash
-.venv/bin/python scripts/extract_results.py --output site/data/extracted_results.json --pretty --materialize-public-results
-```
-
-Preview the site locally:
+To preview the site locally:
 
 ```bash
 .venv/bin/python -m http.server 8000
@@ -122,31 +94,18 @@ Preview the site locally:
 
 Then open `http://localhost:8000/site/`.
 
-## Deploy To GitHub Pages
 
-This repository includes a GitHub Pages workflow at [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml). It publishes the `site/` directory directly through GitHub Actions.
+## Citation
 
-1. Push this project to a GitHub repository.
-2. In GitHub, open `Settings` -> `Pages`.
-3. Under `Build and deployment`, choose `GitHub Actions`.
-4. Commit and push to your default branch.
-5. The `Deploy GitHub Pages` workflow will upload `site/` and publish it automatically.
+If you use OneEval in a report or derivative analysis, please cite the repository:
 
-After the first successful run, the site will be served from:
-
-```text
-https://<your-github-username>.github.io/<your-repository-name>/
+```bibtex
+@misc{oneeval,
+  title        = {OneEval: Open-model evaluation artifacts},
+  author       = {Chen, Xuan and Chen, Qiuxuan and Liu, Bo},
+  year         = {2026},
+  howpublished = {GitHub repository},
+  note         = {Accessed: 2026-03-03},
+  url          = {https://github.com/XChen-Zero/OneEval/}
+}
 ```
-
-Any later commit that updates [published_results/](published_results/), [site/](site/), or the generated data under `site/data/` will trigger a new deployment.
-
-## Scope
-
-OneEval keeps the release deliberately narrow:
-
-- no leaderboard
-- no backend service
-- no normalized warehouse layer
-- no hidden evaluation pipeline
-
-The point is simple: publish the evaluation evidence in a form that is inspectable, structured, and reusable.
