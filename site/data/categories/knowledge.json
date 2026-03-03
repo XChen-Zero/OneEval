@@ -1,0 +1,2992 @@
+{
+  "category": "knowledge",
+  "display_name": "Knowledge",
+  "description": "Knowledge benchmarks emphasize factual recall, domain expertise, and subset-level coverage.",
+  "generated_at": "2026-03-03T08:02:36Z",
+  "filters": {
+    "models": [
+      "DeepSeek-R1-0528-Qwen3-8B",
+      "Llama-3.2-1B-Instruct",
+      "Llama-3.2-3B-Instruct",
+      "Llama-3.3-70B-Instruct",
+      "Meta-Llama-3.1-405B-Instruct",
+      "Meta-Llama-3.1-70B-Instruct",
+      "Meta-Llama-3.1-8B-Instruct",
+      "Qwen3-0.6B",
+      "Qwen3-1.7B",
+      "Qwen3-14B",
+      "Qwen3-235B-A22B",
+      "Qwen3-235B-A22B-Instruct-2507",
+      "Qwen3-235B-A22B-Thinking-2507",
+      "Qwen3-30B-A3B",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "Qwen3-30B-A3B-Thinking-2507",
+      "Qwen3-32B",
+      "Qwen3-4B",
+      "Qwen3-4B-Instruct-2507",
+      "Qwen3-4B-Thinking-2507",
+      "Qwen3-8B",
+      "Qwen3-Next-80B-A3B-Instruct",
+      "Qwen3-Next-80B-A3B-Thinking"
+    ],
+    "modes": [
+      "CoT",
+      "NoCoT"
+    ],
+    "benchmarks": [
+      "chinese_simpleqa",
+      "gpqa_diamond",
+      "mmlu_pro",
+      "simple_qa",
+      "super_gpqa"
+    ]
+  },
+  "benchmarks": [
+    {
+      "benchmark": "chinese_simpleqa",
+      "display_name": "Chinese-SimpleQA",
+      "display_type": "subset_table",
+      "benchmark_data_path": "./data/benchmarks/chinese_simpleqa.json",
+      "model_rows": [
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "DeepSeek-R1-0528-Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "DeepSeek-R1-0528-Qwen3-8B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.311,
+          "primary_score_label": "0.3110",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.6527,
+              "score_label": "0.6527"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0363,
+              "score_label": "0.0363"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "DeepSeek-R1-0528-Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "DeepSeek-R1-0528-Qwen3-8B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.3023,
+          "primary_score_label": "0.3023",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.6637,
+              "score_label": "0.6637"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.034,
+              "score_label": "0.0340"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Llama-3.2-1B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.2-1B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.061,
+          "primary_score_label": "0.0610",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.882,
+              "score_label": "0.8820"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.057,
+              "score_label": "0.0570"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Llama-3.2-3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.2-3B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.1283,
+          "primary_score_label": "0.1283",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.7387,
+              "score_label": "0.7387"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.133,
+              "score_label": "0.1330"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Llama-3.3-70B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.3-70B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.4607,
+          "primary_score_label": "0.4607",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.5327,
+              "score_label": "0.5327"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0067,
+              "score_label": "0.0067"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Meta-Llama-3.1-405B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-405B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.58,
+          "primary_score_label": "0.5800",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.393,
+              "score_label": "0.3930"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.027,
+              "score_label": "0.0270"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Meta-Llama-3.1-70B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-70B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.4607,
+          "primary_score_label": "0.4607",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.5323,
+              "score_label": "0.5323"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.007,
+              "score_label": "0.0070"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Meta-Llama-3.1-8B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-8B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.217,
+          "primary_score_label": "0.2170",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.581,
+              "score_label": "0.5810"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.202,
+              "score_label": "0.2020"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-0.6B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-0.6B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.075,
+          "primary_score_label": "0.0750",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.8557,
+              "score_label": "0.8557"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0693,
+              "score_label": "0.0693"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-0.6B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-0.6B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.086,
+          "primary_score_label": "0.0860",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9,
+              "score_label": "0.9000"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.014,
+              "score_label": "0.0140"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-1.7B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-1.7B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.1723,
+          "primary_score_label": "0.1723",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.7593,
+              "score_label": "0.7593"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0683,
+              "score_label": "0.0683"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-1.7B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-1.7B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.165,
+          "primary_score_label": "0.1650",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.823,
+              "score_label": "0.8230"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.012,
+              "score_label": "0.0120"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-14B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-14B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.449,
+          "primary_score_label": "0.4490",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.4783,
+              "score_label": "0.4783"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0727,
+              "score_label": "0.0727"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-14B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-14B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.4406,
+          "primary_score_label": "0.4406",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.484,
+              "score_label": "0.4840"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0754,
+              "score_label": "0.0754"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-235B-A22B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.623,
+          "primary_score_label": "0.6230",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.342,
+              "score_label": "0.3420"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.035,
+              "score_label": "0.0350"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-235B-A22B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.6467,
+          "primary_score_label": "0.6467",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.345,
+              "score_label": "0.3450"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0083,
+              "score_label": "0.0083"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-235B-A22B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.8604,
+          "primary_score_label": "0.8604",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.1377,
+              "score_label": "0.1377"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.002,
+              "score_label": "0.0020"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-235B-A22B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.825,
+          "primary_score_label": "0.8250",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.172,
+              "score_label": "0.1720"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.003,
+              "score_label": "0.0030"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-30B-A3B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.477,
+          "primary_score_label": "0.4770",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.4343,
+              "score_label": "0.4343"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0887,
+              "score_label": "0.0887"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-30B-A3B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.4933,
+          "primary_score_label": "0.4933",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.4797,
+              "score_label": "0.4797"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.027,
+              "score_label": "0.0270"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-30B-A3B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.7517,
+          "primary_score_label": "0.7517",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.2467,
+              "score_label": "0.2467"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0017,
+              "score_label": "0.0017"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-30B-A3B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.6883,
+          "primary_score_label": "0.6883",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.3097,
+              "score_label": "0.3097"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.002,
+              "score_label": "0.0020"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-32B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-32B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.479,
+          "primary_score_label": "0.4790",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.4857,
+              "score_label": "0.4857"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0353,
+              "score_label": "0.0353"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-32B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-32B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.4883,
+          "primary_score_label": "0.4883",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.4963,
+              "score_label": "0.4963"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0153,
+              "score_label": "0.0153"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-4B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.2907,
+          "primary_score_label": "0.2907",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.6563,
+              "score_label": "0.6563"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.053,
+              "score_label": "0.0530"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-4B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.2923,
+          "primary_score_label": "0.2923",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.6517,
+              "score_label": "0.6517"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.056,
+              "score_label": "0.0560"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-4B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.5013,
+          "primary_score_label": "0.5013",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.4857,
+              "score_label": "0.4857"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.013,
+              "score_label": "0.0130"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-4B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.439,
+          "primary_score_label": "0.4390",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.553,
+              "score_label": "0.5530"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.008,
+              "score_label": "0.0080"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-8B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.3783,
+          "primary_score_label": "0.3783",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.553,
+              "score_label": "0.5530"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0687,
+              "score_label": "0.0687"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-8B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.372,
+          "primary_score_label": "0.3720",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.553,
+              "score_label": "0.5530"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.075,
+              "score_label": "0.0750"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-Next-80B-A3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.847,
+          "primary_score_label": "0.8470",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.1524,
+              "score_label": "0.1524"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0007,
+              "score_label": "0.0007"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        },
+        {
+          "benchmark": "chinese_simpleqa",
+          "benchmark_display": "Chinese-SimpleQA",
+          "model": "Qwen3-Next-80B-A3B-Thinking",
+          "mode": "CoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Thinking · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.7727,
+          "primary_score_label": "0.7727",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.2153,
+              "score_label": "0.2153"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.012,
+              "score_label": "0.0120"
+            }
+          ],
+          "num_samples": 3000,
+          "subset_count": 6,
+          "detail_ref": "./data/benchmarks/chinese_simpleqa.json"
+        }
+      ],
+      "subset_drilldowns": {
+        "available": true,
+        "row_count": 630,
+        "preview_subsets": [
+          "中华文化",
+          "人文与社会科学",
+          "工程、技术与应用科学",
+          "生活、艺术与文化",
+          "社会",
+          "自然与自然科学"
+        ]
+      },
+      "passk_groups": [],
+      "download": {
+        "json_path": "./data/benchmarks/chinese_simpleqa.json",
+        "artifact_count": 35,
+        "sample_artifact_paths": [
+          "published_results/models/deepseek-r1-0528-qwen3-8b/chinese_simpleqa/cot/20260129_060949/result.json",
+          "published_results/models/deepseek-r1-0528-qwen3-8b/chinese_simpleqa/nocot/20260129_232022/result.json",
+          "published_results/models/llama-3.2-1b-instruct/chinese_simpleqa/nocot/20260128_120452/result.json"
+        ],
+        "notes": "Detailed public-safe artifacts are copied under published_results/."
+      }
+    },
+    {
+      "benchmark": "gpqa_diamond",
+      "display_name": "GPQA-Diamond",
+      "display_type": "subset_table",
+      "benchmark_data_path": "./data/benchmarks/gpqa_diamond.json",
+      "model_rows": [
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "DeepSeek-R1-0528-Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "DeepSeek-R1-0528-Qwen3-8B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6152,
+          "primary_score_label": "0.6152",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "DeepSeek-R1-0528-Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "DeepSeek-R1-0528-Qwen3-8B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6172,
+          "primary_score_label": "0.6172",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Llama-3.2-1B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.2-1B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.2121,
+          "primary_score_label": "0.2121",
+          "supporting_metrics": [],
+          "num_samples": 198,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Llama-3.2-3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.2-3B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.2273,
+          "primary_score_label": "0.2273",
+          "supporting_metrics": [],
+          "num_samples": 198,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Llama-3.3-70B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.3-70B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5202,
+          "primary_score_label": "0.5202",
+          "supporting_metrics": [],
+          "num_samples": 198,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Meta-Llama-3.1-405B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-405B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5051,
+          "primary_score_label": "0.5051",
+          "supporting_metrics": [],
+          "num_samples": 198,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Meta-Llama-3.1-70B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-70B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.4444,
+          "primary_score_label": "0.4444",
+          "supporting_metrics": [],
+          "num_samples": 198,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Meta-Llama-3.1-8B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-8B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.2273,
+          "primary_score_label": "0.2273",
+          "supporting_metrics": [],
+          "num_samples": 198,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-0.6B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-0.6B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.2626,
+          "primary_score_label": "0.2626",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-0.6B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-0.6B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.254,
+          "primary_score_label": "0.2540",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-1.7B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-1.7B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.3788,
+          "primary_score_label": "0.3788",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-1.7B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-1.7B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.3152,
+          "primary_score_label": "0.3152",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-14B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-14B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6187,
+          "primary_score_label": "0.6187",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-14B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-14B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6237,
+          "primary_score_label": "0.6237",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-235B-A22B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7066,
+          "primary_score_label": "0.7066",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-235B-A22B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5874,
+          "primary_score_label": "0.5874",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-235B-A22B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6096,
+          "primary_score_label": "0.6096",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-235B-A22B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7965,
+          "primary_score_label": "0.7965",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-30B-A3B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6308,
+          "primary_score_label": "0.6308",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-30B-A3B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5121,
+          "primary_score_label": "0.5121",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-30B-A3B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.55,
+          "primary_score_label": "0.5500",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-30B-A3B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7056,
+          "primary_score_label": "0.7056",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-32B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-32B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6576,
+          "primary_score_label": "0.6576",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-32B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-32B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5273,
+          "primary_score_label": "0.5273",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-4B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5288,
+          "primary_score_label": "0.5288",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-4B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5232,
+          "primary_score_label": "0.5232",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-4B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.4338,
+          "primary_score_label": "0.4338",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-4B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6687,
+          "primary_score_label": "0.6687",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-8B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5818,
+          "primary_score_label": "0.5818",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-8B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5758,
+          "primary_score_label": "0.5758",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-Next-80B-A3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7167,
+          "primary_score_label": "0.7167",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "benchmark_display": "GPQA-Diamond",
+          "model": "Qwen3-Next-80B-A3B-Thinking",
+          "mode": "CoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Thinking · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7652,
+          "primary_score_label": "0.7652",
+          "supporting_metrics": [],
+          "num_samples": 1980,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/gpqa_diamond.json"
+        }
+      ],
+      "subset_drilldowns": {
+        "available": true,
+        "row_count": 35,
+        "preview_subsets": [
+          "default"
+        ]
+      },
+      "passk_groups": [],
+      "download": {
+        "json_path": "./data/benchmarks/gpqa_diamond.json",
+        "artifact_count": 35,
+        "sample_artifact_paths": [
+          "published_results/models/deepseek-r1-0528-qwen3-8b/gpqa_diamond/cot/20260129_112509/result.json",
+          "published_results/models/deepseek-r1-0528-qwen3-8b/gpqa_diamond/nocot/20260130_043545/result.json",
+          "published_results/models/llama-3.2-1b-instruct/gpqa_diamond/nocot/20260128_130215/result.json"
+        ],
+        "notes": "Detailed public-safe artifacts are copied under published_results/."
+      }
+    },
+    {
+      "benchmark": "mmlu_pro",
+      "display_name": "MMLU-Pro",
+      "display_type": "subset_table",
+      "benchmark_data_path": "./data/benchmarks/mmlu_pro.json",
+      "model_rows": [
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "DeepSeek-R1-0528-Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "DeepSeek-R1-0528-Qwen3-8B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7419,
+          "primary_score_label": "0.7419",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "DeepSeek-R1-0528-Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "DeepSeek-R1-0528-Qwen3-8B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7409,
+          "primary_score_label": "0.7409",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Llama-3.2-1B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.2-1B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.2078,
+          "primary_score_label": "0.2078",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Llama-3.2-3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.2-3B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.3619,
+          "primary_score_label": "0.3619",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Llama-3.3-70B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.3-70B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7072,
+          "primary_score_label": "0.7072",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Meta-Llama-3.1-405B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-405B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7306,
+          "primary_score_label": "0.7306",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Meta-Llama-3.1-70B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-70B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6684,
+          "primary_score_label": "0.6684",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Meta-Llama-3.1-8B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-8B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.4718,
+          "primary_score_label": "0.4718",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-0.6B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-0.6B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.3425,
+          "primary_score_label": "0.3425",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-0.6B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-0.6B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.2481,
+          "primary_score_label": "0.2481",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-1.7B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-1.7B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5526,
+          "primary_score_label": "0.5526",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-1.7B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-1.7B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.4287,
+          "primary_score_label": "0.4287",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-14B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-14B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7626,
+          "primary_score_label": "0.7626",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-14B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-14B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7593,
+          "primary_score_label": "0.7593",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-235B-A22B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.8236,
+          "primary_score_label": "0.8236",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-235B-A22B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7366,
+          "primary_score_label": "0.7366",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-235B-A22B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.8344,
+          "primary_score_label": "0.8344",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-235B-A22B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.8374,
+          "primary_score_label": "0.8374",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-30B-A3B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7725,
+          "primary_score_label": "0.7725",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-30B-A3B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7062,
+          "primary_score_label": "0.7062",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-30B-A3B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7762,
+          "primary_score_label": "0.7762",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-30B-A3B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.8038,
+          "primary_score_label": "0.8038",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-32B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-32B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7858,
+          "primary_score_label": "0.7858",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-32B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-32B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7213,
+          "primary_score_label": "0.7213",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-4B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6867,
+          "primary_score_label": "0.6867",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-4B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6868,
+          "primary_score_label": "0.6868",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-4B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.6968,
+          "primary_score_label": "0.6968",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-4B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7364,
+          "primary_score_label": "0.7364",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-8B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7337,
+          "primary_score_label": "0.7337",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-8B · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.7374,
+          "primary_score_label": "0.7374",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-Next-80B-A3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Instruct · NoCoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.8177,
+          "primary_score_label": "0.8177",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "benchmark_display": "MMLU-Pro",
+          "model": "Qwen3-Next-80B-A3B-Thinking",
+          "mode": "CoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Thinking · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.8248,
+          "primary_score_label": "0.8248",
+          "supporting_metrics": [],
+          "num_samples": 12032,
+          "subset_count": 14,
+          "detail_ref": "./data/benchmarks/mmlu_pro.json"
+        }
+      ],
+      "subset_drilldowns": {
+        "available": true,
+        "row_count": 490,
+        "preview_subsets": [
+          "biology",
+          "business",
+          "chemistry",
+          "computer science",
+          "economics",
+          "engineering",
+          "health",
+          "history"
+        ]
+      },
+      "passk_groups": [],
+      "download": {
+        "json_path": "./data/benchmarks/mmlu_pro.json",
+        "artifact_count": 35,
+        "sample_artifact_paths": [
+          "published_results/models/deepseek-r1-0528-qwen3-8b/mmlu_pro/cot/20260129_060949/result.json",
+          "published_results/models/deepseek-r1-0528-qwen3-8b/mmlu_pro/nocot/20260129_232022/result.json",
+          "published_results/models/llama-3.2-1b-instruct/mmlu_pro/nocot/20260128_120452/result.json"
+        ],
+        "notes": "Detailed public-safe artifacts are copied under published_results/."
+      }
+    },
+    {
+      "benchmark": "simple_qa",
+      "display_name": "SimpleQA",
+      "display_type": "subset_table",
+      "benchmark_data_path": "./data/benchmarks/simple_qa.json",
+      "model_rows": [
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "DeepSeek-R1-0528-Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "DeepSeek-R1-0528-Qwen3-8B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0451,
+          "primary_score_label": "0.0451",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9198,
+              "score_label": "0.9198"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0351,
+              "score_label": "0.0351"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "DeepSeek-R1-0528-Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "DeepSeek-R1-0528-Qwen3-8B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0435,
+          "primary_score_label": "0.0435",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.923,
+              "score_label": "0.9230"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0335,
+              "score_label": "0.0335"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Llama-3.2-1B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.2-1B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0118,
+          "primary_score_label": "0.0118",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.1993,
+              "score_label": "0.1993"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.789,
+              "score_label": "0.7890"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Llama-3.2-3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.2-3B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0046,
+          "primary_score_label": "0.0046",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.0173,
+              "score_label": "0.0173"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.978,
+              "score_label": "0.9780"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Llama-3.3-70B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Llama-3.3-70B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.2367,
+          "primary_score_label": "0.2367",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.6172,
+              "score_label": "0.6172"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.1461,
+              "score_label": "0.1461"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Meta-Llama-3.1-405B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-405B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.2406,
+          "primary_score_label": "0.2406",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.1798,
+              "score_label": "0.1798"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.5795,
+              "score_label": "0.5795"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Meta-Llama-3.1-70B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-70B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.1748,
+          "primary_score_label": "0.1748",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.2575,
+              "score_label": "0.2575"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.5677,
+              "score_label": "0.5677"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Meta-Llama-3.1-8B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Meta-Llama-3.1-8B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0268,
+          "primary_score_label": "0.0268",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.0943,
+              "score_label": "0.0943"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.8789,
+              "score_label": "0.8789"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-0.6B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-0.6B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0185,
+          "primary_score_label": "0.0185",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9288,
+              "score_label": "0.9288"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0527,
+              "score_label": "0.0527"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-0.6B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-0.6B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0201,
+          "primary_score_label": "0.0201",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.936,
+              "score_label": "0.9360"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0439,
+              "score_label": "0.0439"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-1.7B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-1.7B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0344,
+          "primary_score_label": "0.0344",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9468,
+              "score_label": "0.9468"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0187,
+              "score_label": "0.0187"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-1.7B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-1.7B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0245,
+          "primary_score_label": "0.0245",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9568,
+              "score_label": "0.9568"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0187,
+              "score_label": "0.0187"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-14B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-14B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0707,
+          "primary_score_label": "0.0707",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.8773,
+              "score_label": "0.8773"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.052,
+              "score_label": "0.0520"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-14B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-14B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0705,
+          "primary_score_label": "0.0705",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.877,
+              "score_label": "0.8770"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0525,
+              "score_label": "0.0525"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-235B-A22B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.1475,
+          "primary_score_label": "0.1475",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.828,
+              "score_label": "0.8280"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0245,
+              "score_label": "0.0245"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-235B-A22B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.1308,
+          "primary_score_label": "0.1308",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.8551,
+              "score_label": "0.8551"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0141,
+              "score_label": "0.0141"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-235B-A22B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.5552,
+          "primary_score_label": "0.5552",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.4344,
+              "score_label": "0.4344"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0104,
+              "score_label": "0.0104"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-235B-A22B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.488,
+          "primary_score_label": "0.4880",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.5009,
+              "score_label": "0.5009"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0111,
+              "score_label": "0.0111"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-30B-A3B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.067,
+          "primary_score_label": "0.0670",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.8779,
+              "score_label": "0.8779"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.055,
+              "score_label": "0.0550"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-30B-A3B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0601,
+          "primary_score_label": "0.0601",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9055,
+              "score_label": "0.9055"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0344,
+              "score_label": "0.0344"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-30B-A3B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.2325,
+          "primary_score_label": "0.2325",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.7624,
+              "score_label": "0.7624"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0051,
+              "score_label": "0.0051"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-30B-A3B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.2023,
+          "primary_score_label": "0.2023",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.7926,
+              "score_label": "0.7926"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0051,
+              "score_label": "0.0051"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-32B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-32B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0804,
+          "primary_score_label": "0.0804",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.889,
+              "score_label": "0.8890"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0305,
+              "score_label": "0.0305"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-32B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-32B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0747,
+          "primary_score_label": "0.0747",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9147,
+              "score_label": "0.9147"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0106,
+              "score_label": "0.0106"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-4B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0416,
+          "primary_score_label": "0.0416",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.935,
+              "score_label": "0.9350"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0233,
+              "score_label": "0.0233"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-4B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0398,
+          "primary_score_label": "0.0398",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9383,
+              "score_label": "0.9383"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.022,
+              "score_label": "0.0220"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-4B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0735,
+          "primary_score_label": "0.0735",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.8916,
+              "score_label": "0.8916"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0349,
+              "score_label": "0.0349"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-4B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B-Thinking-2507 · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0629,
+          "primary_score_label": "0.0629",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.927,
+              "score_label": "0.9270"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0102,
+              "score_label": "0.0102"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-8B · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0541,
+          "primary_score_label": "0.0541",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9087,
+              "score_label": "0.9087"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0372,
+              "score_label": "0.0372"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-8B · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.0492,
+          "primary_score_label": "0.0492",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.9115,
+              "score_label": "0.9115"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0393,
+              "score_label": "0.0393"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-Next-80B-A3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Instruct · NoCoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.4512,
+          "primary_score_label": "0.4512",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.5423,
+              "score_label": "0.5423"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.0065,
+              "score_label": "0.0065"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        },
+        {
+          "benchmark": "simple_qa",
+          "benchmark_display": "SimpleQA",
+          "model": "Qwen3-Next-80B-A3B-Thinking",
+          "mode": "CoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Thinking · CoT",
+          "primary_metric_name": "mean_is_correct",
+          "primary_metric_label": "Correct",
+          "primary_score": 0.3583,
+          "primary_score_label": "0.3583",
+          "supporting_metrics": [
+            {
+              "name": "mean_is_incorrect",
+              "label": "Incorrect",
+              "score": 0.6258,
+              "score_label": "0.6258"
+            },
+            {
+              "name": "mean_is_not_attempted",
+              "label": "Abstain",
+              "score": 0.016,
+              "score_label": "0.0160"
+            }
+          ],
+          "num_samples": 4326,
+          "subset_count": 1,
+          "detail_ref": "./data/benchmarks/simple_qa.json"
+        }
+      ],
+      "subset_drilldowns": {
+        "available": true,
+        "row_count": 105,
+        "preview_subsets": [
+          "default"
+        ]
+      },
+      "passk_groups": [],
+      "download": {
+        "json_path": "./data/benchmarks/simple_qa.json",
+        "artifact_count": 35,
+        "sample_artifact_paths": [
+          "published_results/models/deepseek-r1-0528-qwen3-8b/simple_qa/cot/20260129_060949/result.json",
+          "published_results/models/deepseek-r1-0528-qwen3-8b/simple_qa/nocot/20260129_232022/result.json",
+          "published_results/models/llama-3.2-1b-instruct/simple_qa/nocot/20260128_120452/result.json"
+        ],
+        "notes": "Detailed public-safe artifacts are copied under published_results/."
+      }
+    },
+    {
+      "benchmark": "super_gpqa",
+      "display_name": "SuperGPQA",
+      "display_type": "subset_table",
+      "benchmark_data_path": "./data/benchmarks/super_gpqa.json",
+      "model_rows": [
+        {
+          "benchmark": "super_gpqa",
+          "benchmark_display": "SuperGPQA",
+          "model": "Qwen3-14B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-14B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.5042,
+          "primary_score_label": "0.5042",
+          "supporting_metrics": [],
+          "num_samples": 26529,
+          "subset_count": 72,
+          "detail_ref": "./data/benchmarks/super_gpqa.json"
+        },
+        {
+          "benchmark": "super_gpqa",
+          "benchmark_display": "SuperGPQA",
+          "model": "Qwen3-4B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.4195,
+          "primary_score_label": "0.4195",
+          "supporting_metrics": [],
+          "num_samples": 26529,
+          "subset_count": 72,
+          "detail_ref": "./data/benchmarks/super_gpqa.json"
+        },
+        {
+          "benchmark": "super_gpqa",
+          "benchmark_display": "SuperGPQA",
+          "model": "Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-8B · CoT",
+          "primary_metric_name": "mean_acc",
+          "primary_metric_label": "Accuracy",
+          "primary_score": 0.4364,
+          "primary_score_label": "0.4364",
+          "supporting_metrics": [],
+          "num_samples": 26529,
+          "subset_count": 72,
+          "detail_ref": "./data/benchmarks/super_gpqa.json"
+        }
+      ],
+      "subset_drilldowns": {
+        "available": true,
+        "row_count": 216,
+        "preview_subsets": [
+          "Aeronautical and Astronautical Science and Technology",
+          "Agricultural Engineering",
+          "Animal Husbandry",
+          "Applied Economics",
+          "Aquaculture",
+          "Architecture",
+          "Art Studies",
+          "Astronomy"
+        ]
+      },
+      "passk_groups": [],
+      "download": {
+        "json_path": "./data/benchmarks/super_gpqa.json",
+        "artifact_count": 3,
+        "sample_artifact_paths": [
+          "published_results/models/qwen3-14b/super_gpqa/cot/20260122_075346/result.json",
+          "published_results/models/qwen3-4b/super_gpqa/cot/20260122_074721/result.json",
+          "published_results/models/qwen3-8b/super_gpqa/cot/20260122_074752/result.json"
+        ],
+        "notes": "Detailed public-safe artifacts are copied under published_results/."
+      }
+    }
+  ]
+}

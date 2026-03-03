@@ -1,0 +1,155 @@
+{
+    "name": "Llama-3.2-1B-Instruct@chinese_simpleqa",
+    "dataset_name": "chinese_simpleqa",
+    "dataset_pretty_name": "Chinese-SimpleQA",
+    "dataset_description": "Chinese SimpleQA is a Chinese question-answering dataset designed to evaluate the performance of language models on simple factual questions. It includes a variety of topics and is structured to test the model's ability to understand and generate correct answers in Chinese.",
+    "model_name": "Llama-3.2-1B-Instruct",
+    "score": 0.061,
+    "metrics": [
+        {
+            "name": "mean_is_correct",
+            "num": 3000,
+            "score": 0.061,
+            "macro_score": 0.061,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 3000,
+                    "score": 0.061,
+                    "macro_score": 0.0603,
+                    "subsets": [
+                        {
+                            "name": "中华文化",
+                            "score": 0.0337,
+                            "num": 326
+                        },
+                        {
+                            "name": "人文与社会科学",
+                            "score": 0.0657,
+                            "num": 609
+                        },
+                        {
+                            "name": "工程、技术与应用科学",
+                            "score": 0.0686,
+                            "num": 481
+                        },
+                        {
+                            "name": "生活、艺术与文化",
+                            "score": 0.03,
+                            "num": 601
+                        },
+                        {
+                            "name": "社会",
+                            "score": 0.0751,
+                            "num": 453
+                        },
+                        {
+                            "name": "自然与自然科学",
+                            "score": 0.0887,
+                            "num": 530
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_is_incorrect",
+            "num": 3000,
+            "score": 0.882,
+            "macro_score": 0.882,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 3000,
+                    "score": 0.882,
+                    "macro_score": 0.8821,
+                    "subsets": [
+                        {
+                            "name": "中华文化",
+                            "score": 0.8957,
+                            "num": 326
+                        },
+                        {
+                            "name": "人文与社会科学",
+                            "score": 0.89,
+                            "num": 609
+                        },
+                        {
+                            "name": "工程、技术与应用科学",
+                            "score": 0.8732,
+                            "num": 481
+                        },
+                        {
+                            "name": "生活、艺术与文化",
+                            "score": 0.9035,
+                            "num": 601
+                        },
+                        {
+                            "name": "社会",
+                            "score": 0.8808,
+                            "num": 453
+                        },
+                        {
+                            "name": "自然与自然科学",
+                            "score": 0.8491,
+                            "num": 530
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_is_not_attempted",
+            "num": 3000,
+            "score": 0.057,
+            "macro_score": 0.057,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 3000,
+                    "score": 0.057,
+                    "macro_score": 0.0577,
+                    "subsets": [
+                        {
+                            "name": "中华文化",
+                            "score": 0.0706,
+                            "num": 326
+                        },
+                        {
+                            "name": "人文与社会科学",
+                            "score": 0.0443,
+                            "num": 609
+                        },
+                        {
+                            "name": "工程、技术与应用科学",
+                            "score": 0.0582,
+                            "num": 481
+                        },
+                        {
+                            "name": "生活、艺术与文化",
+                            "score": 0.0666,
+                            "num": 601
+                        },
+                        {
+                            "name": "社会",
+                            "score": 0.0442,
+                            "num": 453
+                        },
+                        {
+                            "name": "自然与自然科学",
+                            "score": 0.0623,
+                            "num": 530
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "analysis": "N/A"
+}

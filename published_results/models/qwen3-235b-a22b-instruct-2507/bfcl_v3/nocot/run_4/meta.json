@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3-235B-A22B-Instruct-2507",
+  "benchmark": "bfcl_v3",
+  "benchmark_display": "BFCL v3",
+  "mode": "NoCoT",
+  "run_id": "run_4",
+  "config_excerpt": {},
+  "artifacts": [
+    "published_results/models/qwen3-235b-a22b-instruct-2507/bfcl_v3/nocot/run_4/live.csv",
+    "published_results/models/qwen3-235b-a22b-instruct-2507/bfcl_v3/nocot/run_4/multi_turn.csv",
+    "published_results/models/qwen3-235b-a22b-instruct-2507/bfcl_v3/nocot/run_4/non_live.csv"
+  ]
+}

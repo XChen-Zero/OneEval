@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3-30B-A3B",
+  "benchmark": "bfcl_v3",
+  "benchmark_display": "BFCL v3",
+  "mode": "CoT",
+  "run_id": "run_6",
+  "config_excerpt": {},
+  "artifacts": [
+    "published_results/models/qwen3-30b-a3b/bfcl_v3/cot/run_6/live.csv",
+    "published_results/models/qwen3-30b-a3b/bfcl_v3/cot/run_6/multi_turn.csv",
+    "published_results/models/qwen3-30b-a3b/bfcl_v3/cot/run_6/non_live.csv"
+  ]
+}

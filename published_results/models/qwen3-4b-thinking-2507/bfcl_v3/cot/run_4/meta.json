@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3-4B-Thinking-2507",
+  "benchmark": "bfcl_v3",
+  "benchmark_display": "BFCL v3",
+  "mode": "CoT",
+  "run_id": "run_4",
+  "config_excerpt": {},
+  "artifacts": [
+    "published_results/models/qwen3-4b-thinking-2507/bfcl_v3/cot/run_4/live.csv",
+    "published_results/models/qwen3-4b-thinking-2507/bfcl_v3/cot/run_4/multi_turn.csv",
+    "published_results/models/qwen3-4b-thinking-2507/bfcl_v3/cot/run_4/non_live.csv"
+  ]
+}

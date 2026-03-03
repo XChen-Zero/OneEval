@@ -1,0 +1,25 @@
+{
+  "model": "Qwen3-1.7B",
+  "benchmark": "simple_qa",
+  "benchmark_display": "SimpleQA",
+  "mode": "CoT",
+  "run_id": "20260124_210210",
+  "config_excerpt": {
+    "debug": false,
+    "eval_backend": "Native",
+    "eval_batch_size": 10,
+    "eval_type": "openai_api",
+    "evalscope_version": "0.0.0_dev",
+    "judge_strategy": "auto",
+    "generation_config": {
+      "batch_size": 10,
+      "max_tokens": 32768,
+      "temperature": 0.6,
+      "top_k": 20,
+      "top_p": 0.95
+    }
+  },
+  "artifacts": [
+    "published_results/models/qwen3-1.7b/simple_qa/cot/20260124_210210/result.json"
+  ]
+}

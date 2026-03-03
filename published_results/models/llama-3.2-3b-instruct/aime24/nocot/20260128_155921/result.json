@@ -1,0 +1,34 @@
+{
+    "name": "Llama-3.2-3B-Instruct@aime24",
+    "dataset_name": "aime24",
+    "dataset_pretty_name": "AIME-2024",
+    "dataset_description": "The AIME 2024 benchmark is based on problems from the American Invitational Mathematics Examination, a prestigious high school mathematics competition. This benchmark tests a model's ability to solve challenging mathematics problems by generating step-by-step solutions and providing the correct final answer.",
+    "model_name": "Llama-3.2-3B-Instruct",
+    "score": 0.1,
+    "metrics": [
+        {
+            "name": "mean_acc",
+            "num": 30,
+            "score": 0.1,
+            "macro_score": 0.1,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 30,
+                    "score": 0.1,
+                    "macro_score": 0.1,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.1,
+                            "num": 30
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "analysis": "N/A"
+}

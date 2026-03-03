@@ -1,0 +1,2230 @@
+{
+  "benchmark": "super_gpqa",
+  "category": "knowledge",
+  "display_name": "SuperGPQA",
+  "generated_at": "2026-03-03T08:02:36Z",
+  "models": [
+    "Qwen3-14B",
+    "Qwen3-4B",
+    "Qwen3-8B"
+  ],
+  "overall_rows": [
+    {
+      "benchmark": "super_gpqa",
+      "benchmark_display": "SuperGPQA",
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-14B · CoT",
+      "primary_metric_name": "mean_acc",
+      "primary_metric_label": "Accuracy",
+      "primary_score": 0.5042,
+      "primary_score_label": "0.5042",
+      "supporting_metrics": [],
+      "num_samples": 26529,
+      "subset_count": 72,
+      "detail_ref": "./data/benchmarks/super_gpqa.json"
+    },
+    {
+      "benchmark": "super_gpqa",
+      "benchmark_display": "SuperGPQA",
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-4B · CoT",
+      "primary_metric_name": "mean_acc",
+      "primary_metric_label": "Accuracy",
+      "primary_score": 0.4195,
+      "primary_score_label": "0.4195",
+      "supporting_metrics": [],
+      "num_samples": 26529,
+      "subset_count": 72,
+      "detail_ref": "./data/benchmarks/super_gpqa.json"
+    },
+    {
+      "benchmark": "super_gpqa",
+      "benchmark_display": "SuperGPQA",
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-8B · CoT",
+      "primary_metric_name": "mean_acc",
+      "primary_metric_label": "Accuracy",
+      "primary_score": 0.4364,
+      "primary_score_label": "0.4364",
+      "supporting_metrics": [],
+      "num_samples": 26529,
+      "subset_count": 72,
+      "detail_ref": "./data/benchmarks/super_gpqa.json"
+    }
+  ],
+  "subset_rows": [
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Aeronautical and Astronautical Science and Technology",
+      "score": 0.4706,
+      "score_label": "0.4706",
+      "num_samples": 119
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Agricultural Engineering",
+      "score": 0.4327,
+      "score_label": "0.4327",
+      "num_samples": 104
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Animal Husbandry",
+      "score": 0.4272,
+      "score_label": "0.4272",
+      "num_samples": 103
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Applied Economics",
+      "score": 0.5519,
+      "score_label": "0.5519",
+      "num_samples": 723
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Aquaculture",
+      "score": 0.3393,
+      "score_label": "0.3393",
+      "num_samples": 56
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Architecture",
+      "score": 0.4198,
+      "score_label": "0.4198",
+      "num_samples": 162
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Art Studies",
+      "score": 0.2985,
+      "score_label": "0.2985",
+      "num_samples": 603
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Astronomy",
+      "score": 0.5457,
+      "score_label": "0.5457",
+      "num_samples": 405
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Atmospheric Science",
+      "score": 0.5222,
+      "score_label": "0.5222",
+      "num_samples": 203
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Basic Medicine",
+      "score": 0.4762,
+      "score_label": "0.4762",
+      "num_samples": 567
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Biology",
+      "score": 0.483,
+      "score_label": "0.4830",
+      "num_samples": 1120
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Business Administration",
+      "score": 0.3803,
+      "score_label": "0.3803",
+      "num_samples": 142
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Chemical Engineering and Technology",
+      "score": 0.5634,
+      "score_label": "0.5634",
+      "num_samples": 410
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Chemistry",
+      "score": 0.4624,
+      "score_label": "0.4624",
+      "num_samples": 1769
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Civil Engineering",
+      "score": 0.3827,
+      "score_label": "0.3827",
+      "num_samples": 358
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Clinical Medicine",
+      "score": 0.4737,
+      "score_label": "0.4737",
+      "num_samples": 1218
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Computer Science and Technology",
+      "score": 0.5557,
+      "score_label": "0.5557",
+      "num_samples": 763
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Control Science and Engineering",
+      "score": 0.7316,
+      "score_label": "0.7316",
+      "num_samples": 190
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Crop Science",
+      "score": 0.4207,
+      "score_label": "0.4207",
+      "num_samples": 145
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Education",
+      "score": 0.4656,
+      "score_label": "0.4656",
+      "num_samples": 247
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Electrical Engineering",
+      "score": 0.4478,
+      "score_label": "0.4478",
+      "num_samples": 556
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Electronic Science and Technology",
+      "score": 0.5935,
+      "score_label": "0.5935",
+      "num_samples": 246
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Environmental Science and Engineering",
+      "score": 0.5767,
+      "score_label": "0.5767",
+      "num_samples": 189
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Food Science and Engineering",
+      "score": 0.5413,
+      "score_label": "0.5413",
+      "num_samples": 109
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Forestry",
+      "score": 0.4427,
+      "score_label": "0.4427",
+      "num_samples": 131
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Forestry Engineering",
+      "score": 0.49,
+      "score_label": "0.4900",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geography",
+      "score": 0.4511,
+      "score_label": "0.4511",
+      "num_samples": 133
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geological Resources and Geological Engineering",
+      "score": 0.52,
+      "score_label": "0.5200",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geology",
+      "score": 0.434,
+      "score_label": "0.4340",
+      "num_samples": 341
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geophysics",
+      "score": 0.55,
+      "score_label": "0.5500",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "History",
+      "score": 0.2953,
+      "score_label": "0.2953",
+      "num_samples": 674
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Hydraulic Engineering",
+      "score": 0.5642,
+      "score_label": "0.5642",
+      "num_samples": 218
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Information and Communication Engineering",
+      "score": 0.6647,
+      "score_label": "0.6647",
+      "num_samples": 504
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Instrument Science and Technology",
+      "score": 0.56,
+      "score_label": "0.5600",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Journalism and Communication",
+      "score": 0.256,
+      "score_label": "0.2560",
+      "num_samples": 207
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Language and Literature",
+      "score": 0.3932,
+      "score_label": "0.3932",
+      "num_samples": 440
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Law",
+      "score": 0.4518,
+      "score_label": "0.4518",
+      "num_samples": 591
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Library, Information and Archival Management",
+      "score": 0.4333,
+      "score_label": "0.4333",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Management Science and Engineering",
+      "score": 0.4828,
+      "score_label": "0.4828",
+      "num_samples": 58
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Materials Science and Engineering",
+      "score": 0.526,
+      "score_label": "0.5260",
+      "num_samples": 289
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mathematics",
+      "score": 0.6781,
+      "score_label": "0.6781",
+      "num_samples": 2622
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mechanical Engineering",
+      "score": 0.5455,
+      "score_label": "0.5455",
+      "num_samples": 176
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mechanics",
+      "score": 0.478,
+      "score_label": "0.4780",
+      "num_samples": 908
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Metallurgical Engineering",
+      "score": 0.4745,
+      "score_label": "0.4745",
+      "num_samples": 255
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Military Science",
+      "score": 0.4488,
+      "score_label": "0.4488",
+      "num_samples": 205
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mining Engineering",
+      "score": 0.48,
+      "score_label": "0.4800",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Musicology",
+      "score": 0.3451,
+      "score_label": "0.3451",
+      "num_samples": 426
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Naval Architecture and Ocean Engineering",
+      "score": 0.4275,
+      "score_label": "0.4275",
+      "num_samples": 138
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Nuclear Science and Technology",
+      "score": 0.5047,
+      "score_label": "0.5047",
+      "num_samples": 107
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Oceanography",
+      "score": 0.715,
+      "score_label": "0.7150",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Optical Engineering",
+      "score": 0.5213,
+      "score_label": "0.5213",
+      "num_samples": 376
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Petroleum and Natural Gas Engineering",
+      "score": 0.5536,
+      "score_label": "0.5536",
+      "num_samples": 112
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Pharmacy",
+      "score": 0.4604,
+      "score_label": "0.4604",
+      "num_samples": 278
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Philosophy",
+      "score": 0.4841,
+      "score_label": "0.4841",
+      "num_samples": 347
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physical Education",
+      "score": 0.52,
+      "score_label": "0.5200",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physical Oceanography",
+      "score": 0.62,
+      "score_label": "0.6200",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physics",
+      "score": 0.5241,
+      "score_label": "0.5241",
+      "num_samples": 2845
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Political Science",
+      "score": 0.3385,
+      "score_label": "0.3385",
+      "num_samples": 65
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Power Engineering and Engineering Thermophysics",
+      "score": 0.5673,
+      "score_label": "0.5673",
+      "num_samples": 684
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Psychology",
+      "score": 0.3448,
+      "score_label": "0.3448",
+      "num_samples": 87
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Public Administration",
+      "score": 0.4834,
+      "score_label": "0.4834",
+      "num_samples": 151
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Public Health and Preventive Medicine",
+      "score": 0.5411,
+      "score_label": "0.5411",
+      "num_samples": 292
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Sociology",
+      "score": 0.4615,
+      "score_label": "0.4615",
+      "num_samples": 143
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Stomatology",
+      "score": 0.303,
+      "score_label": "0.3030",
+      "num_samples": 132
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Surveying and Mapping Science and Technology",
+      "score": 0.5595,
+      "score_label": "0.5595",
+      "num_samples": 168
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Systems Science",
+      "score": 0.7,
+      "score_label": "0.7000",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Textile Science and Engineering",
+      "score": 0.54,
+      "score_label": "0.5400",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Theoretical Economics",
+      "score": 0.5,
+      "score_label": "0.5000",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Traditional Chinese Medicine",
+      "score": 0.4813,
+      "score_label": "0.4813",
+      "num_samples": 268
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Transportation Engineering",
+      "score": 0.4582,
+      "score_label": "0.4582",
+      "num_samples": 251
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Veterinary Medicine",
+      "score": 0.56,
+      "score_label": "0.5600",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Weapon Science and Technology",
+      "score": 0.57,
+      "score_label": "0.5700",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Aeronautical and Astronautical Science and Technology",
+      "score": 0.395,
+      "score_label": "0.3950",
+      "num_samples": 119
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Agricultural Engineering",
+      "score": 0.4135,
+      "score_label": "0.4135",
+      "num_samples": 104
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Animal Husbandry",
+      "score": 0.3592,
+      "score_label": "0.3592",
+      "num_samples": 103
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Applied Economics",
+      "score": 0.4647,
+      "score_label": "0.4647",
+      "num_samples": 723
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Aquaculture",
+      "score": 0.1429,
+      "score_label": "0.1429",
+      "num_samples": 56
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Architecture",
+      "score": 0.3642,
+      "score_label": "0.3642",
+      "num_samples": 162
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Art Studies",
+      "score": 0.2338,
+      "score_label": "0.2338",
+      "num_samples": 603
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Astronomy",
+      "score": 0.4469,
+      "score_label": "0.4469",
+      "num_samples": 405
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Atmospheric Science",
+      "score": 0.3547,
+      "score_label": "0.3547",
+      "num_samples": 203
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Basic Medicine",
+      "score": 0.3616,
+      "score_label": "0.3616",
+      "num_samples": 567
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Biology",
+      "score": 0.3705,
+      "score_label": "0.3705",
+      "num_samples": 1120
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Business Administration",
+      "score": 0.331,
+      "score_label": "0.3310",
+      "num_samples": 142
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Chemical Engineering and Technology",
+      "score": 0.439,
+      "score_label": "0.4390",
+      "num_samples": 410
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Chemistry",
+      "score": 0.3917,
+      "score_label": "0.3917",
+      "num_samples": 1769
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Civil Engineering",
+      "score": 0.338,
+      "score_label": "0.3380",
+      "num_samples": 358
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Clinical Medicine",
+      "score": 0.3498,
+      "score_label": "0.3498",
+      "num_samples": 1218
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Computer Science and Technology",
+      "score": 0.4692,
+      "score_label": "0.4692",
+      "num_samples": 763
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Control Science and Engineering",
+      "score": 0.6368,
+      "score_label": "0.6368",
+      "num_samples": 190
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Crop Science",
+      "score": 0.331,
+      "score_label": "0.3310",
+      "num_samples": 145
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Education",
+      "score": 0.3482,
+      "score_label": "0.3482",
+      "num_samples": 247
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Electrical Engineering",
+      "score": 0.3615,
+      "score_label": "0.3615",
+      "num_samples": 556
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Electronic Science and Technology",
+      "score": 0.4878,
+      "score_label": "0.4878",
+      "num_samples": 246
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Environmental Science and Engineering",
+      "score": 0.4974,
+      "score_label": "0.4974",
+      "num_samples": 189
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Food Science and Engineering",
+      "score": 0.5596,
+      "score_label": "0.5596",
+      "num_samples": 109
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Forestry",
+      "score": 0.3435,
+      "score_label": "0.3435",
+      "num_samples": 131
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Forestry Engineering",
+      "score": 0.5,
+      "score_label": "0.5000",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geography",
+      "score": 0.3684,
+      "score_label": "0.3684",
+      "num_samples": 133
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geological Resources and Geological Engineering",
+      "score": 0.4,
+      "score_label": "0.4000",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geology",
+      "score": 0.3607,
+      "score_label": "0.3607",
+      "num_samples": 341
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geophysics",
+      "score": 0.51,
+      "score_label": "0.5100",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "History",
+      "score": 0.227,
+      "score_label": "0.2270",
+      "num_samples": 674
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Hydraulic Engineering",
+      "score": 0.4404,
+      "score_label": "0.4404",
+      "num_samples": 218
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Information and Communication Engineering",
+      "score": 0.5417,
+      "score_label": "0.5417",
+      "num_samples": 504
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Instrument Science and Technology",
+      "score": 0.48,
+      "score_label": "0.4800",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Journalism and Communication",
+      "score": 0.2126,
+      "score_label": "0.2126",
+      "num_samples": 207
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Language and Literature",
+      "score": 0.2909,
+      "score_label": "0.2909",
+      "num_samples": 440
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Law",
+      "score": 0.3503,
+      "score_label": "0.3503",
+      "num_samples": 591
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Library, Information and Archival Management",
+      "score": 0.3933,
+      "score_label": "0.3933",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Management Science and Engineering",
+      "score": 0.5,
+      "score_label": "0.5000",
+      "num_samples": 58
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Materials Science and Engineering",
+      "score": 0.436,
+      "score_label": "0.4360",
+      "num_samples": 289
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mathematics",
+      "score": 0.6163,
+      "score_label": "0.6163",
+      "num_samples": 2622
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mechanical Engineering",
+      "score": 0.4659,
+      "score_label": "0.4659",
+      "num_samples": 176
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mechanics",
+      "score": 0.4185,
+      "score_label": "0.4185",
+      "num_samples": 908
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Metallurgical Engineering",
+      "score": 0.4314,
+      "score_label": "0.4314",
+      "num_samples": 255
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Military Science",
+      "score": 0.3951,
+      "score_label": "0.3951",
+      "num_samples": 205
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mining Engineering",
+      "score": 0.52,
+      "score_label": "0.5200",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Musicology",
+      "score": 0.2371,
+      "score_label": "0.2371",
+      "num_samples": 426
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Naval Architecture and Ocean Engineering",
+      "score": 0.3333,
+      "score_label": "0.3333",
+      "num_samples": 138
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Nuclear Science and Technology",
+      "score": 0.3925,
+      "score_label": "0.3925",
+      "num_samples": 107
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Oceanography",
+      "score": 0.575,
+      "score_label": "0.5750",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Optical Engineering",
+      "score": 0.4362,
+      "score_label": "0.4362",
+      "num_samples": 376
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Petroleum and Natural Gas Engineering",
+      "score": 0.4196,
+      "score_label": "0.4196",
+      "num_samples": 112
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Pharmacy",
+      "score": 0.3993,
+      "score_label": "0.3993",
+      "num_samples": 278
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Philosophy",
+      "score": 0.4323,
+      "score_label": "0.4323",
+      "num_samples": 347
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physical Education",
+      "score": 0.4533,
+      "score_label": "0.4533",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physical Oceanography",
+      "score": 0.4,
+      "score_label": "0.4000",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physics",
+      "score": 0.4524,
+      "score_label": "0.4524",
+      "num_samples": 2845
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Political Science",
+      "score": 0.2,
+      "score_label": "0.2000",
+      "num_samples": 65
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Power Engineering and Engineering Thermophysics",
+      "score": 0.4561,
+      "score_label": "0.4561",
+      "num_samples": 684
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Psychology",
+      "score": 0.2644,
+      "score_label": "0.2644",
+      "num_samples": 87
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Public Administration",
+      "score": 0.3841,
+      "score_label": "0.3841",
+      "num_samples": 151
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Public Health and Preventive Medicine",
+      "score": 0.4178,
+      "score_label": "0.4178",
+      "num_samples": 292
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Sociology",
+      "score": 0.3566,
+      "score_label": "0.3566",
+      "num_samples": 143
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Stomatology",
+      "score": 0.1667,
+      "score_label": "0.1667",
+      "num_samples": 132
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Surveying and Mapping Science and Technology",
+      "score": 0.4821,
+      "score_label": "0.4821",
+      "num_samples": 168
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Systems Science",
+      "score": 0.56,
+      "score_label": "0.5600",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Textile Science and Engineering",
+      "score": 0.45,
+      "score_label": "0.4500",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Theoretical Economics",
+      "score": 0.4267,
+      "score_label": "0.4267",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Traditional Chinese Medicine",
+      "score": 0.3321,
+      "score_label": "0.3321",
+      "num_samples": 268
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Transportation Engineering",
+      "score": 0.4064,
+      "score_label": "0.4064",
+      "num_samples": 251
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Veterinary Medicine",
+      "score": 0.44,
+      "score_label": "0.4400",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Weapon Science and Technology",
+      "score": 0.48,
+      "score_label": "0.4800",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Aeronautical and Astronautical Science and Technology",
+      "score": 0.3782,
+      "score_label": "0.3782",
+      "num_samples": 119
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Agricultural Engineering",
+      "score": 0.4904,
+      "score_label": "0.4904",
+      "num_samples": 104
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Animal Husbandry",
+      "score": 0.3592,
+      "score_label": "0.3592",
+      "num_samples": 103
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Applied Economics",
+      "score": 0.4786,
+      "score_label": "0.4786",
+      "num_samples": 723
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Aquaculture",
+      "score": 0.2679,
+      "score_label": "0.2679",
+      "num_samples": 56
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Architecture",
+      "score": 0.4383,
+      "score_label": "0.4383",
+      "num_samples": 162
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Art Studies",
+      "score": 0.2919,
+      "score_label": "0.2919",
+      "num_samples": 603
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Astronomy",
+      "score": 0.479,
+      "score_label": "0.4790",
+      "num_samples": 405
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Atmospheric Science",
+      "score": 0.4532,
+      "score_label": "0.4532",
+      "num_samples": 203
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Basic Medicine",
+      "score": 0.4215,
+      "score_label": "0.4215",
+      "num_samples": 567
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Biology",
+      "score": 0.417,
+      "score_label": "0.4170",
+      "num_samples": 1120
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Business Administration",
+      "score": 0.3592,
+      "score_label": "0.3592",
+      "num_samples": 142
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Chemical Engineering and Technology",
+      "score": 0.4415,
+      "score_label": "0.4415",
+      "num_samples": 410
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Chemistry",
+      "score": 0.3872,
+      "score_label": "0.3872",
+      "num_samples": 1769
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Civil Engineering",
+      "score": 0.3575,
+      "score_label": "0.3575",
+      "num_samples": 358
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Clinical Medicine",
+      "score": 0.4253,
+      "score_label": "0.4253",
+      "num_samples": 1218
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Computer Science and Technology",
+      "score": 0.5072,
+      "score_label": "0.5072",
+      "num_samples": 763
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Control Science and Engineering",
+      "score": 0.6158,
+      "score_label": "0.6158",
+      "num_samples": 190
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Crop Science",
+      "score": 0.3655,
+      "score_label": "0.3655",
+      "num_samples": 145
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Education",
+      "score": 0.4372,
+      "score_label": "0.4372",
+      "num_samples": 247
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Electrical Engineering",
+      "score": 0.3795,
+      "score_label": "0.3795",
+      "num_samples": 556
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Electronic Science and Technology",
+      "score": 0.5,
+      "score_label": "0.5000",
+      "num_samples": 246
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Environmental Science and Engineering",
+      "score": 0.5503,
+      "score_label": "0.5503",
+      "num_samples": 189
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Food Science and Engineering",
+      "score": 0.5229,
+      "score_label": "0.5229",
+      "num_samples": 109
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Forestry",
+      "score": 0.374,
+      "score_label": "0.3740",
+      "num_samples": 131
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Forestry Engineering",
+      "score": 0.48,
+      "score_label": "0.4800",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geography",
+      "score": 0.3985,
+      "score_label": "0.3985",
+      "num_samples": 133
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geological Resources and Geological Engineering",
+      "score": 0.56,
+      "score_label": "0.5600",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geology",
+      "score": 0.4047,
+      "score_label": "0.4047",
+      "num_samples": 341
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Geophysics",
+      "score": 0.53,
+      "score_label": "0.5300",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "History",
+      "score": 0.2582,
+      "score_label": "0.2582",
+      "num_samples": 674
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Hydraulic Engineering",
+      "score": 0.4862,
+      "score_label": "0.4862",
+      "num_samples": 218
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Information and Communication Engineering",
+      "score": 0.5833,
+      "score_label": "0.5833",
+      "num_samples": 504
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Instrument Science and Technology",
+      "score": 0.44,
+      "score_label": "0.4400",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Journalism and Communication",
+      "score": 0.2367,
+      "score_label": "0.2367",
+      "num_samples": 207
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Language and Literature",
+      "score": 0.3477,
+      "score_label": "0.3477",
+      "num_samples": 440
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Law",
+      "score": 0.4044,
+      "score_label": "0.4044",
+      "num_samples": 591
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Library, Information and Archival Management",
+      "score": 0.4333,
+      "score_label": "0.4333",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Management Science and Engineering",
+      "score": 0.5,
+      "score_label": "0.5000",
+      "num_samples": 58
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Materials Science and Engineering",
+      "score": 0.4706,
+      "score_label": "0.4706",
+      "num_samples": 289
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mathematics",
+      "score": 0.5301,
+      "score_label": "0.5301",
+      "num_samples": 2622
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mechanical Engineering",
+      "score": 0.4545,
+      "score_label": "0.4545",
+      "num_samples": 176
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mechanics",
+      "score": 0.4042,
+      "score_label": "0.4042",
+      "num_samples": 908
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Metallurgical Engineering",
+      "score": 0.451,
+      "score_label": "0.4510",
+      "num_samples": 255
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Military Science",
+      "score": 0.4341,
+      "score_label": "0.4341",
+      "num_samples": 205
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Mining Engineering",
+      "score": 0.51,
+      "score_label": "0.5100",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Musicology",
+      "score": 0.2817,
+      "score_label": "0.2817",
+      "num_samples": 426
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Naval Architecture and Ocean Engineering",
+      "score": 0.413,
+      "score_label": "0.4130",
+      "num_samples": 138
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Nuclear Science and Technology",
+      "score": 0.4299,
+      "score_label": "0.4299",
+      "num_samples": 107
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Oceanography",
+      "score": 0.66,
+      "score_label": "0.6600",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Optical Engineering",
+      "score": 0.4043,
+      "score_label": "0.4043",
+      "num_samples": 376
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Petroleum and Natural Gas Engineering",
+      "score": 0.5,
+      "score_label": "0.5000",
+      "num_samples": 112
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Pharmacy",
+      "score": 0.3921,
+      "score_label": "0.3921",
+      "num_samples": 278
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Philosophy",
+      "score": 0.4467,
+      "score_label": "0.4467",
+      "num_samples": 347
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physical Education",
+      "score": 0.46,
+      "score_label": "0.4600",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physical Oceanography",
+      "score": 0.46,
+      "score_label": "0.4600",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Physics",
+      "score": 0.439,
+      "score_label": "0.4390",
+      "num_samples": 2845
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Political Science",
+      "score": 0.3385,
+      "score_label": "0.3385",
+      "num_samples": 65
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Power Engineering and Engineering Thermophysics",
+      "score": 0.4751,
+      "score_label": "0.4751",
+      "num_samples": 684
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Psychology",
+      "score": 0.2989,
+      "score_label": "0.2989",
+      "num_samples": 87
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Public Administration",
+      "score": 0.5033,
+      "score_label": "0.5033",
+      "num_samples": 151
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Public Health and Preventive Medicine",
+      "score": 0.4932,
+      "score_label": "0.4932",
+      "num_samples": 292
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Sociology",
+      "score": 0.4476,
+      "score_label": "0.4476",
+      "num_samples": 143
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Stomatology",
+      "score": 0.2879,
+      "score_label": "0.2879",
+      "num_samples": 132
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Surveying and Mapping Science and Technology",
+      "score": 0.5476,
+      "score_label": "0.5476",
+      "num_samples": 168
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Systems Science",
+      "score": 0.62,
+      "score_label": "0.6200",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Textile Science and Engineering",
+      "score": 0.51,
+      "score_label": "0.5100",
+      "num_samples": 100
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Theoretical Economics",
+      "score": 0.44,
+      "score_label": "0.4400",
+      "num_samples": 150
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Traditional Chinese Medicine",
+      "score": 0.4366,
+      "score_label": "0.4366",
+      "num_samples": 268
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Transportation Engineering",
+      "score": 0.4104,
+      "score_label": "0.4104",
+      "num_samples": 251
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Veterinary Medicine",
+      "score": 0.46,
+      "score_label": "0.4600",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_acc",
+      "metric_label": "Accuracy",
+      "subset": "Weapon Science and Technology",
+      "score": 0.47,
+      "score_label": "0.4700",
+      "num_samples": 100
+    }
+  ],
+  "passk_rows": [],
+  "downloads": {
+    "json_path": "./data/benchmarks/super_gpqa.json",
+    "artifact_paths": [
+      "published_results/models/qwen3-14b/super_gpqa/cot/20260122_075346/result.json",
+      "published_results/models/qwen3-4b/super_gpqa/cot/20260122_074721/result.json",
+      "published_results/models/qwen3-8b/super_gpqa/cot/20260122_074752/result.json"
+    ],
+    "notes": "Detailed public-safe artifacts are copied under published_results/."
+  }
+}

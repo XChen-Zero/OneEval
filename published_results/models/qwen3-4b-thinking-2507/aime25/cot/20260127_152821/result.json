@@ -1,0 +1,1831 @@
+{
+    "name": "Qwen3-4B-Thinking-2507@aime25",
+    "dataset_name": "aime25",
+    "dataset_pretty_name": "AIME-2025",
+    "dataset_description": "The AIME 2025 benchmark is based on problems from the American Invitational Mathematics Examination, a prestigious high school mathematics competition. This benchmark tests a model's ability to solve challenging mathematics problems by generating step-by-step solutions and providing the correct final answer.",
+    "model_name": "Qwen3-4B-Thinking-2507",
+    "score": 0.7844,
+    "metrics": [
+        {
+            "name": "mean_acc",
+            "num": 1920,
+            "score": 0.7844,
+            "macro_score": 0.7844,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7844,
+                    "macro_score": 0.7844,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.7354,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.8333,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@1",
+            "num": 1920,
+            "score": 0.7844,
+            "macro_score": 0.7844,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7844,
+                    "macro_score": 0.7844,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.7354,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.8333,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@2",
+            "num": 1920,
+            "score": 0.8393,
+            "macro_score": 0.8393,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8393,
+                    "macro_score": 0.8394,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.7803,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.8984,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@3",
+            "num": 1920,
+            "score": 0.8599,
+            "macro_score": 0.8599,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8599,
+                    "macro_score": 0.8599,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.7951,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9246,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@4",
+            "num": 1920,
+            "score": 0.8717,
+            "macro_score": 0.8717,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8717,
+                    "macro_score": 0.8717,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8026,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9407,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@5",
+            "num": 1920,
+            "score": 0.8795,
+            "macro_score": 0.8795,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8795,
+                    "macro_score": 0.8795,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8072,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9518,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@6",
+            "num": 1920,
+            "score": 0.8854,
+            "macro_score": 0.8854,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8854,
+                    "macro_score": 0.8854,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8106,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9602,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@7",
+            "num": 1920,
+            "score": 0.8899,
+            "macro_score": 0.8899,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8899,
+                    "macro_score": 0.8899,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8132,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9666,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@8",
+            "num": 1920,
+            "score": 0.8936,
+            "macro_score": 0.8936,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8936,
+                    "macro_score": 0.8936,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8154,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9718,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@9",
+            "num": 1920,
+            "score": 0.8968,
+            "macro_score": 0.8968,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8968,
+                    "macro_score": 0.8967,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8174,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9761,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@10",
+            "num": 1920,
+            "score": 0.8994,
+            "macro_score": 0.8994,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.8994,
+                    "macro_score": 0.8995,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8193,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9796,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@11",
+            "num": 1920,
+            "score": 0.9018,
+            "macro_score": 0.9018,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9018,
+                    "macro_score": 0.9018,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8211,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9825,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@12",
+            "num": 1920,
+            "score": 0.9039,
+            "macro_score": 0.9039,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9039,
+                    "macro_score": 0.904,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8228,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9851,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@13",
+            "num": 1920,
+            "score": 0.9058,
+            "macro_score": 0.9058,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9058,
+                    "macro_score": 0.9059,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8245,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9872,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@14",
+            "num": 1920,
+            "score": 0.9076,
+            "macro_score": 0.9076,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9076,
+                    "macro_score": 0.9076,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8262,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.989,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@15",
+            "num": 1920,
+            "score": 0.9092,
+            "macro_score": 0.9092,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9092,
+                    "macro_score": 0.9092,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8278,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9906,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@16",
+            "num": 1920,
+            "score": 0.9107,
+            "macro_score": 0.9107,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9107,
+                    "macro_score": 0.9107,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8294,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.992,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@17",
+            "num": 1920,
+            "score": 0.9121,
+            "macro_score": 0.9121,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9121,
+                    "macro_score": 0.9121,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8309,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9932,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@18",
+            "num": 1920,
+            "score": 0.9133,
+            "macro_score": 0.9133,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9133,
+                    "macro_score": 0.9133,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8324,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9942,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@19",
+            "num": 1920,
+            "score": 0.9145,
+            "macro_score": 0.9145,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9145,
+                    "macro_score": 0.9145,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8339,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9951,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@20",
+            "num": 1920,
+            "score": 0.9156,
+            "macro_score": 0.9156,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9156,
+                    "macro_score": 0.9157,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8354,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9959,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@21",
+            "num": 1920,
+            "score": 0.9167,
+            "macro_score": 0.9167,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9167,
+                    "macro_score": 0.9166,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8368,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9965,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@22",
+            "num": 1920,
+            "score": 0.9176,
+            "macro_score": 0.9176,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9176,
+                    "macro_score": 0.9176,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8382,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9971,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@23",
+            "num": 1920,
+            "score": 0.9186,
+            "macro_score": 0.9186,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9186,
+                    "macro_score": 0.9186,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8396,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9976,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@24",
+            "num": 1920,
+            "score": 0.9194,
+            "macro_score": 0.9194,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9194,
+                    "macro_score": 0.9194,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8409,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.998,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@25",
+            "num": 1920,
+            "score": 0.9202,
+            "macro_score": 0.9202,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9202,
+                    "macro_score": 0.9203,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8422,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9983,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@26",
+            "num": 1920,
+            "score": 0.921,
+            "macro_score": 0.921,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.921,
+                    "macro_score": 0.921,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8434,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9986,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@27",
+            "num": 1920,
+            "score": 0.9217,
+            "macro_score": 0.9217,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9217,
+                    "macro_score": 0.9218,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8446,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9989,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@28",
+            "num": 1920,
+            "score": 0.9224,
+            "macro_score": 0.9224,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9224,
+                    "macro_score": 0.9224,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8458,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9991,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@29",
+            "num": 1920,
+            "score": 0.9231,
+            "macro_score": 0.9231,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9231,
+                    "macro_score": 0.9231,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.847,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9993,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@30",
+            "num": 1920,
+            "score": 0.9237,
+            "macro_score": 0.9237,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9237,
+                    "macro_score": 0.9237,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8481,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9994,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@31",
+            "num": 1920,
+            "score": 0.9244,
+            "macro_score": 0.9244,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9244,
+                    "macro_score": 0.9244,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8492,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9995,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@32",
+            "num": 1920,
+            "score": 0.925,
+            "macro_score": 0.925,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.925,
+                    "macro_score": 0.9249,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8503,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9996,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@33",
+            "num": 1920,
+            "score": 0.9255,
+            "macro_score": 0.9255,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9255,
+                    "macro_score": 0.9255,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8513,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9997,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@34",
+            "num": 1920,
+            "score": 0.9261,
+            "macro_score": 0.9261,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9261,
+                    "macro_score": 0.9261,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8523,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9998,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@35",
+            "num": 1920,
+            "score": 0.9265,
+            "macro_score": 0.9265,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9265,
+                    "macro_score": 0.9265,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8532,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9998,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@36",
+            "num": 1920,
+            "score": 0.927,
+            "macro_score": 0.927,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.927,
+                    "macro_score": 0.927,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8542,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9999,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@37",
+            "num": 1920,
+            "score": 0.9275,
+            "macro_score": 0.9275,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9275,
+                    "macro_score": 0.9275,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8551,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9999,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@38",
+            "num": 1920,
+            "score": 0.9279,
+            "macro_score": 0.9279,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9279,
+                    "macro_score": 0.9279,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8559,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9999,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@39",
+            "num": 1920,
+            "score": 0.9283,
+            "macro_score": 0.9283,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9283,
+                    "macro_score": 0.9283,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8567,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.9999,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@40",
+            "num": 1920,
+            "score": 0.9288,
+            "macro_score": 0.9288,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9288,
+                    "macro_score": 0.9287,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8575,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@41",
+            "num": 1920,
+            "score": 0.9291,
+            "macro_score": 0.9291,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9291,
+                    "macro_score": 0.9291,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8583,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@42",
+            "num": 1920,
+            "score": 0.9295,
+            "macro_score": 0.9295,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9295,
+                    "macro_score": 0.9295,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.859,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@43",
+            "num": 1920,
+            "score": 0.9298,
+            "macro_score": 0.9298,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9298,
+                    "macro_score": 0.9299,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8597,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@44",
+            "num": 1920,
+            "score": 0.9302,
+            "macro_score": 0.9302,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9302,
+                    "macro_score": 0.9302,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8604,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@45",
+            "num": 1920,
+            "score": 0.9305,
+            "macro_score": 0.9305,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9305,
+                    "macro_score": 0.9305,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.861,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@46",
+            "num": 1920,
+            "score": 0.9308,
+            "macro_score": 0.9308,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9308,
+                    "macro_score": 0.9308,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8616,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@47",
+            "num": 1920,
+            "score": 0.9311,
+            "macro_score": 0.9311,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9311,
+                    "macro_score": 0.9311,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8622,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@48",
+            "num": 1920,
+            "score": 0.9314,
+            "macro_score": 0.9314,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9314,
+                    "macro_score": 0.9314,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8627,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@49",
+            "num": 1920,
+            "score": 0.9316,
+            "macro_score": 0.9316,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9316,
+                    "macro_score": 0.9316,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8632,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@50",
+            "num": 1920,
+            "score": 0.9319,
+            "macro_score": 0.9319,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9319,
+                    "macro_score": 0.9319,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8637,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@51",
+            "num": 1920,
+            "score": 0.9321,
+            "macro_score": 0.9321,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9321,
+                    "macro_score": 0.9321,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8641,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@52",
+            "num": 1920,
+            "score": 0.9323,
+            "macro_score": 0.9323,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9323,
+                    "macro_score": 0.9323,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8645,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@53",
+            "num": 1920,
+            "score": 0.9324,
+            "macro_score": 0.9324,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9324,
+                    "macro_score": 0.9324,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8648,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@54",
+            "num": 1920,
+            "score": 0.9326,
+            "macro_score": 0.9326,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9326,
+                    "macro_score": 0.9326,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8652,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@55",
+            "num": 1920,
+            "score": 0.9328,
+            "macro_score": 0.9328,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9328,
+                    "macro_score": 0.9327,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8655,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@56",
+            "num": 1920,
+            "score": 0.9329,
+            "macro_score": 0.9329,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9329,
+                    "macro_score": 0.9328,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8657,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@57",
+            "num": 1920,
+            "score": 0.933,
+            "macro_score": 0.933,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.933,
+                    "macro_score": 0.933,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.866,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@58",
+            "num": 1920,
+            "score": 0.9331,
+            "macro_score": 0.9331,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9331,
+                    "macro_score": 0.9331,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8662,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@59",
+            "num": 1920,
+            "score": 0.9331,
+            "macro_score": 0.9331,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9331,
+                    "macro_score": 0.9331,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8663,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@60",
+            "num": 1920,
+            "score": 0.9333,
+            "macro_score": 0.9333,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9333,
+                    "macro_score": 0.9333,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8665,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@61",
+            "num": 1920,
+            "score": 0.9333,
+            "macro_score": 0.9333,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9333,
+                    "macro_score": 0.9333,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8666,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@62",
+            "num": 1920,
+            "score": 0.9333,
+            "macro_score": 0.9333,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9333,
+                    "macro_score": 0.9333,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8666,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@63",
+            "num": 1920,
+            "score": 0.9334,
+            "macro_score": 0.9334,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9334,
+                    "macro_score": 0.9334,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8667,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@64",
+            "num": 1920,
+            "score": 0.9334,
+            "macro_score": 0.9334,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.9334,
+                    "macro_score": 0.9334,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.8667,
+                            "num": 960
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 1.0,
+                            "num": 960
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "analysis": "N/A"
+}

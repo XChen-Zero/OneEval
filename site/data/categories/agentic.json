@@ -1,0 +1,849 @@
+{
+  "category": "agentic",
+  "display_name": "Agentic",
+  "description": "Agentic evaluation focuses on tool use, workflow handling, and multi-scenario behavior.",
+  "generated_at": "2026-03-03T08:02:36Z",
+  "filters": {
+    "models": [
+      "Qwen3-14B",
+      "Qwen3-235B-A22B",
+      "Qwen3-235B-A22B-Instruct-2507",
+      "Qwen3-235B-A22B-Thinking-2507",
+      "Qwen3-30B-A3B",
+      "Qwen3-30B-A3B-Instruct-2507",
+      "Qwen3-30B-A3B-Thinking-2507",
+      "Qwen3-32B",
+      "Qwen3-4B",
+      "Qwen3-4B-Instruct-2507",
+      "Qwen3-4B-Thinking-2507",
+      "Qwen3-8B",
+      "Qwen3-Next-80B-A3B-Instruct",
+      "Qwen3-Next-80B-A3B-Thinking",
+      "qwen3.5-122b-a10b",
+      "qwen3.5-27b",
+      "qwen3.5-35b-a3b",
+      "qwen3.5-397b-a17b"
+    ],
+    "modes": [
+      "CoT",
+      "NoCoT"
+    ],
+    "benchmarks": [
+      "bfcl_v3"
+    ]
+  },
+  "benchmarks": [
+    {
+      "benchmark": "bfcl_v3",
+      "display_name": "BFCL v3",
+      "display_type": "subset_table",
+      "benchmark_data_path": "./data/benchmarks/bfcl_v3.json",
+      "model_rows": [
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-14B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-14B · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 79.79,
+          "primary_score_label": "79.79%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 46.88,
+              "score_label": "46.88%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 87.96,
+              "score_label": "87.96%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-14B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-14B · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 76.09,
+          "primary_score_label": "76.09%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 16.75,
+              "score_label": "16.75%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 87.58,
+              "score_label": "87.58%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-235B-A22B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 81.87,
+          "primary_score_label": "81.87%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 50.63,
+              "score_label": "50.63%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 88.96,
+              "score_label": "88.96%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-235B-A22B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 81.72,
+          "primary_score_label": "81.72%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 41.0,
+              "score_label": "41.00%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 88.19,
+              "score_label": "88.19%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-235B-A22B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-235B-A22B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 83.27,
+          "primary_score_label": "83.27%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 47.88,
+              "score_label": "47.88%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 89.52,
+              "score_label": "89.52%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-235B-A22B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-235B-A22B-Thinking-2507 · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 84.38,
+          "primary_score_label": "84.38%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 56.0,
+              "score_label": "56.00%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 88.31,
+              "score_label": "88.31%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-30B-A3B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 82.09,
+          "primary_score_label": "82.09%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 40.25,
+              "score_label": "40.25%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 89.23,
+              "score_label": "89.23%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-30B-A3B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 73.28,
+          "primary_score_label": "73.28%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 10.0,
+              "score_label": "10.00%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 86.6,
+              "score_label": "86.60%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-30B-A3B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-30B-A3B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 78.09,
+          "primary_score_label": "78.09%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 36.38,
+              "score_label": "36.38%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 86.52,
+              "score_label": "86.52%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-30B-A3B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-30B-A3B-Thinking-2507 · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 84.6,
+          "primary_score_label": "84.60%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 55.0,
+              "score_label": "55.00%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 89.73,
+              "score_label": "89.73%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-32B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-32B · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 81.42,
+          "primary_score_label": "81.42%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 53.37,
+              "score_label": "53.37%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 86.71,
+              "score_label": "86.71%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-32B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-32B · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 79.57,
+          "primary_score_label": "79.57%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 24.88,
+              "score_label": "24.88%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 84.42,
+              "score_label": "84.42%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-4B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 80.68,
+          "primary_score_label": "80.68%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 42.0,
+              "score_label": "42.00%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 88.08,
+              "score_label": "88.08%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-4B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 71.35,
+          "primary_score_label": "71.35%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 10.5,
+              "score_label": "10.50%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 84.04,
+              "score_label": "84.04%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-4B-Instruct-2507",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-4B-Instruct-2507 · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 76.61,
+          "primary_score_label": "76.61%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 23.38,
+              "score_label": "23.38%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 87.48,
+              "score_label": "87.48%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-4B-Thinking-2507",
+          "mode": "CoT",
+          "subject_label": "Qwen3-4B-Thinking-2507 · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 84.23,
+          "primary_score_label": "84.23%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 50.38,
+              "score_label": "50.38%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 89.69,
+              "score_label": "89.69%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-8B",
+          "mode": "CoT",
+          "subject_label": "Qwen3-8B · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 80.9,
+          "primary_score_label": "80.90%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 44.62,
+              "score_label": "44.62%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 87.48,
+              "score_label": "87.48%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-8B",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-8B · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 75.72,
+          "primary_score_label": "75.72%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 13.75,
+              "score_label": "13.75%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 87.48,
+              "score_label": "87.48%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-Next-80B-A3B-Instruct",
+          "mode": "NoCoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Instruct · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 82.16,
+          "primary_score_label": "82.16%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 47.88,
+              "score_label": "47.88%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 87.92,
+              "score_label": "87.92%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "Qwen3-Next-80B-A3B-Thinking",
+          "mode": "CoT",
+          "subject_label": "Qwen3-Next-80B-A3B-Thinking · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 82.61,
+          "primary_score_label": "82.61%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 55.38,
+              "score_label": "55.38%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 83.6,
+              "score_label": "83.60%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "qwen3.5-122b-a10b",
+          "mode": "CoT",
+          "subject_label": "qwen3.5-122b-a10b · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 81.64,
+          "primary_score_label": "81.64%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 55.5,
+              "score_label": "55.50%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 88.71,
+              "score_label": "88.71%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "qwen3.5-122b-a10b",
+          "mode": "NoCoT",
+          "subject_label": "qwen3.5-122b-a10b · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 80.98,
+          "primary_score_label": "80.98%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 44.62,
+              "score_label": "44.62%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 88.15,
+              "score_label": "88.15%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "qwen3.5-27b",
+          "mode": "CoT",
+          "subject_label": "qwen3.5-27b · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 81.72,
+          "primary_score_label": "81.72%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 62.0,
+              "score_label": "62.00%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 88.58,
+              "score_label": "88.58%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "qwen3.5-27b",
+          "mode": "NoCoT",
+          "subject_label": "qwen3.5-27b · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 82.61,
+          "primary_score_label": "82.61%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 55.62,
+              "score_label": "55.62%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 88.58,
+              "score_label": "88.58%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "qwen3.5-35b-a3b",
+          "mode": "CoT",
+          "subject_label": "qwen3.5-35b-a3b · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 79.64,
+          "primary_score_label": "79.64%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 57.25,
+              "score_label": "57.25%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 87.58,
+              "score_label": "87.58%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "qwen3.5-35b-a3b",
+          "mode": "NoCoT",
+          "subject_label": "qwen3.5-35b-a3b · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 78.83,
+          "primary_score_label": "78.83%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 43.0,
+              "score_label": "43.00%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 85.08,
+              "score_label": "85.08%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "qwen3.5-397b-a17b",
+          "mode": "CoT",
+          "subject_label": "qwen3.5-397b-a17b · CoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 80.98,
+          "primary_score_label": "80.98%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 53.5,
+              "score_label": "53.50%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 89.77,
+              "score_label": "89.77%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        },
+        {
+          "benchmark": "bfcl_v3",
+          "benchmark_display": "BFCL v3",
+          "model": "qwen3.5-397b-a17b",
+          "mode": "NoCoT",
+          "subject_label": "qwen3.5-397b-a17b · NoCoT",
+          "primary_metric_name": "Live Overall Acc",
+          "primary_metric_label": "Live Overall Acc",
+          "primary_score": 82.09,
+          "primary_score_label": "82.09%",
+          "supporting_metrics": [
+            {
+              "name": "Multi Turn Overall Acc",
+              "label": "Multi Turn Overall Acc",
+              "score": 25.88,
+              "score_label": "25.88%"
+            },
+            {
+              "name": "Non-Live Overall Acc",
+              "label": "Non-Live Overall Acc",
+              "score": 86.06,
+              "score_label": "86.06%"
+            }
+          ],
+          "num_samples": null,
+          "subset_count": 3,
+          "detail_ref": "./data/benchmarks/bfcl_v3.json"
+        }
+      ],
+      "subset_drilldowns": {
+        "available": true,
+        "row_count": 3540,
+        "preview_subsets": [
+          "live",
+          "multi_turn",
+          "non_live"
+        ]
+      },
+      "passk_groups": [],
+      "download": {
+        "json_path": "./data/benchmarks/bfcl_v3.json",
+        "artifact_count": 531,
+        "sample_artifact_paths": [
+          "published_results/models/qwen3-14b/bfcl_v3/cot/run_1/live.csv",
+          "published_results/models/qwen3-14b/bfcl_v3/cot/run_1/multi_turn.csv",
+          "published_results/models/qwen3-14b/bfcl_v3/cot/run_1/non_live.csv"
+        ],
+        "notes": "Detailed public-safe artifacts are copied under published_results/."
+      }
+    }
+  ]
+}

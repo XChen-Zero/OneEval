@@ -1,0 +1,2 @@
+Rank,Model,Live Overall Acc,AST Summary,Python Simple AST,Python Multiple AST,Python Parallel AST,Python Parallel Multiple AST,Irrelevance Detection,Relevance Detection
+1,Qwen3-8B-NoThink (FC),75.80%,75.80%,75.58%,75.88%,68.75%,79.17%,67.99%,87.50%

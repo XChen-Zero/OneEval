@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+*.log
+*.swp
+
+# Raw local evaluation outputs contain internal configs/logs and must not be published.
+results/
+
+# Legacy duplicate export path; the canonical public export is /published_results.
+site/public_results/
+
+# Optional local debug export
+site/data/extracted_results.json
+
+docs/

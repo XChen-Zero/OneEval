@@ -1,0 +1,25 @@
+{
+  "model": "Qwen3-4B",
+  "benchmark": "ifeval",
+  "benchmark_display": "IFEval",
+  "mode": "CoT",
+  "run_id": "20260123_023806",
+  "config_excerpt": {
+    "debug": false,
+    "eval_backend": "Native",
+    "eval_batch_size": 10,
+    "eval_type": "openai_api",
+    "evalscope_version": "0.0.0_dev",
+    "judge_strategy": "auto",
+    "generation_config": {
+      "batch_size": 10,
+      "max_tokens": 32768,
+      "temperature": 0.6,
+      "top_k": 20,
+      "top_p": 0.95
+    }
+  },
+  "artifacts": [
+    "published_results/models/qwen3-4b/ifeval/cot/20260123_023806/result.json"
+  ]
+}

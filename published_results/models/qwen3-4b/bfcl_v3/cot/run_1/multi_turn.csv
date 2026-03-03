@@ -1,0 +1,2 @@
+Rank,Model,Multi Turn Overall Acc,Base,Miss Func,Miss Param,Long Context
+1,Qwen3-4B-Think (FC),42.00%,45.50%,40.50%,38.00%,44.00%

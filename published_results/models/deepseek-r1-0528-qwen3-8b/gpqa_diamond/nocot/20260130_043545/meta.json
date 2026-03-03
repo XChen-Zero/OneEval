@@ -1,0 +1,25 @@
+{
+  "model": "DeepSeek-R1-0528-Qwen3-8B",
+  "benchmark": "gpqa_diamond",
+  "benchmark_display": "GPQA-Diamond",
+  "mode": "NoCoT",
+  "run_id": "20260130_043545",
+  "config_excerpt": {
+    "debug": false,
+    "eval_backend": "Native",
+    "eval_batch_size": 10,
+    "eval_type": "openai_api",
+    "evalscope_version": "0.0.0_dev",
+    "judge_strategy": "auto",
+    "generation_config": {
+      "batch_size": 10,
+      "max_tokens": 32768,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8
+    }
+  },
+  "artifacts": [
+    "published_results/models/deepseek-r1-0528-qwen3-8b/gpqa_diamond/nocot/20260130_043545/result.json"
+  ]
+}

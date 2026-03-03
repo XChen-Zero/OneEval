@@ -1,0 +1,5473 @@
+{
+  "benchmark": "zebralogicbench",
+  "category": "reasoning",
+  "display_name": "ZebraLogicBench",
+  "generated_at": "2026-03-03T08:02:36Z",
+  "models": [
+    "DeepSeek-R1-0528-Qwen3-8B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B-Instruct",
+    "Llama-3.3-70B-Instruct",
+    "Meta-Llama-3.1-70B-Instruct",
+    "Meta-Llama-3.1-8B-Instruct",
+    "Qwen3-0.6B",
+    "Qwen3-1.7B",
+    "Qwen3-14B",
+    "Qwen3-235B-A22B",
+    "Qwen3-235B-A22B-Instruct-2507",
+    "Qwen3-30B-A3B",
+    "Qwen3-30B-A3B-Instruct-2507",
+    "Qwen3-30B-A3B-Thinking-2507",
+    "Qwen3-32B",
+    "Qwen3-4B",
+    "Qwen3-4B-Instruct-2507",
+    "Qwen3-4B-Thinking-2507",
+    "Qwen3-8B",
+    "Qwen3-Next-80B-A3B-Instruct",
+    "Qwen3-Next-80B-A3B-Thinking"
+  ],
+  "overall_rows": [
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "subject_label": "DeepSeek-R1-0528-Qwen3-8B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 896.798,
+      "primary_score_label": "896.7980",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8944,
+          "score_label": "0.8944"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.8618,
+          "score_label": "0.8618"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.905,
+          "score_label": "0.9050"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9893,
+          "score_label": "0.9893"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.89,
+          "score_label": "0.8900"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.5979,
+          "score_label": "0.5979"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "subject_label": "DeepSeek-R1-0528-Qwen3-8B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 918.936,
+      "primary_score_label": "918.9360",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.881,
+          "score_label": "0.8810"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9929,
+          "score_label": "0.9929"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.8596,
+          "score_label": "0.8596"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.93,
+          "score_label": "0.9300"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9857,
+          "score_label": "0.9857"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 2.0,
+          "score_label": "2.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.89,
+          "score_label": "0.8900"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9938,
+          "score_label": "0.9938"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.5729,
+          "score_label": "0.5729"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.2-1B-Instruct · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 70.361,
+      "primary_score_label": "70.3610",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.1415,
+          "score_label": "0.1415"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.0345,
+          "score_label": "0.0345"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 8.0,
+          "score_label": "8.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.006,
+          "score_label": "0.0060"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.0309,
+          "score_label": "0.0309"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.2-3B-Instruct · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 418.957,
+      "primary_score_label": "418.9570",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.3934,
+          "score_label": "0.3934"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.2834,
+          "score_label": "0.2834"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.0093,
+          "score_label": "0.0093"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 3.0,
+          "score_label": "3.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.072,
+          "score_label": "0.0720"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.2517,
+          "score_label": "0.2517"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.3-70B-Instruct · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1562.83,
+      "primary_score_label": "1562.8300",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.5078,
+          "score_label": "0.5078"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.828,
+          "score_label": "0.8280"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.0944,
+          "score_label": "0.0944"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0151,
+          "score_label": "0.0151"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.1636,
+          "score_label": "0.1636"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.298,
+          "score_label": "0.2980"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.7806,
+          "score_label": "0.7806"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0051,
+          "score_label": "0.0051"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Meta-Llama-3.1-70B-Instruct · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1011.284,
+      "primary_score_label": "1011.2840",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.6017,
+          "score_label": "0.6017"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.7846,
+          "score_label": "0.7846"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.1491,
+          "score_label": "0.1491"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0175,
+          "score_label": "0.0175"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.2222,
+          "score_label": "0.2222"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.245,
+          "score_label": "0.2450"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.75,
+          "score_label": "0.7500"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Meta-Llama-3.1-8B-Instruct · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 462.853,
+      "primary_score_label": "462.8530",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.5117,
+          "score_label": "0.5117"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.5095,
+          "score_label": "0.5095"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.0417,
+          "score_label": "0.0417"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 1.0,
+          "score_label": "1.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.113,
+          "score_label": "0.1130"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.4669,
+          "score_label": "0.4669"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-0.6B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 352.384,
+      "primary_score_label": "352.3840",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.4269,
+          "score_label": "0.4269"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.6643,
+          "score_label": "0.6643"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.1222,
+          "score_label": "0.1222"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.04,
+          "score_label": "0.0400"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.1929,
+          "score_label": "0.1929"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.274,
+          "score_label": "0.2740"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.6625,
+          "score_label": "0.6625"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-0.6B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 707.571,
+      "primary_score_label": "707.5710",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.2844,
+          "score_label": "0.2844"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.1429,
+          "score_label": "0.1429"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.0014,
+          "score_label": "0.0014"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 1.0,
+          "score_label": "1.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.041,
+          "score_label": "0.0410"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.1281,
+          "score_label": "0.1281"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-1.7B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 503.681,
+      "primary_score_label": "503.6810",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.7163,
+          "score_label": "0.7163"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9536,
+          "score_label": "0.9536"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.5083,
+          "score_label": "0.5083"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.425,
+          "score_label": "0.4250"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.8107,
+          "score_label": "0.8107"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.633,
+          "score_label": "0.6330"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9531,
+          "score_label": "0.9531"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.08,
+          "score_label": "0.0800"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-1.7B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1239.007,
+      "primary_score_label": "1239.0070",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.3852,
+          "score_label": "0.3852"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.4424,
+          "score_label": "0.4424"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.0141,
+          "score_label": "0.0141"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.015,
+          "score_label": "0.0150"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.132,
+          "score_label": "0.1320"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.4038,
+          "score_label": "0.4038"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-14B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 581.991,
+      "primary_score_label": "581.9910",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8956,
+          "score_label": "0.8956"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.85,
+          "score_label": "0.8500"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.935,
+          "score_label": "0.9350"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 1.0,
+          "score_label": "1.0000"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.891,
+          "score_label": "0.8910"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.525,
+          "score_label": "0.5250"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-14B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 589.347,
+      "primary_score_label": "589.3470",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8872,
+          "score_label": "0.8872"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.8454,
+          "score_label": "0.8454"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.945,
+          "score_label": "0.9450"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9929,
+          "score_label": "0.9929"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.886,
+          "score_label": "0.8860"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.5051,
+          "score_label": "0.5051"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-235B-A22B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 553.901,
+      "primary_score_label": "553.9010",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8257,
+          "score_label": "0.8257"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9893,
+          "score_label": "0.9893"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.7595,
+          "score_label": "0.7595"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.8122,
+          "score_label": "0.8122"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9786,
+          "score_label": "0.9786"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.817,
+          "score_label": "0.8170"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9906,
+          "score_label": "0.9906"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.3402,
+          "score_label": "0.3402"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-235B-A22B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1684.255,
+      "primary_score_label": "1684.2550",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.5071,
+          "score_label": "0.5071"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.8286,
+          "score_label": "0.8286"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.1453,
+          "score_label": "0.1453"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0302,
+          "score_label": "0.0302"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.2446,
+          "score_label": "0.2446"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.336,
+          "score_label": "0.3360"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.8187,
+          "score_label": "0.8187"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-235B-A22B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 7915.966,
+      "primary_score_label": "7915.9660",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.9881,
+          "score_label": "0.9881"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9892,
+          "score_label": "0.9892"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.9663,
+          "score_label": "0.9663"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.9846,
+          "score_label": "0.9846"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9929,
+          "score_label": "0.9929"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.935,
+          "score_label": "0.9350"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9906,
+          "score_label": "0.9906"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.8922,
+          "score_label": "0.8922"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-30B-A3B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 520.659,
+      "primary_score_label": "520.6590",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8836,
+          "score_label": "0.8836"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.8375,
+          "score_label": "0.8375"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.915,
+          "score_label": "0.9150"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9857,
+          "score_label": "0.9857"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.882,
+          "score_label": "0.8820"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.52,
+          "score_label": "0.5200"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-30B-A3B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1295.09,
+      "primary_score_label": "1295.0900",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.4925,
+          "score_label": "0.4925"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.7893,
+          "score_label": "0.7893"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.1265,
+          "score_label": "0.1265"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0055,
+          "score_label": "0.0055"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.2253,
+          "score_label": "0.2253"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.304,
+          "score_label": "0.3040"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.776,
+          "score_label": "0.7760"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-30B-A3B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 7796.788,
+      "primary_score_label": "7796.7880",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.9748,
+          "score_label": "0.9748"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9928,
+          "score_label": "0.9928"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.9134,
+          "score_label": "0.9134"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.8836,
+          "score_label": "0.8836"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9713,
+          "score_label": "0.9713"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 2.0,
+          "score_label": "2.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.868,
+          "score_label": "0.8680"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9937,
+          "score_label": "0.9937"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.8129,
+          "score_label": "0.8129"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "subject_label": "Qwen3-30B-A3B-Thinking-2507 · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1298.735,
+      "primary_score_label": "1298.7350",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.9741,
+          "score_label": "0.9741"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.9521,
+          "score_label": "0.9521"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.97,
+          "score_label": "0.9700"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9893,
+          "score_label": "0.9893"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.955,
+          "score_label": "0.9550"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.8684,
+          "score_label": "0.8684"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-32B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 596.376,
+      "primary_score_label": "596.3760",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8927,
+          "score_label": "0.8927"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.854,
+          "score_label": "0.8540"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.94,
+          "score_label": "0.9400"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9857,
+          "score_label": "0.9857"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.893,
+          "score_label": "0.8930"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.5528,
+          "score_label": "0.5528"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-32B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1361.03,
+      "primary_score_label": "1361.0300",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.4774,
+          "score_label": "0.4774"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.8286,
+          "score_label": "0.8286"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.0802,
+          "score_label": "0.0802"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.1241,
+          "score_label": "0.1241"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.287,
+          "score_label": "0.2870"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.7962,
+          "score_label": "0.7962"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.0,
+          "score_label": "0.0000"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-4B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 569.034,
+      "primary_score_label": "569.0340",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8424,
+          "score_label": "0.8424"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9929,
+          "score_label": "0.9929"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.7385,
+          "score_label": "0.7385"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.755,
+          "score_label": "0.7550"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9714,
+          "score_label": "0.9714"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.809,
+          "score_label": "0.8090"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9938,
+          "score_label": "0.9938"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.3417,
+          "score_label": "0.3417"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-4B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 564.086,
+      "primary_score_label": "564.0860",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8505,
+          "score_label": "0.8505"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9893,
+          "score_label": "0.9893"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.7625,
+          "score_label": "0.7625"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.83,
+          "score_label": "0.8300"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9821,
+          "score_label": "0.9821"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.826,
+          "score_label": "0.8260"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9906,
+          "score_label": "0.9906"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.34,
+          "score_label": "0.3400"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-4B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 7734.904,
+      "primary_score_label": "7734.9040",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8212,
+          "score_label": "0.8212"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9893,
+          "score_label": "0.9893"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.7203,
+          "score_label": "0.7203"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.736,
+          "score_label": "0.7360"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.925,
+          "score_label": "0.9250"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 50.0,
+          "score_label": "50.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.787,
+          "score_label": "0.7870"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9906,
+          "score_label": "0.9906"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.3455,
+          "score_label": "0.3455"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "subject_label": "Qwen3-4B-Thinking-2507 · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1236.111,
+      "primary_score_label": "1236.1110",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.9366,
+          "score_label": "0.9366"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 1.0,
+          "score_label": "1.0000"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.8908,
+          "score_label": "0.8908"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.89,
+          "score_label": "0.8900"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.916,
+          "score_label": "0.9160"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 1.0,
+          "score_label": "1.0000"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.7165,
+          "score_label": "0.7165"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-8B · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 521.929,
+      "primary_score_label": "521.9290",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.849,
+          "score_label": "0.8490"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.7816,
+          "score_label": "0.7816"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.855,
+          "score_label": "0.8550"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9929,
+          "score_label": "0.9929"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.841,
+          "score_label": "0.8410"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.3668,
+          "score_label": "0.3668"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-8B · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 522.784,
+      "primary_score_label": "522.7840",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.8523,
+          "score_label": "0.8523"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.7816,
+          "score_label": "0.7816"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.865,
+          "score_label": "0.8650"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9857,
+          "score_label": "0.9857"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.841,
+          "score_label": "0.8410"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.3668,
+          "score_label": "0.3668"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-Next-80B-A3B-Instruct · NoCoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 3650.372,
+      "primary_score_label": "3650.3720",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.9557,
+          "score_label": "0.9557"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.9447,
+          "score_label": "0.9447"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.9795,
+          "score_label": "0.9795"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9964,
+          "score_label": "0.9964"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.945,
+          "score_label": "0.9450"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9969,
+          "score_label": "0.9969"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.822,
+          "score_label": "0.8220"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    },
+    {
+      "benchmark": "zebralogicbench",
+      "benchmark_display": "ZebraLogicBench",
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "subject_label": "Qwen3-Next-80B-A3B-Thinking · CoT",
+      "primary_metric_name": "avg_reason_lens",
+      "primary_metric_label": "avg reason lens",
+      "primary_score": 1190.717,
+      "primary_score_label": "1190.7170",
+      "supporting_metrics": [
+        {
+          "name": "cell_acc",
+          "label": "cell acc",
+          "score": 0.9888,
+          "score_label": "0.9888"
+        },
+        {
+          "name": "easy_puzzle_acc",
+          "label": "easy puzzle acc",
+          "score": 0.9857,
+          "score_label": "0.9857"
+        },
+        {
+          "name": "hard_puzzle_acc",
+          "label": "hard puzzle acc",
+          "score": 0.9618,
+          "score_label": "0.9618"
+        },
+        {
+          "name": "large_puzzle_acc",
+          "label": "large puzzle acc",
+          "score": 0.9749,
+          "score_label": "0.9749"
+        },
+        {
+          "name": "medium_puzzle_acc",
+          "label": "medium puzzle acc",
+          "score": 0.9857,
+          "score_label": "0.9857"
+        },
+        {
+          "name": "no_answer_num",
+          "label": "no answer num",
+          "score": 0.0,
+          "score_label": "0.0000"
+        },
+        {
+          "name": "puzzle_acc",
+          "label": "puzzle acc",
+          "score": 0.955,
+          "score_label": "0.9550"
+        },
+        {
+          "name": "small_puzzle_acc",
+          "label": "small puzzle acc",
+          "score": 0.9875,
+          "score_label": "0.9875"
+        },
+        {
+          "name": "xl_puzzle_acc",
+          "label": "xl puzzle acc",
+          "score": 0.9037,
+          "score_label": "0.9037"
+        }
+      ],
+      "num_samples": 1000,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/zebralogicbench.json"
+    }
+  ],
+  "subset_rows": [
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 896.798,
+      "score_label": "896.7980",
+      "num_samples": 1000
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8944,
+      "score_label": "0.8944",
+      "num_samples": 15669
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8618,
+      "score_label": "0.8618",
+      "num_samples": 709
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.905,
+      "score_label": "0.9050",
+      "num_samples": 200
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9893,
+      "score_label": "0.9893",
+      "num_samples": 280
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.89,
+      "score_label": "0.8900",
+      "num_samples": 1000
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.5979,
+      "score_label": "0.5979",
+      "num_samples": 189
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 918.936,
+      "score_label": "918.9360",
+      "num_samples": 1000
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.881,
+      "score_label": "0.8810",
+      "num_samples": 15741
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9929,
+      "score_label": "0.9929",
+      "num_samples": 280
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8596,
+      "score_label": "0.8596",
+      "num_samples": 712
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.93,
+      "score_label": "0.9300",
+      "num_samples": 200
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9857,
+      "score_label": "0.9857",
+      "num_samples": 280
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 2.0,
+      "score_label": "2.0000",
+      "num_samples": 2
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.89,
+      "score_label": "0.8900",
+      "num_samples": 1000
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9938,
+      "score_label": "0.9938",
+      "num_samples": 320
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.5729,
+      "score_label": "0.5729",
+      "num_samples": 192
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 70.361,
+      "score_label": "70.3610",
+      "num_samples": 1000
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.1415,
+      "score_label": "0.1415",
+      "num_samples": 8093
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0345,
+      "score_label": "0.0345",
+      "num_samples": 174
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 377
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 77
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 201
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 8.0,
+      "score_label": "8.0000",
+      "num_samples": 8
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.006,
+      "score_label": "0.0060",
+      "num_samples": 1000
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0309,
+      "score_label": "0.0309",
+      "num_samples": 194
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 79
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 418.957,
+      "score_label": "418.9570",
+      "num_samples": 1000
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.3934,
+      "score_label": "0.3934",
+      "num_samples": 5381
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.2834,
+      "score_label": "0.2834",
+      "num_samples": 247
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0093,
+      "score_label": "0.0093",
+      "num_samples": 214
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 25
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 102
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 3.0,
+      "score_label": "3.0000",
+      "num_samples": 3
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.072,
+      "score_label": "0.0720",
+      "num_samples": 1000
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.2517,
+      "score_label": "0.2517",
+      "num_samples": 286
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 48
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1562.83,
+      "score_label": "1562.8300",
+      "num_samples": 1000
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.5078,
+      "score_label": "0.5078",
+      "num_samples": 15796
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.828,
+      "score_label": "0.8280",
+      "num_samples": 279
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0944,
+      "score_label": "0.0944",
+      "num_samples": 710
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0151,
+      "score_label": "0.0151",
+      "num_samples": 199
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1636,
+      "score_label": "0.1636",
+      "num_samples": 275
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.298,
+      "score_label": "0.2980",
+      "num_samples": 1000
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7806,
+      "score_label": "0.7806",
+      "num_samples": 319
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0051,
+      "score_label": "0.0051",
+      "num_samples": 196
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1011.284,
+      "score_label": "1011.2840",
+      "num_samples": 1000
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.6017,
+      "score_label": "0.6017",
+      "num_samples": 7015
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7846,
+      "score_label": "0.7846",
+      "num_samples": 260
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1491,
+      "score_label": "0.1491",
+      "num_samples": 275
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0175,
+      "score_label": "0.0175",
+      "num_samples": 57
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.2222,
+      "score_label": "0.2222",
+      "num_samples": 126
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.245,
+      "score_label": "0.2450",
+      "num_samples": 1000
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.75,
+      "score_label": "0.7500",
+      "num_samples": 288
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 64
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 462.853,
+      "score_label": "462.8530",
+      "num_samples": 1000
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.5117,
+      "score_label": "0.5117",
+      "num_samples": 3885
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.5095,
+      "score_label": "0.5095",
+      "num_samples": 210
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0417,
+      "score_label": "0.0417",
+      "num_samples": 144
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 23
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 58
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 1.0,
+      "score_label": "1.0000",
+      "num_samples": 1
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.113,
+      "score_label": "0.1130",
+      "num_samples": 1000
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.4669,
+      "score_label": "0.4669",
+      "num_samples": 242
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 31
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 352.384,
+      "score_label": "352.3840",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.4269,
+      "score_label": "0.4269",
+      "num_samples": 16000
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.6643,
+      "score_label": "0.6643",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1222,
+      "score_label": "0.1222",
+      "num_samples": 720
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.04,
+      "score_label": "0.0400",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1929,
+      "score_label": "0.1929",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.274,
+      "score_label": "0.2740",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.6625,
+      "score_label": "0.6625",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 707.571,
+      "score_label": "707.5710",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.2844,
+      "score_label": "0.2844",
+      "num_samples": 15857
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1429,
+      "score_label": "0.1429",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0014,
+      "score_label": "0.0014",
+      "num_samples": 714
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 198
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 278
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 1.0,
+      "score_label": "1.0000",
+      "num_samples": 1
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.041,
+      "score_label": "0.0410",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1281,
+      "score_label": "0.1281",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 198
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 503.681,
+      "score_label": "503.6810",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.7163,
+      "score_label": "0.7163",
+      "num_samples": 16000
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9536,
+      "score_label": "0.9536",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.5083,
+      "score_label": "0.5083",
+      "num_samples": 720
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.425,
+      "score_label": "0.4250",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8107,
+      "score_label": "0.8107",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.633,
+      "score_label": "0.6330",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9531,
+      "score_label": "0.9531",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.08,
+      "score_label": "0.0800",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1239.007,
+      "score_label": "1239.0070",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.3852,
+      "score_label": "0.3852",
+      "num_samples": 14049
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.4424,
+      "score_label": "0.4424",
+      "num_samples": 278
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0141,
+      "score_label": "0.0141",
+      "num_samples": 638
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 175
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.015,
+      "score_label": "0.0150",
+      "num_samples": 266
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.132,
+      "score_label": "0.1320",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.4038,
+      "score_label": "0.4038",
+      "num_samples": 317
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 158
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 581.991,
+      "score_label": "581.9910",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8956,
+      "score_label": "0.8956",
+      "num_samples": 16000
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.85,
+      "score_label": "0.8500",
+      "num_samples": 720
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.935,
+      "score_label": "0.9350",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 1.0,
+      "score_label": "1.0000",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.891,
+      "score_label": "0.8910",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.525,
+      "score_label": "0.5250",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1558.75,
+      "score_label": "1558.7500",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 589.347,
+      "score_label": "589.3470",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.5039,
+      "score_label": "0.5039",
+      "num_samples": 14571
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8872,
+      "score_label": "0.8872",
+      "num_samples": 15951
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8464,
+      "score_label": "0.8464",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1206,
+      "score_label": "0.1206",
+      "num_samples": 647
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8454,
+      "score_label": "0.8454",
+      "num_samples": 718
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0219,
+      "score_label": "0.0219",
+      "num_samples": 183
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.945,
+      "score_label": "0.9450",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.2065,
+      "score_label": "0.2065",
+      "num_samples": 247
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9929,
+      "score_label": "0.9929",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.315,
+      "score_label": "0.3150",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.886,
+      "score_label": "0.8860",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8176,
+      "score_label": "0.8176",
+      "num_samples": 318
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 179
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.5051,
+      "score_label": "0.5051",
+      "num_samples": 198
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 553.901,
+      "score_label": "553.9010",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8257,
+      "score_label": "0.8257",
+      "num_samples": 15767
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9893,
+      "score_label": "0.9893",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7595,
+      "score_label": "0.7595",
+      "num_samples": 711
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8122,
+      "score_label": "0.8122",
+      "num_samples": 197
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9786,
+      "score_label": "0.9786",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.817,
+      "score_label": "0.8170",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9906,
+      "score_label": "0.9906",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.3402,
+      "score_label": "0.3402",
+      "num_samples": 194
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1684.255,
+      "score_label": "1684.2550",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.5071,
+      "score_label": "0.5071",
+      "num_samples": 15931
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8286,
+      "score_label": "0.8286",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1453,
+      "score_label": "0.1453",
+      "num_samples": 716
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0302,
+      "score_label": "0.0302",
+      "num_samples": 199
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.2446,
+      "score_label": "0.2446",
+      "num_samples": 278
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.336,
+      "score_label": "0.3360",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8187,
+      "score_label": "0.8187",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 199
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 7915.966,
+      "score_label": "7915.9660",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.9881,
+      "score_label": "0.9881",
+      "num_samples": 14886
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9892,
+      "score_label": "0.9892",
+      "num_samples": 279
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9663,
+      "score_label": "0.9663",
+      "num_samples": 682
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9846,
+      "score_label": "0.9846",
+      "num_samples": 195
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9929,
+      "score_label": "0.9929",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.935,
+      "score_label": "0.9350",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9906,
+      "score_label": "0.9906",
+      "num_samples": 319
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8922,
+      "score_label": "0.8922",
+      "num_samples": 167
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 520.659,
+      "score_label": "520.6590",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8836,
+      "score_label": "0.8836",
+      "num_samples": 16000
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8375,
+      "score_label": "0.8375",
+      "num_samples": 720
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.915,
+      "score_label": "0.9150",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9857,
+      "score_label": "0.9857",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.882,
+      "score_label": "0.8820",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.52,
+      "score_label": "0.5200",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1295.09,
+      "score_label": "1295.0900",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.4925,
+      "score_label": "0.4925",
+      "num_samples": 14822
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7893,
+      "score_label": "0.7893",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1265,
+      "score_label": "0.1265",
+      "num_samples": 656
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0055,
+      "score_label": "0.0055",
+      "num_samples": 181
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.2253,
+      "score_label": "0.2253",
+      "num_samples": 253
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.304,
+      "score_label": "0.3040",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.776,
+      "score_label": "0.7760",
+      "num_samples": 317
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 185
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 7796.788,
+      "score_label": "7796.7880",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.9748,
+      "score_label": "0.9748",
+      "num_samples": 13829
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9928,
+      "score_label": "0.9928",
+      "num_samples": 279
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9134,
+      "score_label": "0.9134",
+      "num_samples": 647
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8836,
+      "score_label": "0.8836",
+      "num_samples": 189
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9713,
+      "score_label": "0.9713",
+      "num_samples": 279
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 2.0,
+      "score_label": "2.0000",
+      "num_samples": 2
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.868,
+      "score_label": "0.8680",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9937,
+      "score_label": "0.9937",
+      "num_samples": 319
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8129,
+      "score_label": "0.8129",
+      "num_samples": 139
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1298.735,
+      "score_label": "1298.7350",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.9741,
+      "score_label": "0.9741",
+      "num_samples": 15652
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9521,
+      "score_label": "0.9521",
+      "num_samples": 710
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.97,
+      "score_label": "0.9700",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9893,
+      "score_label": "0.9893",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.955,
+      "score_label": "0.9550",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8684,
+      "score_label": "0.8684",
+      "num_samples": 190
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 596.376,
+      "score_label": "596.3760",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8927,
+      "score_label": "0.8927",
+      "num_samples": 15970
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.854,
+      "score_label": "0.8540",
+      "num_samples": 719
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.94,
+      "score_label": "0.9400",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9857,
+      "score_label": "0.9857",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.893,
+      "score_label": "0.8930",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.5528,
+      "score_label": "0.5528",
+      "num_samples": 199
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1361.03,
+      "score_label": "1361.0300",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.4774,
+      "score_label": "0.4774",
+      "num_samples": 15395
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8286,
+      "score_label": "0.8286",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0802,
+      "score_label": "0.0802",
+      "num_samples": 686
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 188
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1241,
+      "score_label": "0.1241",
+      "num_samples": 266
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.287,
+      "score_label": "0.2870",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7962,
+      "score_label": "0.7962",
+      "num_samples": 319
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 193
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 569.034,
+      "score_label": "569.0340",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8424,
+      "score_label": "0.8424",
+      "num_samples": 15964
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9929,
+      "score_label": "0.9929",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7385,
+      "score_label": "0.7385",
+      "num_samples": 719
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.755,
+      "score_label": "0.7550",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9714,
+      "score_label": "0.9714",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.809,
+      "score_label": "0.8090",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9938,
+      "score_label": "0.9938",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.3417,
+      "score_label": "0.3417",
+      "num_samples": 199
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 615.131,
+      "score_label": "615.1310",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 564.086,
+      "score_label": "564.0860",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.5405,
+      "score_label": "0.5405",
+      "num_samples": 13505
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8505,
+      "score_label": "0.8505",
+      "num_samples": 16000
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.78,
+      "score_label": "0.7800",
+      "num_samples": 250
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9893,
+      "score_label": "0.9893",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1612,
+      "score_label": "0.1612",
+      "num_samples": 608
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7625,
+      "score_label": "0.7625",
+      "num_samples": 720
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0457,
+      "score_label": "0.0457",
+      "num_samples": 175
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.83,
+      "score_label": "0.8300",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.2874,
+      "score_label": "0.2874",
+      "num_samples": 247
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9821,
+      "score_label": "0.9821",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.293,
+      "score_label": "0.2930",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.826,
+      "score_label": "0.8260",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.767,
+      "score_label": "0.7670",
+      "num_samples": 279
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9906,
+      "score_label": "0.9906",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 157
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.34,
+      "score_label": "0.3400",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 7734.904,
+      "score_label": "7734.9040",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8212,
+      "score_label": "0.8212",
+      "num_samples": 15663
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9893,
+      "score_label": "0.9893",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7203,
+      "score_label": "0.7203",
+      "num_samples": 708
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.736,
+      "score_label": "0.7360",
+      "num_samples": 197
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.925,
+      "score_label": "0.9250",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 50.0,
+      "score_label": "50.0000",
+      "num_samples": 50
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.787,
+      "score_label": "0.7870",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9906,
+      "score_label": "0.9906",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.3455,
+      "score_label": "0.3455",
+      "num_samples": 191
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1236.111,
+      "score_label": "1236.1110",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.9366,
+      "score_label": "0.9366",
+      "num_samples": 15801
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 1.0,
+      "score_label": "1.0000",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.8908,
+      "score_label": "0.8908",
+      "num_samples": 714
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.89,
+      "score_label": "0.8900",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.916,
+      "score_label": "0.9160",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 1.0,
+      "score_label": "1.0000",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7165,
+      "score_label": "0.7165",
+      "num_samples": 194
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 521.929,
+      "score_label": "521.9290",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.849,
+      "score_label": "0.8490",
+      "num_samples": 15970
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7816,
+      "score_label": "0.7816",
+      "num_samples": 719
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.855,
+      "score_label": "0.8550",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9929,
+      "score_label": "0.9929",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.841,
+      "score_label": "0.8410",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.3668,
+      "score_label": "0.3668",
+      "num_samples": 199
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 926.247,
+      "score_label": "926.2470",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 522.784,
+      "score_label": "522.7840",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.472,
+      "score_label": "0.4720",
+      "num_samples": 12131
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.8523,
+      "score_label": "0.8523",
+      "num_samples": 15975
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.704,
+      "score_label": "0.7040",
+      "num_samples": 277
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0722,
+      "score_label": "0.0722",
+      "num_samples": 540
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.7816,
+      "score_label": "0.7816",
+      "num_samples": 719
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0071,
+      "score_label": "0.0071",
+      "num_samples": 140
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.865,
+      "score_label": "0.8650",
+      "num_samples": 200
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.1096,
+      "score_label": "0.1096",
+      "num_samples": 228
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9857,
+      "score_label": "0.9857",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.234,
+      "score_label": "0.2340",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.841,
+      "score_label": "0.8410",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.6603,
+      "score_label": "0.6603",
+      "num_samples": 315
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 134
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.3668,
+      "score_label": "0.3668",
+      "num_samples": 199
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 3650.372,
+      "score_label": "3650.3720",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.9557,
+      "score_label": "0.9557",
+      "num_samples": 15624
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9447,
+      "score_label": "0.9447",
+      "num_samples": 705
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9795,
+      "score_label": "0.9795",
+      "num_samples": 195
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9964,
+      "score_label": "0.9964",
+      "num_samples": 279
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.945,
+      "score_label": "0.9450",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9969,
+      "score_label": "0.9969",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.822,
+      "score_label": "0.8220",
+      "num_samples": 191
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "avg_reason_lens",
+      "metric_label": "avg reason lens",
+      "subset": "grid_mode",
+      "score": 1190.717,
+      "score_label": "1190.7170",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "cell_acc",
+      "metric_label": "cell acc",
+      "subset": "grid_mode",
+      "score": 0.9888,
+      "score_label": "0.9888",
+      "num_samples": 15559
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "easy_puzzle_acc",
+      "metric_label": "easy puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9857,
+      "score_label": "0.9857",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "hard_puzzle_acc",
+      "metric_label": "hard puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9618,
+      "score_label": "0.9618",
+      "num_samples": 706
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "large_puzzle_acc",
+      "metric_label": "large puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9749,
+      "score_label": "0.9749",
+      "num_samples": 199
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "medium_puzzle_acc",
+      "metric_label": "medium puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9857,
+      "score_label": "0.9857",
+      "num_samples": 280
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "no_answer_num",
+      "metric_label": "no answer num",
+      "subset": "grid_mode",
+      "score": 0.0,
+      "score_label": "0.0000",
+      "num_samples": 0
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "puzzle_acc",
+      "metric_label": "puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.955,
+      "score_label": "0.9550",
+      "num_samples": 1000
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "small_puzzle_acc",
+      "metric_label": "small puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9875,
+      "score_label": "0.9875",
+      "num_samples": 320
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "xl_puzzle_acc",
+      "metric_label": "xl puzzle acc",
+      "subset": "grid_mode",
+      "score": 0.9037,
+      "score_label": "0.9037",
+      "num_samples": 187
+    }
+  ],
+  "passk_rows": [],
+  "downloads": {
+    "json_path": "./data/benchmarks/zebralogicbench.json",
+    "artifact_paths": [
+      "published_results/models/deepseek-r1-0528-qwen3-8b/zebralogicbench/cot/20260129_224439/result.json",
+      "published_results/models/deepseek-r1-0528-qwen3-8b/zebralogicbench/nocot/20260130_155027/result.json",
+      "published_results/models/llama-3.2-1b-instruct/zebralogicbench/nocot/20260128_130732/result.json",
+      "published_results/models/llama-3.2-3b-instruct/zebralogicbench/nocot/20260128_160153/result.json",
+      "published_results/models/llama-3.3-70b-instruct/zebralogicbench/nocot/20260129_051917/result.json",
+      "published_results/models/meta-llama-3.1-70b-instruct/zebralogicbench/nocot/20260128_155125/result.json",
+      "published_results/models/meta-llama-3.1-8b-instruct/zebralogicbench/nocot/20260128_101902/result.json",
+      "published_results/models/qwen3-0.6b/zebralogicbench/cot/20260124_062754/result.json",
+      "published_results/models/qwen3-0.6b/zebralogicbench/nocot/20260124_173301/result.json",
+      "published_results/models/qwen3-1.7b/zebralogicbench/cot/20260125_060404/result.json",
+      "published_results/models/qwen3-1.7b/zebralogicbench/nocot/20260125_095153/result.json",
+      "published_results/models/qwen3-14b/zebralogicbench/cot/20260123_131039/result.json",
+      "published_results/models/qwen3-14b/zebralogicbench/nocot/20260124_040211/result.json",
+      "published_results/models/qwen3-14b/zebralogicbench/nocot/20260124_223003/result.json",
+      "published_results/models/qwen3-235b-a22b-instruct-2507/zebralogicbench/nocot/20260125_190108/result.json",
+      "published_results/models/qwen3-235b-a22b/zebralogicbench/cot/20260126_183958/result.json",
+      "published_results/models/qwen3-235b-a22b/zebralogicbench/nocot/20260127_071855/result.json",
+      "published_results/models/qwen3-30b-a3b-instruct-2507/zebralogicbench/nocot/20260125_005104/result.json",
+      "published_results/models/qwen3-30b-a3b-thinking-2507/zebralogicbench/cot/20260127_061052/result.json",
+      "published_results/models/qwen3-30b-a3b/zebralogicbench/cot/20260125_151916/result.json",
+      "published_results/models/qwen3-30b-a3b/zebralogicbench/nocot/20260126_080756/result.json",
+      "published_results/models/qwen3-32b/zebralogicbench/cot/20260126_140938/result.json",
+      "published_results/models/qwen3-32b/zebralogicbench/nocot/20260126_223915/result.json",
+      "published_results/models/qwen3-4b-instruct-2507/zebralogicbench/nocot/20260124_224015/result.json",
+      "published_results/models/qwen3-4b-thinking-2507/zebralogicbench/cot/20260127_235342/result.json",
+      "published_results/models/qwen3-4b/zebralogicbench/cot/20260123_091700/result.json",
+      "published_results/models/qwen3-4b/zebralogicbench/nocot/20260123_225955/result.json",
+      "published_results/models/qwen3-4b/zebralogicbench/nocot/20260124_204214/result.json",
+      "published_results/models/qwen3-8b/zebralogicbench/cot/20260123_140457/result.json",
+      "published_results/models/qwen3-8b/zebralogicbench/nocot/20260124_053233/result.json",
+      "published_results/models/qwen3-8b/zebralogicbench/nocot/20260124_212125/result.json",
+      "published_results/models/qwen3-next-80b-a3b-instruct/zebralogicbench/nocot/20260127_145746/result.json",
+      "published_results/models/qwen3-next-80b-a3b-thinking/zebralogicbench/cot/20260128_091049/result.json"
+    ],
+    "notes": "Detailed public-safe artifacts are copied under published_results/."
+  }
+}

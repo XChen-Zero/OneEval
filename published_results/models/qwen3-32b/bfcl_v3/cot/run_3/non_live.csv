@@ -1,0 +1,2 @@
+Rank,Model,Non-Live Overall Acc,AST Summary,Simple AST,Python Simple AST,Java Simple AST,JavaScript Simple AST,Multiple AST,Parallel AST,Parallel Multiple AST,Irrelevance Detection
+1,Qwen3-32B-Think (FC),88.04%,88.04%,76.67%,94.00%,62.00%,74.00%,94.00%,93.50%,88.00%,78.33%

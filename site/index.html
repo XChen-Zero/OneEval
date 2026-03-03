@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OneEval</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body data-page="home">
+    <div class="site-shell">
+      <header class="hero">
+        <nav class="top-nav" aria-label="Primary">
+          <a class="brand-pill" href="./index.html">OneEval</a>
+          <div class="top-nav-links">
+            <a href="./knowledge.html">Knowledge</a>
+            <a href="./agentic.html">Agentic</a>
+            <a href="./if.html">IF</a>
+            <a href="./reasoning.html">Reasoning</a>
+          </div>
+        </nav>
+
+        <div class="hero-copy">
+          <span class="hero-kicker">Open Evaluation Artifacts</span>
+          <h1>Open-model evaluation artifacts, reorganized for inspection instead of ranking.</h1>
+          <p>
+            OneEval publishes public-safe EvalScope artifacts for Llama, Qwen, and
+            DeepSeek families. It exposes subset-level results, pass@k reasoning
+            views, and sanitized protocol summaries, all repacked into a stable
+            <code>Model → Benchmark → Mode → Run</code> release layout.
+          </p>
+          <div class="hero-advantages">
+            <span class="hero-chip">No leaderboard or composite score</span>
+            <span class="hero-chip">Subset-level results, not just averages</span>
+            <span class="hero-chip">Interactive pass@k views for reasoning</span>
+            <span class="hero-chip">Sanitized configs only, never raw internal paths</span>
+          </div>
+          <p class="hero-authors">
+            Authors:
+            <a href="mailto:chenxuan026@icloud.com">Xuan Chen</a>
+            <a href="mailto:482501090@qq.com">Qiuxuan Chen</a>
+            <a href="mailto:mjv1cp@gmail.com">Bo Liu</a>
+          </p>
+        </div>
+
+        <div class="meta-strip">
+          <div class="stat-box">
+            <span class="stat-label">Records</span>
+            <strong id="home-record-count">0</strong>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Runs</span>
+            <strong id="home-run-count">0</strong>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Models</span>
+            <strong id="home-model-count">0</strong>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Benchmarks</span>
+            <strong id="home-benchmark-count">0</strong>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Artifacts</span>
+            <strong id="home-artifact-count">0</strong>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Updated</span>
+            <strong id="generated-at">Loading…</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="page-stack">
+        <section class="panel reading-panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Why OneEval Exists</span>
+              <h2>Reproducibility and detail, not just headline scores</h2>
+            </div>
+          </div>
+          <div class="reading-split">
+            <div class="narrative-card narrative-main">
+              <p class="reading-lead">
+                OneEval is a repository-first response to two recurring gaps in
+                open LLM evaluation:
+                <span class="inline-emphasis">reproducibility that is under-specified</span>
+                and
+                <span class="inline-emphasis">benchmark reporting that hides internal detail</span>.
+              </p>
+              <div class="narrative-list">
+                <div class="narrative-item">
+                  <span class="prose-label">Problem 1</span>
+                  <h3 class="prose-title">The benchmark may be public, but the exact setup often is not</h3>
+                  <p>
+                    Open-source evaluation frameworks regularly accumulate issue
+                    threads about not being able to match paper or official
+                    numbers. In many cases, the missing piece is the concrete
+                    evaluation setup rather than the benchmark itself.
+                  </p>
+                </div>
+                <div class="narrative-item">
+                  <span class="prose-label">Problem 2</span>
+                  <h3 class="prose-title">Rich benchmarks are frequently reduced to one headline score</h3>
+                  <p>
+                    MMLU-Pro contains many subsets but is often reported as one
+                    average. AIME-style reasoning benchmarks are commonly reduced
+                    to pass@64 or one mean, which hides the internal distribution.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <aside class="narrative-card narrative-side">
+              <span class="prose-label">What OneEval Publishes</span>
+              <h3 class="prose-title">A public EvalScope evidence chain</h3>
+              <ul class="reading-points">
+                <li>
+                  <strong>Scripts and sampling protocol</strong> are published
+                  together, so the run setup is inspectable rather than implicit.
+                </li>
+                <li>
+                  <strong><span id="home-overall-count">0</span> overall rows</strong>
+                  and
+                  <strong><span id="home-subset-count">0</span> subset rows</strong>
+                  are exposed, so benchmark internals remain visible.
+                </li>
+                <li>
+                  Results are organized into <strong>Knowledge</strong>,
+                  <strong>Agentic</strong>, <strong>IF</strong>, and
+                  <strong>Reasoning</strong>, with benchmark-specific views instead
+                  of one flattened score table.
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <p class="panel-note reading-footnote">
+            <span id="excluded-note" class="inline-note">Loading…</span>
+          </p>
+        </section>
+
+        <section class="panel protocol-panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Evaluation Protocol</span>
+              <h2>Sampling and run setup</h2>
+            </div>
+          </div>
+          <p class="panel-note">
+            Protocols are grouped by model family, then split into CoT vs NoCoT. We
+            only surface the shared sampling knobs that matter here: Temperature,
+            Top-p, Top-k, plus a benchmark-specific repeat count. Qwen-style rows
+            (including DeepSeek-R1-Qwen3) use the normalized repeat policy, while
+            Llama rows stay at repeat 1.
+          </p>
+          <div class="protocol-annotation">
+            <span class="chip chip-muted">CoT and NoCoT are normalized public labels</span>
+            <span class="chip chip-muted">BFCL v3 uses YaRN context extension to 131072</span>
+          </div>
+          <div id="protocol-groups" class="protocol-groups">
+            <div class="empty-note">Loading protocol groups…</div>
+          </div>
+        </section>
+
+        <section class="panel category-panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Category Entry</span>
+              <h2>Choose a reading path</h2>
+            </div>
+          </div>
+          <div id="category-grid" class="category-grid">
+            <div class="empty-note">Loading category navigation…</div>
+          </div>
+        </section>
+
+        <section class="panel downloads-panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Repository Files</span>
+              <h2>Browse the published files in the GitHub project</h2>
+            </div>
+          </div>
+          <div class="download-links">
+            <a id="detailed-results-link" href="./data/detailed_results.json">Browse detailed JSON</a>
+            <a id="public-results-link" href="../published_results/">Browse published result tree</a>
+            <a id="flat-bundle-link" href="./data/site_data.json">Browse legacy flat bundle</a>
+          </div>
+          <p class="panel-note">
+            These links point to files that live inside the repository. On GitHub
+            Pages and on the GitHub project itself, readers can inspect the raw-safe
+            JSON exports and artifact folders directly.
+          </p>
+          <div class="featured-block">
+            <strong>Featured benchmarks in this release</strong>
+            <div id="featured-list" class="featured-list"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

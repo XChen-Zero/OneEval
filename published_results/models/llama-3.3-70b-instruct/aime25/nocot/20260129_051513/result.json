@@ -1,0 +1,39 @@
+{
+    "name": "Llama-3.3-70B-Instruct@aime25",
+    "dataset_name": "aime25",
+    "dataset_pretty_name": "AIME-2025",
+    "dataset_description": "The AIME 2025 benchmark is based on problems from the American Invitational Mathematics Examination, a prestigious high school mathematics competition. This benchmark tests a model's ability to solve challenging mathematics problems by generating step-by-step solutions and providing the correct final answer.",
+    "model_name": "Llama-3.3-70B-Instruct",
+    "score": 0.0667,
+    "metrics": [
+        {
+            "name": "mean_acc",
+            "num": 30,
+            "score": 0.0667,
+            "macro_score": 0.0667,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 30,
+                    "score": 0.0667,
+                    "macro_score": 0.0667,
+                    "subsets": [
+                        {
+                            "name": "AIME2025-I",
+                            "score": 0.1333,
+                            "num": 15
+                        },
+                        {
+                            "name": "AIME2025-II",
+                            "score": 0.0,
+                            "num": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "analysis": "N/A"
+}

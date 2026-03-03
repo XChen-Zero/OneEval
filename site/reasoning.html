@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OneEval · Reasoning</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body data-page="category" data-category="reasoning">
+    <div class="site-shell">
+      <header class="sub-hero">
+        <nav class="top-nav" aria-label="Primary">
+          <a class="brand-pill" href="./index.html">OneEval</a>
+          <div class="top-nav-links">
+            <a href="./knowledge.html">Knowledge</a>
+            <a href="./agentic.html">Agentic</a>
+            <a href="./if.html">IF</a>
+            <a class="is-active" href="./reasoning.html">Reasoning</a>
+          </div>
+        </nav>
+        <div class="hero-copy compact-copy">
+          <span class="hero-kicker">Reasoning</span>
+          <h1>Reasoning benchmarks</h1>
+          <p id="category-description">Loading…</p>
+        </div>
+        <div class="sub-hero-meta">
+          <span>Updated <strong id="page-generated-at">Loading…</strong></span>
+          <span><strong id="category-benchmark-count">0</strong> benchmarks</span>
+        </div>
+      </header>
+
+      <main class="page-stack">
+        <section class="panel filter-panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Filter</span>
+              <h2>Narrow the current category</h2>
+            </div>
+            <button id="reset-filters" type="button">Reset</button>
+          </div>
+          <div class="filter-grid">
+            <label class="field">
+              <span>Model</span>
+              <select id="filter-model"></select>
+            </label>
+            <label class="field">
+              <span>Mode</span>
+              <select id="filter-mode"></select>
+            </label>
+            <label class="field">
+              <span>Benchmark</span>
+              <select id="filter-benchmark"></select>
+            </label>
+            <label class="field">
+              <span>Sort</span>
+              <select id="filter-sort">
+                <option value="score_desc">Primary score (desc)</option>
+                <option value="model_asc">Model (A-Z)</option>
+                <option value="cot_first">CoT first</option>
+                <option value="nocot_first">NoCoT first</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="panel category-results-panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Academic Tables + Pass@k</span>
+              <h2>Reasoning result sections</h2>
+            </div>
+            <span id="section-count" class="panel-meta">Loading…</span>
+          </div>
+          <div id="sections-root" class="benchmark-stack">
+            <div class="empty-note">Loading benchmark sections…</div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

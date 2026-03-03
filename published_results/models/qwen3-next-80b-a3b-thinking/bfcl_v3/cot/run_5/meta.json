@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3-Next-80B-A3B-Thinking",
+  "benchmark": "bfcl_v3",
+  "benchmark_display": "BFCL v3",
+  "mode": "CoT",
+  "run_id": "run_5",
+  "config_excerpt": {},
+  "artifacts": [
+    "published_results/models/qwen3-next-80b-a3b-thinking/bfcl_v3/cot/run_5/live.csv",
+    "published_results/models/qwen3-next-80b-a3b-thinking/bfcl_v3/cot/run_5/multi_turn.csv",
+    "published_results/models/qwen3-next-80b-a3b-thinking/bfcl_v3/cot/run_5/non_live.csv"
+  ]
+}

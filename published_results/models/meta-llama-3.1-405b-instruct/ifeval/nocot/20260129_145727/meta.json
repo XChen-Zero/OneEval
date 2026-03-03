@@ -1,0 +1,24 @@
+{
+  "model": "Meta-Llama-3.1-405B-Instruct",
+  "benchmark": "ifeval",
+  "benchmark_display": "IFEval",
+  "mode": "NoCoT",
+  "run_id": "20260129_145727",
+  "config_excerpt": {
+    "debug": false,
+    "eval_backend": "Native",
+    "eval_batch_size": 10,
+    "eval_type": "openai_api",
+    "evalscope_version": "0.0.0_dev",
+    "judge_strategy": "auto",
+    "generation_config": {
+      "batch_size": 10,
+      "do_sample": false,
+      "max_tokens": 16384,
+      "temperature": 0.0
+    }
+  },
+  "artifacts": [
+    "published_results/models/meta-llama-3.1-405b-instruct/ifeval/nocot/20260129_145727/result.json"
+  ]
+}

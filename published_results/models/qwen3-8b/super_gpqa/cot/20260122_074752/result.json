@@ -1,0 +1,509 @@
+{
+    "name": "Qwen3-8B@super_gpqa",
+    "dataset_name": "super_gpqa",
+    "dataset_pretty_name": "SuperGPQA",
+    "dataset_description": "SuperGPQA is a large-scale multiple-choice question answering dataset, designed to evaluate the generalization ability of models across different fields. It contains 26,000+ questions from 50+ fields, with each question having 10 options.",
+    "model_name": "Qwen3-8B",
+    "score": 0.4364,
+    "metrics": [
+        {
+            "name": "mean_acc",
+            "num": 26529,
+            "score": 0.4364,
+            "macro_score": 0.4094,
+            "categories": [
+                {
+                    "name": [
+                        "Agronomy"
+                    ],
+                    "num": 485,
+                    "score": 0.3649,
+                    "macro_score": 0.3653,
+                    "subsets": [
+                        {
+                            "name": "Aquaculture",
+                            "score": 0.2679,
+                            "num": 56
+                        },
+                        {
+                            "name": "Animal Husbandry",
+                            "score": 0.3592,
+                            "num": 103
+                        },
+                        {
+                            "name": "Crop Science",
+                            "score": 0.3655,
+                            "num": 145
+                        },
+                        {
+                            "name": "Forestry",
+                            "score": 0.374,
+                            "num": 131
+                        },
+                        {
+                            "name": "Veterinary Medicine",
+                            "score": 0.46,
+                            "num": 50
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Economics"
+                    ],
+                    "num": 873,
+                    "score": 0.472,
+                    "macro_score": 0.4593,
+                    "subsets": [
+                        {
+                            "name": "Applied Economics",
+                            "score": 0.4786,
+                            "num": 723
+                        },
+                        {
+                            "name": "Theoretical Economics",
+                            "score": 0.44,
+                            "num": 150
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Education"
+                    ],
+                    "num": 484,
+                    "score": 0.4194,
+                    "macro_score": 0.3987,
+                    "subsets": [
+                        {
+                            "name": "Education",
+                            "score": 0.4372,
+                            "num": 247
+                        },
+                        {
+                            "name": "Psychology",
+                            "score": 0.2989,
+                            "num": 87
+                        },
+                        {
+                            "name": "Physical Education",
+                            "score": 0.46,
+                            "num": 150
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Engineering"
+                    ],
+                    "num": 7892,
+                    "score": 0.4626,
+                    "macro_score": 0.4727,
+                    "subsets": [
+                        {
+                            "name": "Electronic Science and Technology",
+                            "score": 0.5,
+                            "num": 246
+                        },
+                        {
+                            "name": "Computer Science and Technology",
+                            "score": 0.5072,
+                            "num": 763
+                        },
+                        {
+                            "name": "Information and Communication Engineering",
+                            "score": 0.5833,
+                            "num": 504
+                        },
+                        {
+                            "name": "Control Science and Engineering",
+                            "score": 0.6158,
+                            "num": 190
+                        },
+                        {
+                            "name": "Materials Science and Engineering",
+                            "score": 0.4706,
+                            "num": 289
+                        },
+                        {
+                            "name": "Electrical Engineering",
+                            "score": 0.3795,
+                            "num": 556
+                        },
+                        {
+                            "name": "Power Engineering and Engineering Thermophysics",
+                            "score": 0.4751,
+                            "num": 684
+                        },
+                        {
+                            "name": "Hydraulic Engineering",
+                            "score": 0.4862,
+                            "num": 218
+                        },
+                        {
+                            "name": "Chemical Engineering and Technology",
+                            "score": 0.4415,
+                            "num": 410
+                        },
+                        {
+                            "name": "Architecture",
+                            "score": 0.4383,
+                            "num": 162
+                        },
+                        {
+                            "name": "Forestry Engineering",
+                            "score": 0.48,
+                            "num": 100
+                        },
+                        {
+                            "name": "Nuclear Science and Technology",
+                            "score": 0.4299,
+                            "num": 107
+                        },
+                        {
+                            "name": "Weapon Science and Technology",
+                            "score": 0.47,
+                            "num": 100
+                        },
+                        {
+                            "name": "Naval Architecture and Ocean Engineering",
+                            "score": 0.413,
+                            "num": 138
+                        },
+                        {
+                            "name": "Environmental Science and Engineering",
+                            "score": 0.5503,
+                            "num": 189
+                        },
+                        {
+                            "name": "Transportation Engineering",
+                            "score": 0.4104,
+                            "num": 251
+                        },
+                        {
+                            "name": "Mechanical Engineering",
+                            "score": 0.4545,
+                            "num": 176
+                        },
+                        {
+                            "name": "Aeronautical and Astronautical Science and Technology",
+                            "score": 0.3782,
+                            "num": 119
+                        },
+                        {
+                            "name": "Civil Engineering",
+                            "score": 0.3575,
+                            "num": 358
+                        },
+                        {
+                            "name": "Mechanics",
+                            "score": 0.4042,
+                            "num": 908
+                        },
+                        {
+                            "name": "Petroleum and Natural Gas Engineering",
+                            "score": 0.5,
+                            "num": 112
+                        },
+                        {
+                            "name": "Food Science and Engineering",
+                            "score": 0.5229,
+                            "num": 109
+                        },
+                        {
+                            "name": "Agricultural Engineering",
+                            "score": 0.4904,
+                            "num": 104
+                        },
+                        {
+                            "name": "Surveying and Mapping Science and Technology",
+                            "score": 0.5476,
+                            "num": 168
+                        },
+                        {
+                            "name": "Metallurgical Engineering",
+                            "score": 0.451,
+                            "num": 255
+                        },
+                        {
+                            "name": "Mining Engineering",
+                            "score": 0.51,
+                            "num": 100
+                        },
+                        {
+                            "name": "Geological Resources and Geological Engineering",
+                            "score": 0.56,
+                            "num": 50
+                        },
+                        {
+                            "name": "Optical Engineering",
+                            "score": 0.4043,
+                            "num": 376
+                        },
+                        {
+                            "name": "Textile Science and Engineering",
+                            "score": 0.51,
+                            "num": 100
+                        },
+                        {
+                            "name": "Instrument Science and Technology",
+                            "score": 0.44,
+                            "num": 50
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "History"
+                    ],
+                    "num": 674,
+                    "score": 0.2582,
+                    "macro_score": 0.2582,
+                    "subsets": [
+                        {
+                            "name": "History",
+                            "score": 0.2582,
+                            "num": 674
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Law"
+                    ],
+                    "num": 656,
+                    "score": 0.3979,
+                    "macro_score": 0.3715,
+                    "subsets": [
+                        {
+                            "name": "Law",
+                            "score": 0.4044,
+                            "num": 591
+                        },
+                        {
+                            "name": "Political Science",
+                            "score": 0.3385,
+                            "num": 65
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Literature and Arts"
+                    ],
+                    "num": 1676,
+                    "score": 0.2971,
+                    "macro_score": 0.2895,
+                    "subsets": [
+                        {
+                            "name": "Language and Literature",
+                            "score": 0.3477,
+                            "num": 440
+                        },
+                        {
+                            "name": "Art Studies",
+                            "score": 0.2919,
+                            "num": 603
+                        },
+                        {
+                            "name": "Journalism and Communication",
+                            "score": 0.2367,
+                            "num": 207
+                        },
+                        {
+                            "name": "Musicology",
+                            "score": 0.2817,
+                            "num": 426
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Management"
+                    ],
+                    "num": 501,
+                    "score": 0.4411,
+                    "macro_score": 0.449,
+                    "subsets": [
+                        {
+                            "name": "Business Administration",
+                            "score": 0.3592,
+                            "num": 142
+                        },
+                        {
+                            "name": "Public Administration",
+                            "score": 0.5033,
+                            "num": 151
+                        },
+                        {
+                            "name": "Library, Information and Archival Management",
+                            "score": 0.4333,
+                            "num": 150
+                        },
+                        {
+                            "name": "Management Science and Engineering",
+                            "score": 0.5,
+                            "num": 58
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Medicine"
+                    ],
+                    "num": 2755,
+                    "score": 0.4229,
+                    "macro_score": 0.4094,
+                    "subsets": [
+                        {
+                            "name": "Traditional Chinese Medicine",
+                            "score": 0.4366,
+                            "num": 268
+                        },
+                        {
+                            "name": "Clinical Medicine",
+                            "score": 0.4253,
+                            "num": 1218
+                        },
+                        {
+                            "name": "Basic Medicine",
+                            "score": 0.4215,
+                            "num": 567
+                        },
+                        {
+                            "name": "Public Health and Preventive Medicine",
+                            "score": 0.4932,
+                            "num": 292
+                        },
+                        {
+                            "name": "Pharmacy",
+                            "score": 0.3921,
+                            "num": 278
+                        },
+                        {
+                            "name": "Stomatology",
+                            "score": 0.2879,
+                            "num": 132
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Military Science"
+                    ],
+                    "num": 205,
+                    "score": 0.4341,
+                    "macro_score": 0.4341,
+                    "subsets": [
+                        {
+                            "name": "Military Science",
+                            "score": 0.4341,
+                            "num": 205
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Philosophy"
+                    ],
+                    "num": 347,
+                    "score": 0.4467,
+                    "macro_score": 0.4467,
+                    "subsets": [
+                        {
+                            "name": "Philosophy",
+                            "score": 0.4467,
+                            "num": 347
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Science"
+                    ],
+                    "num": 9838,
+                    "score": 0.4581,
+                    "macro_score": 0.4816,
+                    "subsets": [
+                        {
+                            "name": "Mathematics",
+                            "score": 0.5301,
+                            "num": 2622
+                        },
+                        {
+                            "name": "Physics",
+                            "score": 0.439,
+                            "num": 2845
+                        },
+                        {
+                            "name": "Systems Science",
+                            "score": 0.62,
+                            "num": 50
+                        },
+                        {
+                            "name": "Biology",
+                            "score": 0.417,
+                            "num": 1120
+                        },
+                        {
+                            "name": "Chemistry",
+                            "score": 0.3872,
+                            "num": 1769
+                        },
+                        {
+                            "name": "Geography",
+                            "score": 0.3985,
+                            "num": 133
+                        },
+                        {
+                            "name": "Oceanography",
+                            "score": 0.66,
+                            "num": 200
+                        },
+                        {
+                            "name": "Geology",
+                            "score": 0.4047,
+                            "num": 341
+                        },
+                        {
+                            "name": "Physical Oceanography",
+                            "score": 0.46,
+                            "num": 50
+                        },
+                        {
+                            "name": "Astronomy",
+                            "score": 0.479,
+                            "num": 405
+                        },
+                        {
+                            "name": "Atmospheric Science",
+                            "score": 0.4532,
+                            "num": 203
+                        },
+                        {
+                            "name": "Geophysics",
+                            "score": 0.53,
+                            "num": 100
+                        }
+                    ]
+                },
+                {
+                    "name": [
+                        "Sociology"
+                    ],
+                    "num": 143,
+                    "score": 0.4476,
+                    "macro_score": 0.4476,
+                    "subsets": [
+                        {
+                            "name": "Sociology",
+                            "score": 0.4476,
+                            "num": 143
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "analysis": "N/A"
+}

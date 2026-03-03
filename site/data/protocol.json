@@ -1,0 +1,1623 @@
+{
+  "generated_at": "2026-03-03T08:02:36Z",
+  "families": [
+    {
+      "family": "DeepSeek",
+      "modes": [
+        {
+          "mode": "CoT",
+          "temperature": "0.6",
+          "top_p": "0.95",
+          "top_k": "20",
+          "settings_variants": [
+            {
+              "title": "Variant 1",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.6"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.95"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "32768"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 32768 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 2",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.6"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.95"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "38912"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 38912 · Batch size 10",
+              "manual_override": false
+            }
+          ],
+          "settings_summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 32768 · Batch size 10 / EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 38912 · Batch size 10",
+          "coverage_count": 5,
+          "benchmark_count": 8,
+          "benchmarks": [
+            "aime24",
+            "aime25",
+            "chinese_simpleqa",
+            "gpqa_diamond",
+            "ifeval",
+            "mmlu_pro",
+            "simple_qa",
+            "zebralogicbench"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "chinese_simpleqa",
+              "display_name": "Chinese-SimpleQA",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 1,
+              "run_count": 10
+            },
+            {
+              "benchmark": "ifeval",
+              "display_name": "IFEval",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "mmlu_pro",
+              "display_name": "MMLU-Pro",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "simple_qa",
+              "display_name": "SimpleQA",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "zebralogicbench",
+              "display_name": "ZebraLogicBench",
+              "distinct_run_count": 1,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 1,
+              "run_count": 10
+            }
+          ],
+          "notes": [
+            "Repeated runs: AIME-2024 x64, AIME-2025 x64, GPQA-Diamond x10."
+          ]
+        },
+        {
+          "mode": "NoCoT",
+          "temperature": "0.7",
+          "top_p": "0.8",
+          "top_k": "20",
+          "settings_variants": [
+            {
+              "title": "Variant 1",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.7"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.8"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "32768"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 32768 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 2",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.7"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.8"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "38912"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 38912 · Batch size 10",
+              "manual_override": false
+            }
+          ],
+          "settings_summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 32768 · Batch size 10 / EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 38912 · Batch size 10",
+          "coverage_count": 5,
+          "benchmark_count": 8,
+          "benchmarks": [
+            "aime24",
+            "aime25",
+            "chinese_simpleqa",
+            "gpqa_diamond",
+            "ifeval",
+            "mmlu_pro",
+            "simple_qa",
+            "zebralogicbench"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "chinese_simpleqa",
+              "display_name": "Chinese-SimpleQA",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 1,
+              "run_count": 10
+            },
+            {
+              "benchmark": "ifeval",
+              "display_name": "IFEval",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "mmlu_pro",
+              "display_name": "MMLU-Pro",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "simple_qa",
+              "display_name": "SimpleQA",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "zebralogicbench",
+              "display_name": "ZebraLogicBench",
+              "distinct_run_count": 1,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 1,
+              "run_count": 10
+            }
+          ],
+          "notes": [
+            "Repeated runs: AIME-2024 x64, AIME-2025 x64, GPQA-Diamond x10."
+          ]
+        }
+      ],
+      "family_run_count": 10,
+      "benchmark_count": 8
+    },
+    {
+      "family": "Llama",
+      "modes": [
+        {
+          "mode": "NoCoT",
+          "temperature": "0",
+          "top_p": "—",
+          "top_k": "—",
+          "settings_variants": [
+            {
+              "title": "Variant 1",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "16384"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Do sample",
+                  "value": "false"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0 · Max tokens 16384 · Batch size 10 · Do sample false",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 2",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "20480"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Do sample",
+                  "value": "false"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0 · Max tokens 20480 · Batch size 10 · Do sample false",
+              "manual_override": false
+            }
+          ],
+          "settings_summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0 · Max tokens 16384 · Batch size 10 · Do sample false / EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0 · Max tokens 20480 · Batch size 10 · Do sample false",
+          "coverage_count": 28,
+          "benchmark_count": 8,
+          "benchmarks": [
+            "aime24",
+            "aime25",
+            "chinese_simpleqa",
+            "gpqa_diamond",
+            "ifeval",
+            "mmlu_pro",
+            "simple_qa",
+            "zebralogicbench"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 5,
+              "run_count": 1
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 5,
+              "run_count": 1
+            },
+            {
+              "benchmark": "chinese_simpleqa",
+              "display_name": "Chinese-SimpleQA",
+              "distinct_run_count": 6,
+              "run_count": 1
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 6,
+              "run_count": 1
+            },
+            {
+              "benchmark": "ifeval",
+              "display_name": "IFEval",
+              "distinct_run_count": 6,
+              "run_count": 1
+            },
+            {
+              "benchmark": "mmlu_pro",
+              "display_name": "MMLU-Pro",
+              "distinct_run_count": 6,
+              "run_count": 1
+            },
+            {
+              "benchmark": "simple_qa",
+              "display_name": "SimpleQA",
+              "distinct_run_count": 6,
+              "run_count": 1
+            },
+            {
+              "benchmark": "zebralogicbench",
+              "display_name": "ZebraLogicBench",
+              "distinct_run_count": 5,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [],
+          "notes": []
+        }
+      ],
+      "family_run_count": 28,
+      "benchmark_count": 8
+    },
+    {
+      "family": "Qwen3",
+      "modes": [
+        {
+          "mode": "CoT",
+          "temperature": "0.6",
+          "top_p": "0.95",
+          "top_k": "20",
+          "settings_variants": [
+            {
+              "title": "Variant 1",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.6"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.95"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "32768"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 32768 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 2",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.6"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.95"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "38912"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 38912 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 3",
+              "lines": [],
+              "summary": "No published config",
+              "manual_override": false
+            }
+          ],
+          "settings_summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 32768 · Batch size 10 / EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 38912 · Batch size 10 / No published config",
+          "coverage_count": 126,
+          "benchmark_count": 11,
+          "benchmarks": [
+            "aime24",
+            "aime25",
+            "bfcl_v3",
+            "chinese_simpleqa",
+            "gpqa_diamond",
+            "hmmt25",
+            "ifeval",
+            "mmlu_pro",
+            "simple_qa",
+            "super_gpqa",
+            "zebralogicbench"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 11,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 10,
+              "run_count": 64
+            },
+            {
+              "benchmark": "bfcl_v3",
+              "display_name": "BFCL v3",
+              "distinct_run_count": 9,
+              "run_count": 8
+            },
+            {
+              "benchmark": "chinese_simpleqa",
+              "display_name": "Chinese-SimpleQA",
+              "distinct_run_count": 11,
+              "run_count": 1
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 11,
+              "run_count": 10
+            },
+            {
+              "benchmark": "hmmt25",
+              "display_name": "HMMT25",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "ifeval",
+              "display_name": "IFEval",
+              "distinct_run_count": 11,
+              "run_count": 1
+            },
+            {
+              "benchmark": "mmlu_pro",
+              "display_name": "MMLU-Pro",
+              "distinct_run_count": 11,
+              "run_count": 1
+            },
+            {
+              "benchmark": "simple_qa",
+              "display_name": "SimpleQA",
+              "distinct_run_count": 11,
+              "run_count": 1
+            },
+            {
+              "benchmark": "super_gpqa",
+              "display_name": "SuperGPQA",
+              "distinct_run_count": 3,
+              "run_count": 3
+            },
+            {
+              "benchmark": "zebralogicbench",
+              "display_name": "ZebraLogicBench",
+              "distinct_run_count": 10,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 11,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 10,
+              "run_count": 64
+            },
+            {
+              "benchmark": "bfcl_v3",
+              "display_name": "BFCL v3",
+              "distinct_run_count": 9,
+              "run_count": 8
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 11,
+              "run_count": 10
+            },
+            {
+              "benchmark": "hmmt25",
+              "display_name": "HMMT25",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "super_gpqa",
+              "display_name": "SuperGPQA",
+              "distinct_run_count": 3,
+              "run_count": 3
+            }
+          ],
+          "notes": [
+            "BFCL v3 uses YaRN context extension to 131072.",
+            "Repeated runs: AIME-2024 x64, AIME-2025 x64, BFCL v3 x8, GPQA-Diamond x10, HMMT25 x64, SuperGPQA x3."
+          ]
+        },
+        {
+          "mode": "NoCoT",
+          "temperature": "0.7",
+          "top_p": "0.8",
+          "top_k": "20",
+          "settings_variants": [
+            {
+              "title": "Variant 1",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.7"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.8"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "32768"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 32768 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 2",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.7"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.8"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "38912"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 38912 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 3",
+              "lines": [],
+              "summary": "No published config",
+              "manual_override": false
+            }
+          ],
+          "settings_summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 32768 · Batch size 10 / EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 38912 · Batch size 10 / No published config",
+          "coverage_count": 142,
+          "benchmark_count": 10,
+          "benchmarks": [
+            "aime24",
+            "aime25",
+            "bfcl_v3",
+            "chinese_simpleqa",
+            "gpqa_diamond",
+            "hmmt25",
+            "ifeval",
+            "mmlu_pro",
+            "simple_qa",
+            "zebralogicbench"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 11,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 11,
+              "run_count": 64
+            },
+            {
+              "benchmark": "bfcl_v3",
+              "display_name": "BFCL v3",
+              "distinct_run_count": 9,
+              "run_count": 8
+            },
+            {
+              "benchmark": "chinese_simpleqa",
+              "display_name": "Chinese-SimpleQA",
+              "distinct_run_count": 11,
+              "run_count": 1
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 11,
+              "run_count": 10
+            },
+            {
+              "benchmark": "hmmt25",
+              "display_name": "HMMT25",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "ifeval",
+              "display_name": "IFEval",
+              "distinct_run_count": 11,
+              "run_count": 1
+            },
+            {
+              "benchmark": "mmlu_pro",
+              "display_name": "MMLU-Pro",
+              "distinct_run_count": 11,
+              "run_count": 1
+            },
+            {
+              "benchmark": "simple_qa",
+              "display_name": "SimpleQA",
+              "distinct_run_count": 11,
+              "run_count": 1
+            },
+            {
+              "benchmark": "zebralogicbench",
+              "display_name": "ZebraLogicBench",
+              "distinct_run_count": 11,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 11,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 11,
+              "run_count": 64
+            },
+            {
+              "benchmark": "bfcl_v3",
+              "display_name": "BFCL v3",
+              "distinct_run_count": 9,
+              "run_count": 8
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 11,
+              "run_count": 10
+            },
+            {
+              "benchmark": "hmmt25",
+              "display_name": "HMMT25",
+              "distinct_run_count": 1,
+              "run_count": 64
+            }
+          ],
+          "notes": [
+            "BFCL v3 uses YaRN context extension to 131072.",
+            "Repeated runs: AIME-2024 x64, AIME-2025 x64, BFCL v3 x8, GPQA-Diamond x10, HMMT25 x64."
+          ]
+        }
+      ],
+      "family_run_count": 268,
+      "benchmark_count": 11
+    },
+    {
+      "family": "Qwen3-Next",
+      "modes": [
+        {
+          "mode": "CoT",
+          "temperature": "0.6",
+          "top_p": "0.95",
+          "top_k": "20",
+          "settings_variants": [
+            {
+              "title": "Variant 1",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.6"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.95"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "32768"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 32768 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 2",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.6"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.95"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "38912"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 38912 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 3",
+              "lines": [],
+              "summary": "No published config",
+              "manual_override": false
+            }
+          ],
+          "settings_summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 32768 · Batch size 10 / EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.6 · Top-p 0.95 · Top-k 20 · Max tokens 38912 · Batch size 10 / No published config",
+          "coverage_count": 12,
+          "benchmark_count": 9,
+          "benchmarks": [
+            "aime24",
+            "aime25",
+            "bfcl_v3",
+            "chinese_simpleqa",
+            "gpqa_diamond",
+            "ifeval",
+            "mmlu_pro",
+            "simple_qa",
+            "zebralogicbench"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "bfcl_v3",
+              "display_name": "BFCL v3",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "chinese_simpleqa",
+              "display_name": "Chinese-SimpleQA",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 1,
+              "run_count": 10
+            },
+            {
+              "benchmark": "ifeval",
+              "display_name": "IFEval",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "mmlu_pro",
+              "display_name": "MMLU-Pro",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "simple_qa",
+              "display_name": "SimpleQA",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "zebralogicbench",
+              "display_name": "ZebraLogicBench",
+              "distinct_run_count": 1,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 1,
+              "run_count": 10
+            }
+          ],
+          "notes": [
+            "BFCL v3 uses YaRN context extension to 131072.",
+            "Repeated runs: AIME-2024 x64, AIME-2025 x64, GPQA-Diamond x10."
+          ]
+        },
+        {
+          "mode": "NoCoT",
+          "temperature": "0.7",
+          "top_p": "0.8",
+          "top_k": "20",
+          "settings_variants": [
+            {
+              "title": "Variant 1",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.7"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.8"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "32768"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 32768 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 2",
+              "lines": [
+                {
+                  "label": "EvalScope",
+                  "value": "0.0.0_dev"
+                },
+                {
+                  "label": "Backend",
+                  "value": "Native"
+                },
+                {
+                  "label": "Eval batch size",
+                  "value": "10"
+                },
+                {
+                  "label": "Eval type",
+                  "value": "openai_api"
+                },
+                {
+                  "label": "Judge strategy",
+                  "value": "auto"
+                },
+                {
+                  "label": "Debug",
+                  "value": "false"
+                },
+                {
+                  "label": "Temperature",
+                  "value": "0.7"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.8"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Max tokens",
+                  "value": "38912"
+                },
+                {
+                  "label": "Batch size",
+                  "value": "10"
+                }
+              ],
+              "summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 38912 · Batch size 10",
+              "manual_override": false
+            },
+            {
+              "title": "Variant 3",
+              "lines": [],
+              "summary": "No published config",
+              "manual_override": false
+            }
+          ],
+          "settings_summary": "EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 32768 · Batch size 10 / EvalScope 0.0.0_dev · Backend Native · Eval batch size 10 · Eval type openai_api · Judge strategy auto · Debug false · Temperature 0.7 · Top-p 0.8 · Top-k 20 · Max tokens 38912 · Batch size 10 / No published config",
+          "coverage_count": 13,
+          "benchmark_count": 9,
+          "benchmarks": [
+            "aime24",
+            "aime25",
+            "bfcl_v3",
+            "chinese_simpleqa",
+            "gpqa_diamond",
+            "ifeval",
+            "mmlu_pro",
+            "simple_qa",
+            "zebralogicbench"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "bfcl_v3",
+              "display_name": "BFCL v3",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "chinese_simpleqa",
+              "display_name": "Chinese-SimpleQA",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 1,
+              "run_count": 10
+            },
+            {
+              "benchmark": "ifeval",
+              "display_name": "IFEval",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "mmlu_pro",
+              "display_name": "MMLU-Pro",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "simple_qa",
+              "display_name": "SimpleQA",
+              "distinct_run_count": 1,
+              "run_count": 1
+            },
+            {
+              "benchmark": "zebralogicbench",
+              "display_name": "ZebraLogicBench",
+              "distinct_run_count": 1,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [
+            {
+              "benchmark": "aime24",
+              "display_name": "AIME-2024",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "aime25",
+              "display_name": "AIME-2025",
+              "distinct_run_count": 1,
+              "run_count": 64
+            },
+            {
+              "benchmark": "gpqa_diamond",
+              "display_name": "GPQA-Diamond",
+              "distinct_run_count": 1,
+              "run_count": 10
+            }
+          ],
+          "notes": [
+            "BFCL v3 uses YaRN context extension to 131072.",
+            "Repeated runs: AIME-2024 x64, AIME-2025 x64, GPQA-Diamond x10."
+          ]
+        }
+      ],
+      "family_run_count": 25,
+      "benchmark_count": 9
+    },
+    {
+      "family": "Qwen3.5",
+      "modes": [
+        {
+          "mode": "CoT",
+          "temperature": "0.6",
+          "top_p": "0.95",
+          "top_k": "20",
+          "settings_variants": [
+            {
+              "title": "Qwen3.5 CoT default",
+              "lines": [
+                {
+                  "label": "Temperature",
+                  "value": "0.6"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.95"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Min-p",
+                  "value": "0.0"
+                },
+                {
+                  "label": "Presence penalty",
+                  "value": "0.0"
+                },
+                {
+                  "label": "Repetition penalty",
+                  "value": "1.0"
+                },
+                {
+                  "label": "Max model len",
+                  "value": "262144"
+                }
+              ],
+              "summary": "Temperature 0.6 · Top-p 0.95 · Top-k 20 · Min-p 0.0 · Presence penalty 0.0 · Repetition penalty 1.0 · Max model len 262144",
+              "manual_override": true,
+              "notes": [
+                "Qwen3.5 max-model-len is fixed at 262144."
+              ]
+            }
+          ],
+          "settings_summary": "Temperature 0.6 · Top-p 0.95 · Top-k 20 · Min-p 0.0 · Presence penalty 0.0 · Repetition penalty 1.0 · Max model len 262144",
+          "coverage_count": 6,
+          "benchmark_count": 1,
+          "benchmarks": [
+            "bfcl_v3"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "bfcl_v3",
+              "display_name": "BFCL v3",
+              "distinct_run_count": 4,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [],
+          "notes": [
+            "BFCL v3 uses YaRN context extension to 131072.",
+            "Qwen3.5 max-model-len is fixed at 262144."
+          ]
+        },
+        {
+          "mode": "NoCoT",
+          "temperature": "0.7",
+          "top_p": "0.8",
+          "top_k": "20",
+          "settings_variants": [
+            {
+              "title": "Qwen3.5 NoCoT default",
+              "lines": [
+                {
+                  "label": "Temperature",
+                  "value": "0.7"
+                },
+                {
+                  "label": "Top-p",
+                  "value": "0.8"
+                },
+                {
+                  "label": "Top-k",
+                  "value": "20"
+                },
+                {
+                  "label": "Min-p",
+                  "value": "0.0"
+                },
+                {
+                  "label": "Presence penalty",
+                  "value": "1.5"
+                },
+                {
+                  "label": "Repetition penalty",
+                  "value": "1.0"
+                },
+                {
+                  "label": "Max model len",
+                  "value": "262144"
+                }
+              ],
+              "summary": "Temperature 0.7 · Top-p 0.8 · Top-k 20 · Min-p 0.0 · Presence penalty 1.5 · Repetition penalty 1.0 · Max model len 262144",
+              "manual_override": true,
+              "notes": [
+                "Qwen3.5 max-model-len is fixed at 262144."
+              ]
+            }
+          ],
+          "settings_summary": "Temperature 0.7 · Top-p 0.8 · Top-k 20 · Min-p 0.0 · Presence penalty 1.5 · Repetition penalty 1.0 · Max model len 262144",
+          "coverage_count": 12,
+          "benchmark_count": 1,
+          "benchmarks": [
+            "bfcl_v3"
+          ],
+          "benchmark_run_counts": [
+            {
+              "benchmark": "bfcl_v3",
+              "display_name": "BFCL v3",
+              "distinct_run_count": 4,
+              "run_count": 1
+            }
+          ],
+          "repeated_benchmarks": [],
+          "notes": [
+            "BFCL v3 uses YaRN context extension to 131072.",
+            "Qwen3.5 max-model-len is fixed at 262144."
+          ]
+        }
+      ],
+      "family_run_count": 18,
+      "benchmark_count": 1
+    }
+  ],
+  "global_notes": [
+    "BFCL v3 uses YaRN context extension to 131072."
+  ]
+}

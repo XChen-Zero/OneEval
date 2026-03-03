@@ -1,0 +1,1506 @@
+{
+    "name": "Qwen3-8B@aime24",
+    "dataset_name": "aime24",
+    "dataset_pretty_name": "AIME-2024",
+    "dataset_description": "The AIME 2024 benchmark is based on problems from the American Invitational Mathematics Examination, a prestigious high school mathematics competition. This benchmark tests a model's ability to solve challenging mathematics problems by generating step-by-step solutions and providing the correct final answer.",
+    "model_name": "Qwen3-8B",
+    "score": 0.2708,
+    "metrics": [
+        {
+            "name": "mean_acc",
+            "num": 1920,
+            "score": 0.2708,
+            "macro_score": 0.2708,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.2708,
+                    "macro_score": 0.2708,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.2708,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@1",
+            "num": 1920,
+            "score": 0.2708,
+            "macro_score": 0.2708,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.2708,
+                    "macro_score": 0.2708,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.2708,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@2",
+            "num": 1920,
+            "score": 0.3446,
+            "macro_score": 0.3446,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.3446,
+                    "macro_score": 0.3446,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.3446,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@3",
+            "num": 1920,
+            "score": 0.388,
+            "macro_score": 0.388,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.388,
+                    "macro_score": 0.388,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.388,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@4",
+            "num": 1920,
+            "score": 0.419,
+            "macro_score": 0.419,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.419,
+                    "macro_score": 0.419,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.419,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@5",
+            "num": 1920,
+            "score": 0.4431,
+            "macro_score": 0.4431,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.4431,
+                    "macro_score": 0.4431,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.4431,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@6",
+            "num": 1920,
+            "score": 0.463,
+            "macro_score": 0.463,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.463,
+                    "macro_score": 0.463,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.463,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@7",
+            "num": 1920,
+            "score": 0.4797,
+            "macro_score": 0.4797,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.4797,
+                    "macro_score": 0.4797,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.4797,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@8",
+            "num": 1920,
+            "score": 0.4942,
+            "macro_score": 0.4942,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.4942,
+                    "macro_score": 0.4942,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.4942,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@9",
+            "num": 1920,
+            "score": 0.5069,
+            "macro_score": 0.5069,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5069,
+                    "macro_score": 0.5069,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5069,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@10",
+            "num": 1920,
+            "score": 0.5181,
+            "macro_score": 0.5181,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5181,
+                    "macro_score": 0.5181,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5181,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@11",
+            "num": 1920,
+            "score": 0.5281,
+            "macro_score": 0.5281,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5281,
+                    "macro_score": 0.5281,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5281,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@12",
+            "num": 1920,
+            "score": 0.5372,
+            "macro_score": 0.5372,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5372,
+                    "macro_score": 0.5372,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5372,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@13",
+            "num": 1920,
+            "score": 0.5455,
+            "macro_score": 0.5455,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5455,
+                    "macro_score": 0.5455,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5455,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@14",
+            "num": 1920,
+            "score": 0.553,
+            "macro_score": 0.553,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.553,
+                    "macro_score": 0.553,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.553,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@15",
+            "num": 1920,
+            "score": 0.56,
+            "macro_score": 0.56,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.56,
+                    "macro_score": 0.56,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.56,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@16",
+            "num": 1920,
+            "score": 0.5664,
+            "macro_score": 0.5664,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5664,
+                    "macro_score": 0.5664,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5664,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@17",
+            "num": 1920,
+            "score": 0.5725,
+            "macro_score": 0.5725,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5725,
+                    "macro_score": 0.5725,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5725,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@18",
+            "num": 1920,
+            "score": 0.5781,
+            "macro_score": 0.5781,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5781,
+                    "macro_score": 0.5781,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5781,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@19",
+            "num": 1920,
+            "score": 0.5835,
+            "macro_score": 0.5835,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5835,
+                    "macro_score": 0.5835,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5835,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@20",
+            "num": 1920,
+            "score": 0.5886,
+            "macro_score": 0.5886,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5886,
+                    "macro_score": 0.5886,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5886,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@21",
+            "num": 1920,
+            "score": 0.5934,
+            "macro_score": 0.5934,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5934,
+                    "macro_score": 0.5934,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5934,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@22",
+            "num": 1920,
+            "score": 0.5981,
+            "macro_score": 0.5981,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.5981,
+                    "macro_score": 0.5981,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.5981,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@23",
+            "num": 1920,
+            "score": 0.6025,
+            "macro_score": 0.6025,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6025,
+                    "macro_score": 0.6025,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6025,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@24",
+            "num": 1920,
+            "score": 0.6068,
+            "macro_score": 0.6068,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6068,
+                    "macro_score": 0.6068,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6068,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@25",
+            "num": 1920,
+            "score": 0.611,
+            "macro_score": 0.611,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.611,
+                    "macro_score": 0.611,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.611,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@26",
+            "num": 1920,
+            "score": 0.6151,
+            "macro_score": 0.6151,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6151,
+                    "macro_score": 0.6151,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6151,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@27",
+            "num": 1920,
+            "score": 0.619,
+            "macro_score": 0.619,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.619,
+                    "macro_score": 0.619,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.619,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@28",
+            "num": 1920,
+            "score": 0.6229,
+            "macro_score": 0.6229,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6229,
+                    "macro_score": 0.6229,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6229,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@29",
+            "num": 1920,
+            "score": 0.6267,
+            "macro_score": 0.6267,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6267,
+                    "macro_score": 0.6267,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6267,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@30",
+            "num": 1920,
+            "score": 0.6304,
+            "macro_score": 0.6304,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6304,
+                    "macro_score": 0.6304,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6304,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@31",
+            "num": 1920,
+            "score": 0.6341,
+            "macro_score": 0.6341,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6341,
+                    "macro_score": 0.6341,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6341,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@32",
+            "num": 1920,
+            "score": 0.6377,
+            "macro_score": 0.6377,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6377,
+                    "macro_score": 0.6377,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6377,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@33",
+            "num": 1920,
+            "score": 0.6412,
+            "macro_score": 0.6412,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6412,
+                    "macro_score": 0.6412,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6412,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@34",
+            "num": 1920,
+            "score": 0.6447,
+            "macro_score": 0.6447,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6447,
+                    "macro_score": 0.6447,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6447,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@35",
+            "num": 1920,
+            "score": 0.6481,
+            "macro_score": 0.6481,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6481,
+                    "macro_score": 0.6481,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6481,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@36",
+            "num": 1920,
+            "score": 0.6515,
+            "macro_score": 0.6515,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6515,
+                    "macro_score": 0.6515,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6515,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@37",
+            "num": 1920,
+            "score": 0.6548,
+            "macro_score": 0.6548,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6548,
+                    "macro_score": 0.6548,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6548,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@38",
+            "num": 1920,
+            "score": 0.6582,
+            "macro_score": 0.6582,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6582,
+                    "macro_score": 0.6582,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6582,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@39",
+            "num": 1920,
+            "score": 0.6614,
+            "macro_score": 0.6614,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6614,
+                    "macro_score": 0.6614,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6614,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@40",
+            "num": 1920,
+            "score": 0.6646,
+            "macro_score": 0.6646,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6646,
+                    "macro_score": 0.6646,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6646,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@41",
+            "num": 1920,
+            "score": 0.6678,
+            "macro_score": 0.6678,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6678,
+                    "macro_score": 0.6678,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6678,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@42",
+            "num": 1920,
+            "score": 0.671,
+            "macro_score": 0.671,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.671,
+                    "macro_score": 0.671,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.671,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@43",
+            "num": 1920,
+            "score": 0.6741,
+            "macro_score": 0.6741,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6741,
+                    "macro_score": 0.6741,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6741,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@44",
+            "num": 1920,
+            "score": 0.6772,
+            "macro_score": 0.6772,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6772,
+                    "macro_score": 0.6772,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6772,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@45",
+            "num": 1920,
+            "score": 0.6803,
+            "macro_score": 0.6803,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6803,
+                    "macro_score": 0.6803,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6803,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@46",
+            "num": 1920,
+            "score": 0.6833,
+            "macro_score": 0.6833,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6833,
+                    "macro_score": 0.6833,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6833,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@47",
+            "num": 1920,
+            "score": 0.6863,
+            "macro_score": 0.6863,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6863,
+                    "macro_score": 0.6863,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6863,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@48",
+            "num": 1920,
+            "score": 0.6892,
+            "macro_score": 0.6892,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6892,
+                    "macro_score": 0.6892,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6892,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@49",
+            "num": 1920,
+            "score": 0.6922,
+            "macro_score": 0.6922,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6922,
+                    "macro_score": 0.6922,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6922,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@50",
+            "num": 1920,
+            "score": 0.6951,
+            "macro_score": 0.6951,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.6951,
+                    "macro_score": 0.6951,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.6951,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@51",
+            "num": 1920,
+            "score": 0.698,
+            "macro_score": 0.698,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.698,
+                    "macro_score": 0.698,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.698,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@52",
+            "num": 1920,
+            "score": 0.7008,
+            "macro_score": 0.7008,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7008,
+                    "macro_score": 0.7008,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7008,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@53",
+            "num": 1920,
+            "score": 0.7036,
+            "macro_score": 0.7036,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7036,
+                    "macro_score": 0.7036,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7036,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@54",
+            "num": 1920,
+            "score": 0.7065,
+            "macro_score": 0.7065,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7065,
+                    "macro_score": 0.7065,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7065,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@55",
+            "num": 1920,
+            "score": 0.7092,
+            "macro_score": 0.7092,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7092,
+                    "macro_score": 0.7092,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7092,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@56",
+            "num": 1920,
+            "score": 0.712,
+            "macro_score": 0.712,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.712,
+                    "macro_score": 0.712,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.712,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@57",
+            "num": 1920,
+            "score": 0.7147,
+            "macro_score": 0.7147,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7147,
+                    "macro_score": 0.7147,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7147,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@58",
+            "num": 1920,
+            "score": 0.7174,
+            "macro_score": 0.7174,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7174,
+                    "macro_score": 0.7174,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7174,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@59",
+            "num": 1920,
+            "score": 0.7201,
+            "macro_score": 0.7201,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7201,
+                    "macro_score": 0.7201,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7201,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@60",
+            "num": 1920,
+            "score": 0.7228,
+            "macro_score": 0.7228,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7228,
+                    "macro_score": 0.7228,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7228,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@61",
+            "num": 1920,
+            "score": 0.7255,
+            "macro_score": 0.7255,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7255,
+                    "macro_score": 0.7255,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7255,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@62",
+            "num": 1920,
+            "score": 0.7281,
+            "macro_score": 0.7281,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7281,
+                    "macro_score": 0.7281,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7281,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@63",
+            "num": 1920,
+            "score": 0.7307,
+            "macro_score": 0.7307,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7307,
+                    "macro_score": 0.7307,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7307,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_acc_pass@64",
+            "num": 1920,
+            "score": 0.7333,
+            "macro_score": 0.7333,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1920,
+                    "score": 0.7333,
+                    "macro_score": 0.7333,
+                    "subsets": [
+                        {
+                            "name": "default",
+                            "score": 0.7333,
+                            "num": 1920
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "analysis": "N/A"
+}

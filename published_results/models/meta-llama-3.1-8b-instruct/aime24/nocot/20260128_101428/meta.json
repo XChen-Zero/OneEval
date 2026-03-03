@@ -1,0 +1,24 @@
+{
+  "model": "Meta-Llama-3.1-8B-Instruct",
+  "benchmark": "aime24",
+  "benchmark_display": "AIME-2024",
+  "mode": "NoCoT",
+  "run_id": "20260128_101428",
+  "config_excerpt": {
+    "debug": false,
+    "eval_backend": "Native",
+    "eval_batch_size": 10,
+    "eval_type": "openai_api",
+    "evalscope_version": "0.0.0_dev",
+    "judge_strategy": "auto",
+    "generation_config": {
+      "batch_size": 10,
+      "do_sample": false,
+      "max_tokens": 20480,
+      "temperature": 0.0
+    }
+  },
+  "artifacts": [
+    "published_results/models/meta-llama-3.1-8b-instruct/aime24/nocot/20260128_101428/result.json"
+  ]
+}

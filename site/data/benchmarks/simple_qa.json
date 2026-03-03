@@ -1,0 +1,2023 @@
+{
+  "benchmark": "simple_qa",
+  "category": "knowledge",
+  "display_name": "SimpleQA",
+  "generated_at": "2026-03-03T08:02:36Z",
+  "models": [
+    "DeepSeek-R1-0528-Qwen3-8B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B-Instruct",
+    "Llama-3.3-70B-Instruct",
+    "Meta-Llama-3.1-405B-Instruct",
+    "Meta-Llama-3.1-70B-Instruct",
+    "Meta-Llama-3.1-8B-Instruct",
+    "Qwen3-0.6B",
+    "Qwen3-1.7B",
+    "Qwen3-14B",
+    "Qwen3-235B-A22B",
+    "Qwen3-235B-A22B-Instruct-2507",
+    "Qwen3-235B-A22B-Thinking-2507",
+    "Qwen3-30B-A3B",
+    "Qwen3-30B-A3B-Instruct-2507",
+    "Qwen3-30B-A3B-Thinking-2507",
+    "Qwen3-32B",
+    "Qwen3-4B",
+    "Qwen3-4B-Instruct-2507",
+    "Qwen3-4B-Thinking-2507",
+    "Qwen3-8B",
+    "Qwen3-Next-80B-A3B-Instruct",
+    "Qwen3-Next-80B-A3B-Thinking"
+  ],
+  "overall_rows": [
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "subject_label": "DeepSeek-R1-0528-Qwen3-8B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0451,
+      "primary_score_label": "0.0451",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9198,
+          "score_label": "0.9198"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0351,
+          "score_label": "0.0351"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "subject_label": "DeepSeek-R1-0528-Qwen3-8B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0435,
+      "primary_score_label": "0.0435",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.923,
+          "score_label": "0.9230"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0335,
+          "score_label": "0.0335"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.2-1B-Instruct · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0118,
+      "primary_score_label": "0.0118",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.1993,
+          "score_label": "0.1993"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.789,
+          "score_label": "0.7890"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.2-3B-Instruct · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0046,
+      "primary_score_label": "0.0046",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.0173,
+          "score_label": "0.0173"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.978,
+          "score_label": "0.9780"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.3-70B-Instruct · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.2367,
+      "primary_score_label": "0.2367",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.6172,
+          "score_label": "0.6172"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.1461,
+          "score_label": "0.1461"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Meta-Llama-3.1-405B-Instruct · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.2406,
+      "primary_score_label": "0.2406",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.1798,
+          "score_label": "0.1798"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.5795,
+          "score_label": "0.5795"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Meta-Llama-3.1-70B-Instruct · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.1748,
+      "primary_score_label": "0.1748",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.2575,
+          "score_label": "0.2575"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.5677,
+          "score_label": "0.5677"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Meta-Llama-3.1-8B-Instruct · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0268,
+      "primary_score_label": "0.0268",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.0943,
+          "score_label": "0.0943"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.8789,
+          "score_label": "0.8789"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-0.6B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0185,
+      "primary_score_label": "0.0185",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9288,
+          "score_label": "0.9288"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0527,
+          "score_label": "0.0527"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-0.6B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0201,
+      "primary_score_label": "0.0201",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.936,
+          "score_label": "0.9360"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0439,
+          "score_label": "0.0439"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-1.7B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0344,
+      "primary_score_label": "0.0344",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9468,
+          "score_label": "0.9468"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0187,
+          "score_label": "0.0187"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-1.7B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0245,
+      "primary_score_label": "0.0245",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9568,
+          "score_label": "0.9568"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0187,
+          "score_label": "0.0187"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-14B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0707,
+      "primary_score_label": "0.0707",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.8773,
+          "score_label": "0.8773"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.052,
+          "score_label": "0.0520"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-14B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0705,
+      "primary_score_label": "0.0705",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.877,
+          "score_label": "0.8770"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0525,
+          "score_label": "0.0525"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-235B-A22B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.1475,
+      "primary_score_label": "0.1475",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.828,
+          "score_label": "0.8280"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0245,
+          "score_label": "0.0245"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-235B-A22B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.1308,
+      "primary_score_label": "0.1308",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.8551,
+          "score_label": "0.8551"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0141,
+          "score_label": "0.0141"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-235B-A22B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.5552,
+      "primary_score_label": "0.5552",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.4344,
+          "score_label": "0.4344"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0104,
+          "score_label": "0.0104"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "subject_label": "Qwen3-235B-A22B-Thinking-2507 · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.488,
+      "primary_score_label": "0.4880",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.5009,
+          "score_label": "0.5009"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0111,
+          "score_label": "0.0111"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-30B-A3B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.067,
+      "primary_score_label": "0.0670",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.8779,
+          "score_label": "0.8779"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.055,
+          "score_label": "0.0550"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-30B-A3B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0601,
+      "primary_score_label": "0.0601",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9055,
+          "score_label": "0.9055"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0344,
+          "score_label": "0.0344"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-30B-A3B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.2325,
+      "primary_score_label": "0.2325",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.7624,
+          "score_label": "0.7624"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0051,
+          "score_label": "0.0051"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "subject_label": "Qwen3-30B-A3B-Thinking-2507 · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.2023,
+      "primary_score_label": "0.2023",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.7926,
+          "score_label": "0.7926"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0051,
+          "score_label": "0.0051"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-32B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0804,
+      "primary_score_label": "0.0804",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.889,
+          "score_label": "0.8890"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0305,
+          "score_label": "0.0305"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-32B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0747,
+      "primary_score_label": "0.0747",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9147,
+          "score_label": "0.9147"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0106,
+          "score_label": "0.0106"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-4B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0416,
+      "primary_score_label": "0.0416",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.935,
+          "score_label": "0.9350"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0233,
+          "score_label": "0.0233"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-4B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0398,
+      "primary_score_label": "0.0398",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9383,
+          "score_label": "0.9383"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.022,
+          "score_label": "0.0220"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-4B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0735,
+      "primary_score_label": "0.0735",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.8916,
+          "score_label": "0.8916"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0349,
+          "score_label": "0.0349"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "subject_label": "Qwen3-4B-Thinking-2507 · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0629,
+      "primary_score_label": "0.0629",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.927,
+          "score_label": "0.9270"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0102,
+          "score_label": "0.0102"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-8B · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0541,
+      "primary_score_label": "0.0541",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9087,
+          "score_label": "0.9087"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0372,
+          "score_label": "0.0372"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-8B · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.0492,
+      "primary_score_label": "0.0492",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.9115,
+          "score_label": "0.9115"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0393,
+          "score_label": "0.0393"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-Next-80B-A3B-Instruct · NoCoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.4512,
+      "primary_score_label": "0.4512",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.5423,
+          "score_label": "0.5423"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.0065,
+          "score_label": "0.0065"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    },
+    {
+      "benchmark": "simple_qa",
+      "benchmark_display": "SimpleQA",
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "subject_label": "Qwen3-Next-80B-A3B-Thinking · CoT",
+      "primary_metric_name": "mean_is_correct",
+      "primary_metric_label": "Correct",
+      "primary_score": 0.3583,
+      "primary_score_label": "0.3583",
+      "supporting_metrics": [
+        {
+          "name": "mean_is_incorrect",
+          "label": "Incorrect",
+          "score": 0.6258,
+          "score_label": "0.6258"
+        },
+        {
+          "name": "mean_is_not_attempted",
+          "label": "Abstain",
+          "score": 0.016,
+          "score_label": "0.0160"
+        }
+      ],
+      "num_samples": 4326,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/simple_qa.json"
+    }
+  ],
+  "subset_rows": [
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0451,
+      "score_label": "0.0451",
+      "num_samples": 4326
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9198,
+      "score_label": "0.9198",
+      "num_samples": 4326
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0351,
+      "score_label": "0.0351",
+      "num_samples": 4326
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0435,
+      "score_label": "0.0435",
+      "num_samples": 4326
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.923,
+      "score_label": "0.9230",
+      "num_samples": 4326
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0335,
+      "score_label": "0.0335",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0118,
+      "score_label": "0.0118",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.1993,
+      "score_label": "0.1993",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.789,
+      "score_label": "0.7890",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0046,
+      "score_label": "0.0046",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.0173,
+      "score_label": "0.0173",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.978,
+      "score_label": "0.9780",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.2367,
+      "score_label": "0.2367",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.6172,
+      "score_label": "0.6172",
+      "num_samples": 4326
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.1461,
+      "score_label": "0.1461",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.2406,
+      "score_label": "0.2406",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.1798,
+      "score_label": "0.1798",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.5795,
+      "score_label": "0.5795",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.1748,
+      "score_label": "0.1748",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.2575,
+      "score_label": "0.2575",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.5677,
+      "score_label": "0.5677",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0268,
+      "score_label": "0.0268",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.0943,
+      "score_label": "0.0943",
+      "num_samples": 4326
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.8789,
+      "score_label": "0.8789",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0185,
+      "score_label": "0.0185",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9288,
+      "score_label": "0.9288",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0527,
+      "score_label": "0.0527",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0201,
+      "score_label": "0.0201",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.936,
+      "score_label": "0.9360",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0439,
+      "score_label": "0.0439",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0344,
+      "score_label": "0.0344",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9468,
+      "score_label": "0.9468",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0187,
+      "score_label": "0.0187",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0245,
+      "score_label": "0.0245",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9568,
+      "score_label": "0.9568",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0187,
+      "score_label": "0.0187",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0707,
+      "score_label": "0.0707",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.8773,
+      "score_label": "0.8773",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.052,
+      "score_label": "0.0520",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0633,
+      "score_label": "0.0633",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0705,
+      "score_label": "0.0705",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9147,
+      "score_label": "0.9147",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.877,
+      "score_label": "0.8770",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.022,
+      "score_label": "0.0220",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0525,
+      "score_label": "0.0525",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.1475,
+      "score_label": "0.1475",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.828,
+      "score_label": "0.8280",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0245,
+      "score_label": "0.0245",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.1308,
+      "score_label": "0.1308",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.8551,
+      "score_label": "0.8551",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0141,
+      "score_label": "0.0141",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.5552,
+      "score_label": "0.5552",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.4344,
+      "score_label": "0.4344",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0104,
+      "score_label": "0.0104",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.488,
+      "score_label": "0.4880",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.5009,
+      "score_label": "0.5009",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0111,
+      "score_label": "0.0111",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.067,
+      "score_label": "0.0670",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.8779,
+      "score_label": "0.8779",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.055,
+      "score_label": "0.0550",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0601,
+      "score_label": "0.0601",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9055,
+      "score_label": "0.9055",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0344,
+      "score_label": "0.0344",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.2325,
+      "score_label": "0.2325",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.7624,
+      "score_label": "0.7624",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0051,
+      "score_label": "0.0051",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.2023,
+      "score_label": "0.2023",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.7926,
+      "score_label": "0.7926",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0051,
+      "score_label": "0.0051",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0804,
+      "score_label": "0.0804",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.889,
+      "score_label": "0.8890",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0305,
+      "score_label": "0.0305",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0747,
+      "score_label": "0.0747",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9147,
+      "score_label": "0.9147",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0106,
+      "score_label": "0.0106",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0416,
+      "score_label": "0.0416",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.935,
+      "score_label": "0.9350",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0233,
+      "score_label": "0.0233",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0395,
+      "score_label": "0.0395",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0398,
+      "score_label": "0.0398",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9344,
+      "score_label": "0.9344",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9383,
+      "score_label": "0.9383",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0261,
+      "score_label": "0.0261",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.022,
+      "score_label": "0.0220",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0735,
+      "score_label": "0.0735",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.8916,
+      "score_label": "0.8916",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0349,
+      "score_label": "0.0349",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0629,
+      "score_label": "0.0629",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.927,
+      "score_label": "0.9270",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0102,
+      "score_label": "0.0102",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0541,
+      "score_label": "0.0541",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9087,
+      "score_label": "0.9087",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0372,
+      "score_label": "0.0372",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0472,
+      "score_label": "0.0472",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.0492,
+      "score_label": "0.0492",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9253,
+      "score_label": "0.9253",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.9115,
+      "score_label": "0.9115",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0275,
+      "score_label": "0.0275",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0393,
+      "score_label": "0.0393",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.4512,
+      "score_label": "0.4512",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.5423,
+      "score_label": "0.5423",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.0065,
+      "score_label": "0.0065",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "mean_is_correct",
+      "metric_label": "Correct",
+      "subset": "default",
+      "score": 0.3583,
+      "score_label": "0.3583",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "mean_is_incorrect",
+      "metric_label": "Incorrect",
+      "subset": "default",
+      "score": 0.6258,
+      "score_label": "0.6258",
+      "num_samples": 4326
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "mean_is_not_attempted",
+      "metric_label": "Abstain",
+      "subset": "default",
+      "score": 0.016,
+      "score_label": "0.0160",
+      "num_samples": 4326
+    }
+  ],
+  "passk_rows": [],
+  "downloads": {
+    "json_path": "./data/benchmarks/simple_qa.json",
+    "artifact_paths": [
+      "published_results/models/deepseek-r1-0528-qwen3-8b/simple_qa/cot/20260129_060949/result.json",
+      "published_results/models/deepseek-r1-0528-qwen3-8b/simple_qa/nocot/20260129_232022/result.json",
+      "published_results/models/llama-3.2-1b-instruct/simple_qa/nocot/20260128_120452/result.json",
+      "published_results/models/llama-3.2-3b-instruct/simple_qa/nocot/20260128_132036/result.json",
+      "published_results/models/llama-3.3-70b-instruct/simple_qa/nocot/20260129_021251/result.json",
+      "published_results/models/meta-llama-3.1-405b-instruct/simple_qa/nocot/20260129_030111/result.json",
+      "published_results/models/meta-llama-3.1-70b-instruct/simple_qa/nocot/20260128_101211/result.json",
+      "published_results/models/meta-llama-3.1-8b-instruct/simple_qa/nocot/20260128_064212/result.json",
+      "published_results/models/qwen3-0.6b/simple_qa/cot/20260123_234136/result.json",
+      "published_results/models/qwen3-0.6b/simple_qa/nocot/20260124_161449/result.json",
+      "published_results/models/qwen3-1.7b/simple_qa/cot/20260124_210210/result.json",
+      "published_results/models/qwen3-1.7b/simple_qa/nocot/20260125_063600/result.json",
+      "published_results/models/qwen3-14b/simple_qa/cot/20260122_075346/result.json",
+      "published_results/models/qwen3-14b/simple_qa/nocot/20260123_135944/result.json",
+      "published_results/models/qwen3-14b/simple_qa/nocot/20260124_173932/result.json",
+      "published_results/models/qwen3-235b-a22b-instruct-2507/simple_qa/nocot/20260124_234052/result.json",
+      "published_results/models/qwen3-235b-a22b-thinking-2507/simple_qa/cot/20260126_234055/result.json",
+      "published_results/models/qwen3-235b-a22b/simple_qa/cot/20260124_233616/result.json",
+      "published_results/models/qwen3-235b-a22b/simple_qa/nocot/20260126_211058/result.json",
+      "published_results/models/qwen3-30b-a3b-instruct-2507/simple_qa/nocot/20260124_164420/result.json",
+      "published_results/models/qwen3-30b-a3b-thinking-2507/simple_qa/cot/20260126_085042/result.json",
+      "published_results/models/qwen3-30b-a3b/simple_qa/cot/20260124_215202/result.json",
+      "published_results/models/qwen3-30b-a3b/simple_qa/nocot/20260125_161923/result.json",
+      "published_results/models/qwen3-32b/simple_qa/cot/20260125_101150/result.json",
+      "published_results/models/qwen3-32b/simple_qa/nocot/20260126_152351/result.json",
+      "published_results/models/qwen3-4b-instruct-2507/simple_qa/nocot/20260124_162518/result.json",
+      "published_results/models/qwen3-4b-thinking-2507/simple_qa/cot/20260127_072153/result.json",
+      "published_results/models/qwen3-4b/simple_qa/cot/20260122_074721/result.json",
+      "published_results/models/qwen3-4b/simple_qa/nocot/20260123_100450/result.json",
+      "published_results/models/qwen3-4b/simple_qa/nocot/20260124_160806/result.json",
+      "published_results/models/qwen3-8b/simple_qa/cot/20260122_074752/result.json",
+      "published_results/models/qwen3-8b/simple_qa/nocot/20260123_145722/result.json",
+      "published_results/models/qwen3-8b/simple_qa/nocot/20260124_161554/result.json",
+      "published_results/models/qwen3-next-80b-a3b-instruct/simple_qa/nocot/20260127_081635/result.json",
+      "published_results/models/qwen3-next-80b-a3b-thinking/simple_qa/cot/20260127_154223/result.json"
+    ],
+    "notes": "Detailed public-safe artifacts are copied under published_results/."
+  }
+}

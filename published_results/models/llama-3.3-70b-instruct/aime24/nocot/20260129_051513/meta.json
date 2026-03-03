@@ -1,0 +1,24 @@
+{
+  "model": "Llama-3.3-70B-Instruct",
+  "benchmark": "aime24",
+  "benchmark_display": "AIME-2024",
+  "mode": "NoCoT",
+  "run_id": "20260129_051513",
+  "config_excerpt": {
+    "debug": false,
+    "eval_backend": "Native",
+    "eval_batch_size": 10,
+    "eval_type": "openai_api",
+    "evalscope_version": "0.0.0_dev",
+    "judge_strategy": "auto",
+    "generation_config": {
+      "batch_size": 10,
+      "do_sample": false,
+      "max_tokens": 20480,
+      "temperature": 0.0
+    }
+  },
+  "artifacts": [
+    "published_results/models/llama-3.3-70b-instruct/aime24/nocot/20260129_051513/result.json"
+  ]
+}

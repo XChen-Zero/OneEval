@@ -1,0 +1,2 @@
+Rank,Model,Multi Turn Overall Acc,Base,Miss Func,Miss Param,Long Context
+1,Qwen3-Next-80B-A3B-NoThink (FC),47.38%,65.00%,32.00%,37.00%,55.50%

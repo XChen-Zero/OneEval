@@ -1,0 +1,241 @@
+{
+    "name": "Qwen3-8B@zebralogicbench",
+    "dataset_name": "zebralogicbench",
+    "dataset_pretty_name": "ZebraLogicBench",
+    "dataset_description": "ZebraLogic, a comprehensive evaluation framework for assessing LLM reasoning performance on logic grid puzzles derived from constraint satisfaction problems (CSPs).",
+    "model_name": "Qwen3-8B",
+    "score": 0.841,
+    "metrics": [
+        {
+            "name": "puzzle_acc",
+            "num": 1000,
+            "score": 0.841,
+            "macro_score": 0.841,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1000,
+                    "score": 0.841,
+                    "macro_score": 0.841,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.841,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "cell_acc",
+            "num": 15970,
+            "score": 0.849,
+            "macro_score": 0.849,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 15970,
+                    "score": 0.849,
+                    "macro_score": 0.849,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.849,
+                            "num": 15970
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "easy_puzzle_acc",
+            "num": 280,
+            "score": 0.9964,
+            "macro_score": 0.9964,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 280,
+                    "score": 0.9964,
+                    "macro_score": 0.9964,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.9964,
+                            "num": 280
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "hard_puzzle_acc",
+            "num": 719,
+            "score": 0.7816,
+            "macro_score": 0.7816,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 719,
+                    "score": 0.7816,
+                    "macro_score": 0.7816,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.7816,
+                            "num": 719
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "small_puzzle_acc",
+            "num": 320,
+            "score": 0.9969,
+            "macro_score": 0.9969,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 320,
+                    "score": 0.9969,
+                    "macro_score": 0.9969,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.9969,
+                            "num": 320
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "medium_puzzle_acc",
+            "num": 280,
+            "score": 0.9929,
+            "macro_score": 0.9929,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 280,
+                    "score": 0.9929,
+                    "macro_score": 0.9929,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.9929,
+                            "num": 280
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "large_puzzle_acc",
+            "num": 200,
+            "score": 0.855,
+            "macro_score": 0.855,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 200,
+                    "score": 0.855,
+                    "macro_score": 0.855,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.855,
+                            "num": 200
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "xl_puzzle_acc",
+            "num": 199,
+            "score": 0.3668,
+            "macro_score": 0.3668,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 199,
+                    "score": 0.3668,
+                    "macro_score": 0.3668,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.3668,
+                            "num": 199
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "avg_reason_lens",
+            "num": 1000,
+            "score": 521.929,
+            "macro_score": 521.929,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 1000,
+                    "score": 521.929,
+                    "macro_score": 521.929,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 521.929,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "no_answer_num",
+            "num": 0,
+            "score": 0.0,
+            "macro_score": 0.0,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 0,
+                    "score": 0.0,
+                    "macro_score": 0.0,
+                    "subsets": [
+                        {
+                            "name": "grid_mode",
+                            "score": 0.0,
+                            "num": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "analysis": "N/A"
+}

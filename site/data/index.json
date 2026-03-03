@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-03-03T08:02:36Z",
+  "summary": {
+    "record_count": 16285,
+    "artifact_count": 811,
+    "run_count": 349,
+    "model_count": 27,
+    "benchmark_count": 11,
+    "json_artifact_count": 280,
+    "csv_artifact_count": 531,
+    "skipped_invalid_file_count": 40,
+    "warning_count": 0,
+    "overall_record_count": 5129,
+    "subset_record_count": 11156
+  },
+  "category_summary": [
+    {
+      "category": "knowledge",
+      "display_name": "Knowledge",
+      "description": "Knowledge benchmarks emphasize factual recall, domain expertise, and subset-level coverage.",
+      "href": "./knowledge.html",
+      "benchmark_count": 5,
+      "model_count": 23,
+      "benchmarks": [
+        {
+          "benchmark": "chinese_simpleqa",
+          "display_name": "Chinese-SimpleQA"
+        },
+        {
+          "benchmark": "gpqa_diamond",
+          "display_name": "GPQA-Diamond"
+        },
+        {
+          "benchmark": "mmlu_pro",
+          "display_name": "MMLU-Pro"
+        },
+        {
+          "benchmark": "simple_qa",
+          "display_name": "SimpleQA"
+        },
+        {
+          "benchmark": "super_gpqa",
+          "display_name": "SuperGPQA"
+        }
+      ],
+      "featured_note": "Best for MMLU-Pro, Chinese SimpleQA, and GPQA-style reading."
+    },
+    {
+      "category": "agentic",
+      "display_name": "Agentic",
+      "description": "Agentic evaluation focuses on tool use, workflow handling, and multi-scenario behavior.",
+      "href": "./agentic.html",
+      "benchmark_count": 1,
+      "model_count": 18,
+      "benchmarks": [
+        {
+          "benchmark": "bfcl_v3",
+          "display_name": "BFCL v3"
+        }
+      ],
+      "featured_note": "BFCL v3 is the sole agentic benchmark in the current release."
+    },
+    {
+      "category": "instruction_following",
+      "display_name": "IF",
+      "description": "Instruction-following evaluation isolates compliance with explicit formatting and behavioral constraints.",
+      "href": "./if.html",
+      "benchmark_count": 1,
+      "model_count": 23,
+      "benchmarks": [
+        {
+          "benchmark": "ifeval",
+          "display_name": "IFEval"
+        }
+      ],
+      "featured_note": "IFEval is split out as its own reading path."
+    },
+    {
+      "category": "reasoning",
+      "display_name": "Reasoning",
+      "description": "Reasoning benchmarks include pass@k math evaluation and logic-heavy tasks.",
+      "href": "./reasoning.html",
+      "benchmark_count": 4,
+      "model_count": 22,
+      "benchmarks": [
+        {
+          "benchmark": "aime24",
+          "display_name": "AIME-2024"
+        },
+        {
+          "benchmark": "aime25",
+          "display_name": "AIME-2025"
+        },
+        {
+          "benchmark": "hmmt25",
+          "display_name": "HMMT25"
+        },
+        {
+          "benchmark": "zebralogicbench",
+          "display_name": "ZebraLogicBench"
+        }
+      ],
+      "featured_note": "Best for AIME pass@k curves and logic-style benchmarks."
+    }
+  ],
+  "featured_benchmarks": [
+    {
+      "category": "knowledge",
+      "benchmark": "chinese_simpleqa",
+      "display_name": "Chinese-SimpleQA"
+    },
+    {
+      "category": "knowledge",
+      "benchmark": "gpqa_diamond",
+      "display_name": "GPQA-Diamond"
+    },
+    {
+      "category": "agentic",
+      "benchmark": "bfcl_v3",
+      "display_name": "BFCL v3"
+    },
+    {
+      "category": "instruction_following",
+      "benchmark": "ifeval",
+      "display_name": "IFEval"
+    },
+    {
+      "category": "reasoning",
+      "benchmark": "aime24",
+      "display_name": "AIME-2024"
+    },
+    {
+      "category": "reasoning",
+      "benchmark": "aime25",
+      "display_name": "AIME-2025"
+    }
+  ],
+  "publication": {
+    "public_results_root": "published_results",
+    "layout": "published_results/models/<model>/<benchmark>/<mode>/<run_id>/",
+    "sanitization_rules": [
+      "Only allowlisted EvalScope config fields are published.",
+      "Raw config files are never copied into the public site.",
+      "Local paths, URLs, names, logs, and credentials are excluded."
+    ],
+    "excluded_invalid_sources": {
+      "benchmark_file_excludes": [
+        "bfcl_v3",
+        "live_code_bench",
+        "multiple_humaneval",
+        "multiple_mbpp"
+      ],
+      "benchmark_keyword_excludes": [
+        "code",
+        "humaneval",
+        "mbpp",
+        "bfcl"
+      ]
+    }
+  },
+  "downloads": {
+    "detailed_results_json": "./data/detailed_results.json",
+    "legacy_flat_bundle_json": "./data/site_data.json",
+    "public_results_root": "published_results/"
+  }
+}

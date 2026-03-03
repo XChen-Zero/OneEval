@@ -1,0 +1,2565 @@
+{
+  "benchmark": "ifeval",
+  "category": "instruction_following",
+  "display_name": "IFEval",
+  "generated_at": "2026-03-03T08:02:36Z",
+  "models": [
+    "DeepSeek-R1-0528-Qwen3-8B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B-Instruct",
+    "Llama-3.3-70B-Instruct",
+    "Meta-Llama-3.1-405B-Instruct",
+    "Meta-Llama-3.1-70B-Instruct",
+    "Meta-Llama-3.1-8B-Instruct",
+    "Qwen3-0.6B",
+    "Qwen3-1.7B",
+    "Qwen3-14B",
+    "Qwen3-235B-A22B",
+    "Qwen3-235B-A22B-Instruct-2507",
+    "Qwen3-235B-A22B-Thinking-2507",
+    "Qwen3-30B-A3B",
+    "Qwen3-30B-A3B-Instruct-2507",
+    "Qwen3-30B-A3B-Thinking-2507",
+    "Qwen3-32B",
+    "Qwen3-4B",
+    "Qwen3-4B-Instruct-2507",
+    "Qwen3-4B-Thinking-2507",
+    "Qwen3-8B",
+    "Qwen3-Next-80B-A3B-Instruct",
+    "Qwen3-Next-80B-A3B-Thinking"
+  ],
+  "overall_rows": [
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "subject_label": "DeepSeek-R1-0528-Qwen3-8B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.8588,
+      "primary_score_label": "0.8588",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.8379,
+          "score_label": "0.8379"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.7966,
+          "score_label": "0.7966"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.7715,
+          "score_label": "0.7715"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "subject_label": "DeepSeek-R1-0528-Qwen3-8B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.8756,
+      "primary_score_label": "0.8756",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.841,
+          "score_label": "0.8410"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8239,
+          "score_label": "0.8239"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.782,
+          "score_label": "0.7820"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.2-1B-Instruct · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.6331,
+      "primary_score_label": "0.6331",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.6069,
+          "score_label": "0.6069"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.5304,
+          "score_label": "0.5304"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.4969,
+          "score_label": "0.4969"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.2-3B-Instruct · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.8375,
+      "primary_score_label": "0.8375",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.7984,
+          "score_label": "0.7984"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.7673,
+          "score_label": "0.7673"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.7191,
+          "score_label": "0.7191"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Llama-3.3-70B-Instruct · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9458,
+      "primary_score_label": "0.9458",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9416,
+          "score_label": "0.9416"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9203,
+          "score_label": "0.9203"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.9119,
+          "score_label": "0.9119"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Meta-Llama-3.1-405B-Instruct · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9329,
+      "primary_score_label": "0.9329",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9179,
+          "score_label": "0.9179"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9036,
+          "score_label": "0.9036"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8805,
+          "score_label": "0.8805"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Meta-Llama-3.1-70B-Instruct · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9371,
+      "primary_score_label": "0.9371",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9256,
+          "score_label": "0.9256"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9036,
+          "score_label": "0.9036"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8868,
+          "score_label": "0.8868"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Meta-Llama-3.1-8B-Instruct · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.8609,
+      "primary_score_label": "0.8609",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.8281,
+          "score_label": "0.8281"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8029,
+          "score_label": "0.8029"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.7631,
+          "score_label": "0.7631"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-0.6B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.7317,
+      "primary_score_label": "0.7317",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.7034,
+          "score_label": "0.7034"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.6247,
+          "score_label": "0.6247"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.5891,
+          "score_label": "0.5891"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-0.6B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.7407,
+      "primary_score_label": "0.7407",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.7027,
+          "score_label": "0.7027"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.6247,
+          "score_label": "0.6247"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.587,
+          "score_label": "0.5870"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-1.7B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.8274,
+      "primary_score_label": "0.8274",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.8064,
+          "score_label": "0.8064"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.7568,
+          "score_label": "0.7568"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.7254,
+          "score_label": "0.7254"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-1.7B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.826,
+      "primary_score_label": "0.8260",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.804,
+          "score_label": "0.8040"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.7484,
+          "score_label": "0.7484"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.7149,
+          "score_label": "0.7149"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-14B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9458,
+      "primary_score_label": "0.9458",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9326,
+          "score_label": "0.9326"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9203,
+          "score_label": "0.9203"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.9015,
+          "score_label": "0.9015"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-14B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9347,
+      "primary_score_label": "0.9347",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.92,
+          "score_label": "0.9200"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9036,
+          "score_label": "0.9036"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8742,
+          "score_label": "0.8742"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-235B-A22B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9287,
+      "primary_score_label": "0.9287",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.905,
+          "score_label": "0.9050"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8994,
+          "score_label": "0.8994"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8637,
+          "score_label": "0.8637"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-235B-A22B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9423,
+      "primary_score_label": "0.9423",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9161,
+          "score_label": "0.9161"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.914,
+          "score_label": "0.9140"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8784,
+          "score_label": "0.8784"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-235B-A22B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9399,
+      "primary_score_label": "0.9399",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.928,
+          "score_label": "0.9280"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9119,
+          "score_label": "0.9119"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.891,
+          "score_label": "0.8910"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "subject_label": "Qwen3-235B-A22B-Thinking-2507 · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9315,
+      "primary_score_label": "0.9315",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9099,
+          "score_label": "0.9099"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8973,
+          "score_label": "0.8973"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8679,
+          "score_label": "0.8679"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-30B-A3B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9437,
+      "primary_score_label": "0.9437",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9228,
+          "score_label": "0.9228"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.914,
+          "score_label": "0.9140"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8784,
+          "score_label": "0.8784"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-30B-A3B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9375,
+      "primary_score_label": "0.9375",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.914,
+          "score_label": "0.9140"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9057,
+          "score_label": "0.9057"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8763,
+          "score_label": "0.8763"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-30B-A3B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.921,
+      "primary_score_label": "0.9210",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9053,
+          "score_label": "0.9053"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.891,
+          "score_label": "0.8910"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8616,
+          "score_label": "0.8616"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "subject_label": "Qwen3-30B-A3B-Thinking-2507 · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9207,
+      "primary_score_label": "0.9207",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.8952,
+          "score_label": "0.8952"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8847,
+          "score_label": "0.8847"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8532,
+          "score_label": "0.8532"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-32B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9368,
+      "primary_score_label": "0.9368",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9095,
+          "score_label": "0.9095"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9036,
+          "score_label": "0.9036"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8658,
+          "score_label": "0.8658"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-32B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9305,
+      "primary_score_label": "0.9305",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.905,
+          "score_label": "0.9050"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8994,
+          "score_label": "0.8994"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8616,
+          "score_label": "0.8616"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-4B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9123,
+      "primary_score_label": "0.9123",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.8927,
+          "score_label": "0.8927"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8721,
+          "score_label": "0.8721"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.847,
+          "score_label": "0.8470"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-4B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9109,
+      "primary_score_label": "0.9109",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9018,
+          "score_label": "0.9018"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8763,
+          "score_label": "0.8763"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8595,
+          "score_label": "0.8595"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-4B-Instruct-2507 · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9207,
+      "primary_score_label": "0.9207",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.8997,
+          "score_label": "0.8997"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8889,
+          "score_label": "0.8889"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8574,
+          "score_label": "0.8574"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "subject_label": "Qwen3-4B-Thinking-2507 · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.928,
+      "primary_score_label": "0.9280",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9004,
+          "score_label": "0.9004"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8973,
+          "score_label": "0.8973"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8658,
+          "score_label": "0.8658"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "subject_label": "Qwen3-8B · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9427,
+      "primary_score_label": "0.9427",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9175,
+          "score_label": "0.9175"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9078,
+          "score_label": "0.9078"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.87,
+          "score_label": "0.8700"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-8B · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9277,
+      "primary_score_label": "0.9277",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.913,
+          "score_label": "0.9130"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.8931,
+          "score_label": "0.8931"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8742,
+          "score_label": "0.8742"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "subject_label": "Qwen3-Next-80B-A3B-Instruct · NoCoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.9399,
+      "primary_score_label": "0.9399",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9144,
+          "score_label": "0.9144"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9161,
+          "score_label": "0.9161"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.8763,
+          "score_label": "0.8763"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    },
+    {
+      "benchmark": "ifeval",
+      "benchmark_display": "IFEval",
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "subject_label": "Qwen3-Next-80B-A3B-Thinking · CoT",
+      "primary_metric_name": "mean_inst_level_loose",
+      "primary_metric_label": "mean inst level loose",
+      "primary_score": 0.949,
+      "primary_score_label": "0.9490",
+      "supporting_metrics": [
+        {
+          "name": "mean_inst_level_strict",
+          "label": "mean inst level strict",
+          "score": 0.9263,
+          "score_label": "0.9263"
+        },
+        {
+          "name": "mean_prompt_level_loose",
+          "label": "mean prompt level loose",
+          "score": 0.9266,
+          "score_label": "0.9266"
+        },
+        {
+          "name": "mean_prompt_level_strict",
+          "label": "mean prompt level strict",
+          "score": 0.891,
+          "score_label": "0.8910"
+        }
+      ],
+      "num_samples": 477,
+      "subset_count": 1,
+      "detail_ref": "./data/benchmarks/ifeval.json"
+    }
+  ],
+  "subset_rows": [
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.8588,
+      "score_label": "0.8588",
+      "num_samples": 477
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.8379,
+      "score_label": "0.8379",
+      "num_samples": 477
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.7966,
+      "score_label": "0.7966",
+      "num_samples": 477
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.7715,
+      "score_label": "0.7715",
+      "num_samples": 477
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.8756,
+      "score_label": "0.8756",
+      "num_samples": 477
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.841,
+      "score_label": "0.8410",
+      "num_samples": 477
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8239,
+      "score_label": "0.8239",
+      "num_samples": 477
+    },
+    {
+      "model": "DeepSeek-R1-0528-Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.782,
+      "score_label": "0.7820",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.6331,
+      "score_label": "0.6331",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.6069,
+      "score_label": "0.6069",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.5304,
+      "score_label": "0.5304",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.4969,
+      "score_label": "0.4969",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.8375,
+      "score_label": "0.8375",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.7984,
+      "score_label": "0.7984",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.7673,
+      "score_label": "0.7673",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.7191,
+      "score_label": "0.7191",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9458,
+      "score_label": "0.9458",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9416,
+      "score_label": "0.9416",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9203,
+      "score_label": "0.9203",
+      "num_samples": 477
+    },
+    {
+      "model": "Llama-3.3-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.9119,
+      "score_label": "0.9119",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9329,
+      "score_label": "0.9329",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9179,
+      "score_label": "0.9179",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9036,
+      "score_label": "0.9036",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-405B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8805,
+      "score_label": "0.8805",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9371,
+      "score_label": "0.9371",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9256,
+      "score_label": "0.9256",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9036,
+      "score_label": "0.9036",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-70B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8868,
+      "score_label": "0.8868",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.8609,
+      "score_label": "0.8609",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.8281,
+      "score_label": "0.8281",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8029,
+      "score_label": "0.8029",
+      "num_samples": 477
+    },
+    {
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.7631,
+      "score_label": "0.7631",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.7317,
+      "score_label": "0.7317",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.7034,
+      "score_label": "0.7034",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.6247,
+      "score_label": "0.6247",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.5891,
+      "score_label": "0.5891",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.7407,
+      "score_label": "0.7407",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.7027,
+      "score_label": "0.7027",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.6247,
+      "score_label": "0.6247",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.587,
+      "score_label": "0.5870",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.8274,
+      "score_label": "0.8274",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.8064,
+      "score_label": "0.8064",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.7568,
+      "score_label": "0.7568",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.7254,
+      "score_label": "0.7254",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.826,
+      "score_label": "0.8260",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.804,
+      "score_label": "0.8040",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.7484,
+      "score_label": "0.7484",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.7149,
+      "score_label": "0.7149",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9458,
+      "score_label": "0.9458",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9326,
+      "score_label": "0.9326",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9203,
+      "score_label": "0.9203",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.9015,
+      "score_label": "0.9015",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9385,
+      "score_label": "0.9385",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9347,
+      "score_label": "0.9347",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9266,
+      "score_label": "0.9266",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.92,
+      "score_label": "0.9200",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9099,
+      "score_label": "0.9099",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9036,
+      "score_label": "0.9036",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8868,
+      "score_label": "0.8868",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-14B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8742,
+      "score_label": "0.8742",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9287,
+      "score_label": "0.9287",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.905,
+      "score_label": "0.9050",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8994,
+      "score_label": "0.8994",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8637,
+      "score_label": "0.8637",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9423,
+      "score_label": "0.9423",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9161,
+      "score_label": "0.9161",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.914,
+      "score_label": "0.9140",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8784,
+      "score_label": "0.8784",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9399,
+      "score_label": "0.9399",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.928,
+      "score_label": "0.9280",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9119,
+      "score_label": "0.9119",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.891,
+      "score_label": "0.8910",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9315,
+      "score_label": "0.9315",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9099,
+      "score_label": "0.9099",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8973,
+      "score_label": "0.8973",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-235B-A22B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8679,
+      "score_label": "0.8679",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9437,
+      "score_label": "0.9437",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9228,
+      "score_label": "0.9228",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.914,
+      "score_label": "0.9140",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8784,
+      "score_label": "0.8784",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9375,
+      "score_label": "0.9375",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.914,
+      "score_label": "0.9140",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9057,
+      "score_label": "0.9057",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8763,
+      "score_label": "0.8763",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.921,
+      "score_label": "0.9210",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9053,
+      "score_label": "0.9053",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.891,
+      "score_label": "0.8910",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8616,
+      "score_label": "0.8616",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9207,
+      "score_label": "0.9207",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.8952,
+      "score_label": "0.8952",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8847,
+      "score_label": "0.8847",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-30B-A3B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8532,
+      "score_label": "0.8532",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9368,
+      "score_label": "0.9368",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9095,
+      "score_label": "0.9095",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9036,
+      "score_label": "0.9036",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8658,
+      "score_label": "0.8658",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9305,
+      "score_label": "0.9305",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.905,
+      "score_label": "0.9050",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8994,
+      "score_label": "0.8994",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-32B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8616,
+      "score_label": "0.8616",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9123,
+      "score_label": "0.9123",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.8927,
+      "score_label": "0.8927",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8721,
+      "score_label": "0.8721",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.847,
+      "score_label": "0.8470",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.8871,
+      "score_label": "0.8871",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9109,
+      "score_label": "0.9109",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.8683,
+      "score_label": "0.8683",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9018,
+      "score_label": "0.9018",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8386,
+      "score_label": "0.8386",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8763,
+      "score_label": "0.8763",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8113,
+      "score_label": "0.8113",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8595,
+      "score_label": "0.8595",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9207,
+      "score_label": "0.9207",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.8997,
+      "score_label": "0.8997",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8889,
+      "score_label": "0.8889",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B-Instruct-2507",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8574,
+      "score_label": "0.8574",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.928,
+      "score_label": "0.9280",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9004,
+      "score_label": "0.9004",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8973,
+      "score_label": "0.8973",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-4B-Thinking-2507",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8658,
+      "score_label": "0.8658",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9427,
+      "score_label": "0.9427",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9175,
+      "score_label": "0.9175",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9078,
+      "score_label": "0.9078",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.87,
+      "score_label": "0.8700",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9133,
+      "score_label": "0.9133",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9277,
+      "score_label": "0.9277",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.8903,
+      "score_label": "0.8903",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.913,
+      "score_label": "0.9130",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8742,
+      "score_label": "0.8742",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.8931,
+      "score_label": "0.8931",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8407,
+      "score_label": "0.8407",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-8B",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8742,
+      "score_label": "0.8742",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.9399,
+      "score_label": "0.9399",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9144,
+      "score_label": "0.9144",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9161,
+      "score_label": "0.9161",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "mode": "NoCoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.8763,
+      "score_label": "0.8763",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "mean_inst_level_loose",
+      "metric_label": "mean inst level loose",
+      "subset": "default",
+      "score": 0.949,
+      "score_label": "0.9490",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "mean_inst_level_strict",
+      "metric_label": "mean inst level strict",
+      "subset": "default",
+      "score": 0.9263,
+      "score_label": "0.9263",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_loose",
+      "metric_label": "mean prompt level loose",
+      "subset": "default",
+      "score": 0.9266,
+      "score_label": "0.9266",
+      "num_samples": 477
+    },
+    {
+      "model": "Qwen3-Next-80B-A3B-Thinking",
+      "mode": "CoT",
+      "metric": "mean_prompt_level_strict",
+      "metric_label": "mean prompt level strict",
+      "subset": "default",
+      "score": 0.891,
+      "score_label": "0.8910",
+      "num_samples": 477
+    }
+  ],
+  "passk_rows": [],
+  "downloads": {
+    "json_path": "./data/benchmarks/ifeval.json",
+    "artifact_paths": [
+      "published_results/models/deepseek-r1-0528-qwen3-8b/ifeval/cot/20260129_131259/result.json",
+      "published_results/models/deepseek-r1-0528-qwen3-8b/ifeval/nocot/20260130_062304/result.json",
+      "published_results/models/llama-3.2-1b-instruct/ifeval/nocot/20260128_130353/result.json",
+      "published_results/models/llama-3.2-3b-instruct/ifeval/nocot/20260128_155712/result.json",
+      "published_results/models/llama-3.3-70b-instruct/ifeval/nocot/20260129_050915/result.json",
+      "published_results/models/meta-llama-3.1-405b-instruct/ifeval/nocot/20260129_145727/result.json",
+      "published_results/models/meta-llama-3.1-70b-instruct/ifeval/nocot/20260128_153623/result.json",
+      "published_results/models/meta-llama-3.1-8b-instruct/ifeval/nocot/20260128_101200/result.json",
+      "published_results/models/qwen3-0.6b/ifeval/cot/20260124_020504/result.json",
+      "published_results/models/qwen3-0.6b/ifeval/nocot/20260124_165628/result.json",
+      "published_results/models/qwen3-1.7b/ifeval/cot/20260125_003154/result.json",
+      "published_results/models/qwen3-1.7b/ifeval/nocot/20260125_080626/result.json",
+      "published_results/models/qwen3-14b/ifeval/cot/20260123_050627/result.json",
+      "published_results/models/qwen3-14b/ifeval/nocot/20260123_200151/result.json",
+      "published_results/models/qwen3-14b/ifeval/nocot/20260124_193300/result.json",
+      "published_results/models/qwen3-235b-a22b-instruct-2507/ifeval/nocot/20260125_065614/result.json",
+      "published_results/models/qwen3-235b-a22b-thinking-2507/ifeval/cot/20260128_062434/result.json",
+      "published_results/models/qwen3-235b-a22b/ifeval/cot/20260125_202341/result.json",
+      "published_results/models/qwen3-235b-a22b/ifeval/nocot/20260127_004726/result.json",
+      "published_results/models/qwen3-30b-a3b-instruct-2507/ifeval/nocot/20260124_204009/result.json",
+      "published_results/models/qwen3-30b-a3b-thinking-2507/ifeval/cot/20260126_183952/result.json",
+      "published_results/models/qwen3-30b-a3b/ifeval/cot/20260125_050443/result.json",
+      "published_results/models/qwen3-30b-a3b/ifeval/nocot/20260125_185041/result.json",
+      "published_results/models/qwen3-32b/ifeval/cot/20260125_181839/result.json",
+      "published_results/models/qwen3-32b/ifeval/nocot/20260126_184440/result.json",
+      "published_results/models/qwen3-4b-instruct-2507/ifeval/nocot/20260124_185210/result.json",
+      "published_results/models/qwen3-4b-thinking-2507/ifeval/cot/20260127_152210/result.json",
+      "published_results/models/qwen3-4b/ifeval/cot/20260123_023806/result.json",
+      "published_results/models/qwen3-4b/ifeval/nocot/20260123_162142/result.json",
+      "published_results/models/qwen3-4b/ifeval/nocot/20260124_174805/result.json",
+      "published_results/models/qwen3-8b/ifeval/cot/20260123_063932/result.json",
+      "published_results/models/qwen3-8b/ifeval/nocot/20260123_220213/result.json",
+      "published_results/models/qwen3-8b/ifeval/nocot/20260124_180945/result.json",
+      "published_results/models/qwen3-next-80b-a3b-instruct/ifeval/nocot/20260127_115959/result.json",
+      "published_results/models/qwen3-next-80b-a3b-thinking/ifeval/cot/20260128_011416/result.json"
+    ],
+    "notes": "Detailed public-safe artifacts are copied under published_results/."
+  }
+}
