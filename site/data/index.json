@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-03-03T08:02:36Z",
   "summary": {
-    "record_count": 16285,
-    "artifact_count": 811,
-    "run_count": 349,
+    "record_count": 16262,
+    "artifact_count": 808,
+    "run_count": 348,
     "model_count": 27,
     "benchmark_count": 11,
     "json_artifact_count": 280,
@@ -13,96 +13,24 @@
     "overall_record_count": 5129,
     "subset_record_count": 11156
   },
-  "category_summary": [
-    {
-      "category": "knowledge",
-      "display_name": "Knowledge",
-      "description": "Knowledge benchmarks emphasize factual recall, domain expertise, and subset-level coverage.",
-      "href": "./knowledge.html",
+  "category_summary": {
+    "agentic": {
+      "benchmark_count": 1,
+      "model_count": 18
+    },
+    "instruction_following": {
+      "benchmark_count": 1,
+      "model_count": 23
+    },
+    "knowledge": {
       "benchmark_count": 5,
-      "model_count": 23,
-      "benchmarks": [
-        {
-          "benchmark": "chinese_simpleqa",
-          "display_name": "Chinese-SimpleQA"
-        },
-        {
-          "benchmark": "gpqa_diamond",
-          "display_name": "GPQA-Diamond"
-        },
-        {
-          "benchmark": "mmlu_pro",
-          "display_name": "MMLU-Pro"
-        },
-        {
-          "benchmark": "simple_qa",
-          "display_name": "SimpleQA"
-        },
-        {
-          "benchmark": "super_gpqa",
-          "display_name": "SuperGPQA"
-        }
-      ],
-      "featured_note": "Best for MMLU-Pro, Chinese SimpleQA, and GPQA-style reading."
+      "model_count": 23
     },
-    {
-      "category": "agentic",
-      "display_name": "Agentic",
-      "description": "Agentic evaluation focuses on tool use, workflow handling, and multi-scenario behavior.",
-      "href": "./agentic.html",
-      "benchmark_count": 1,
-      "model_count": 18,
-      "benchmarks": [
-        {
-          "benchmark": "bfcl_v3",
-          "display_name": "BFCL v3"
-        }
-      ],
-      "featured_note": "BFCL v3 is the sole agentic benchmark in the current release."
-    },
-    {
-      "category": "instruction_following",
-      "display_name": "IF",
-      "description": "Instruction-following evaluation isolates compliance with explicit formatting and behavioral constraints.",
-      "href": "./if.html",
-      "benchmark_count": 1,
-      "model_count": 23,
-      "benchmarks": [
-        {
-          "benchmark": "ifeval",
-          "display_name": "IFEval"
-        }
-      ],
-      "featured_note": "IFEval is split out as its own reading path."
-    },
-    {
-      "category": "reasoning",
-      "display_name": "Reasoning",
-      "description": "Reasoning benchmarks include pass@k math evaluation and logic-heavy tasks.",
-      "href": "./reasoning.html",
+    "reasoning": {
       "benchmark_count": 4,
-      "model_count": 22,
-      "benchmarks": [
-        {
-          "benchmark": "aime24",
-          "display_name": "AIME-2024"
-        },
-        {
-          "benchmark": "aime25",
-          "display_name": "AIME-2025"
-        },
-        {
-          "benchmark": "hmmt25",
-          "display_name": "HMMT25"
-        },
-        {
-          "benchmark": "zebralogicbench",
-          "display_name": "ZebraLogicBench"
-        }
-      ],
-      "featured_note": "Best for AIME pass@k curves and logic-style benchmarks."
+      "model_count": 22
     }
-  ],
+  },
   "featured_benchmarks": [
     {
       "category": "knowledge",

@@ -63,7 +63,6 @@
               "score_label": "87.96%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -91,7 +90,6 @@
               "score_label": "87.58%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -119,7 +117,6 @@
               "score_label": "88.96%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -147,7 +144,6 @@
               "score_label": "88.19%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -175,7 +171,6 @@
               "score_label": "89.52%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -203,7 +198,6 @@
               "score_label": "88.31%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -231,7 +225,6 @@
               "score_label": "89.23%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -259,7 +252,6 @@
               "score_label": "86.60%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -287,7 +279,6 @@
               "score_label": "86.52%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -315,7 +306,6 @@
               "score_label": "89.73%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -343,7 +333,6 @@
               "score_label": "86.71%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -371,7 +360,6 @@
               "score_label": "84.42%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -399,7 +387,6 @@
               "score_label": "88.08%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -427,7 +414,6 @@
               "score_label": "84.04%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -455,7 +441,6 @@
               "score_label": "87.48%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -483,7 +468,6 @@
               "score_label": "89.69%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -511,7 +495,6 @@
               "score_label": "87.48%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -539,7 +522,6 @@
               "score_label": "87.48%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -567,7 +549,6 @@
               "score_label": "87.92%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -595,7 +576,6 @@
               "score_label": "83.60%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -623,7 +603,6 @@
               "score_label": "88.71%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -651,7 +630,6 @@
               "score_label": "88.15%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -679,7 +657,6 @@
               "score_label": "88.58%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -707,7 +684,6 @@
               "score_label": "88.58%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -735,7 +711,6 @@
               "score_label": "87.58%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -763,7 +738,6 @@
               "score_label": "85.08%"
             }
           ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         },
@@ -791,35 +765,6 @@
               "score_label": "89.77%"
             }
           ],
-          "num_samples": null,
-          "subset_count": 3,
-          "detail_ref": "./data/benchmarks/bfcl_v3.json"
-        },
-        {
-          "benchmark": "bfcl_v3",
-          "benchmark_display": "BFCL v3",
-          "model": "qwen3.5-397b-a17b",
-          "mode": "NoCoT",
-          "subject_label": "qwen3.5-397b-a17b · NoCoT",
-          "primary_metric_name": "Live Overall Acc",
-          "primary_metric_label": "Live Overall Acc",
-          "primary_score": 82.09,
-          "primary_score_label": "82.09%",
-          "supporting_metrics": [
-            {
-              "name": "Multi Turn Overall Acc",
-              "label": "Multi Turn Overall Acc",
-              "score": 25.88,
-              "score_label": "25.88%"
-            },
-            {
-              "name": "Non-Live Overall Acc",
-              "label": "Non-Live Overall Acc",
-              "score": 86.06,
-              "score_label": "86.06%"
-            }
-          ],
-          "num_samples": null,
           "subset_count": 3,
           "detail_ref": "./data/benchmarks/bfcl_v3.json"
         }

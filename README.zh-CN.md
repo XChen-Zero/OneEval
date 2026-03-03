@@ -38,7 +38,6 @@ OneEval 以证据链的方式发布用于审阅的必要信息：运行脚本、
 - [site/](site/): 静态展示站（GitHub Pages），按 benchmark 类型组织
 - [site/data/](site/data/): 站点数据包，由公开结果派生
 - [evaluation_code/](evaluation_code/): 实际用于运行评测的启动脚本和最小 monkey patch
-- [scripts/](scripts/): 提取、构建站点数据、以及校验工具
 
 ## 阅读方式（站点）
 
@@ -82,15 +81,9 @@ OneEval 以证据链的方式发布用于审阅的必要信息：运行脚本、
 - BFCL v3 的 agentic 评测在适用场景下使用 `131072` 的 YaRN 扩展上下文
 
 
-## 关于重建
+## 使用说明
 
-本仓库已经包含物化后的公开发布内容（`published_results/` 与 `site/data/`）。[scripts/](scripts/) 下的构建脚本主要面向维护者，用于在持有对应原始输入时重新生成发布内容。
-
-对开源读者的本地验证建议：
-
-```bash
-.venv/bin/python scripts/validate_raw_results.py
-```
+本仓库已经包含物化后的公开发布内容（`published_results/` 与 `site/data/`）。公开仓库主要面向结果查阅、站点浏览与二次分析使用。
 
 本地预览站点：
 

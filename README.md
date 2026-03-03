@@ -27,7 +27,7 @@ Open LLM evaluation results are frequently hard to audit and difficult to reprod
 - the exact evaluation protocol (sampling knobs, run repetitions, and runtime assumptions) is often underspecified
 - rich benchmarks are commonly reduced to headline aggregates, obscuring subset-level behavior (e.g., MMLU-Pro domains) or multi-sample behavior (e.g., pass@k curves)
 
-OneEval addresses these gaps by publishing the evidence needed for inspection: the scripts used to run the suite, a sanitized protocol summary, and the detailed result slices that explain how an overall number is composed.
+OneEval addresses these gaps by publishing the evidence needed for inspection: the launch code used for the suite, a sanitized protocol summary, and the detailed result slices that explain how an overall number is composed.
 
 ## Scope
 
@@ -39,7 +39,6 @@ This repository is not a leaderboard and does not publish a composite score. The
 - [published_results/](published_results/): the public result tree, organized as `models/<model>/<benchmark>/<mode>/<run_id>/`
 - [site/data/](site/data/): site-side data bundles, derived from the public results
 - [evaluation_code/](evaluation_code/): launch scripts and targeted monkey patches used for the runs
-- [scripts/](scripts/): extraction, site-data build, and validation utilities
 
 ## Reading Guide (Website)
 
@@ -82,15 +81,9 @@ Operational notes (as reflected in the published protocol summary on the site):
 - Llama-family runs use fixed single-repeat settings where the sampling configuration is deterministic.
 - BFCL v3 agentic evaluation uses a YaRN-extended context setup to `131072` where applicable.
 
-## Notes On Rebuilding
+## Notes On Use
 
-This repository ships a materialized public release (`published_results/` and `site/data/`). The build scripts in [scripts/](scripts/) are provided for maintainers who have access to the corresponding raw inputs.
-
-For local verification of the published release:
-
-```bash
-.venv/bin/python scripts/validate_raw_results.py
-```
+This repository ships a materialized public release (`published_results/` and `site/data/`). The public repository is intended for inspection, browsing, and reuse of the released artifacts.
 
 To preview the site locally:
 
