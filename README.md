@@ -1,20 +1,24 @@
-# OneEval
+<p align="center">
+  <img src="assets/logo.png" alt="OneEval logo" width="500" />
+</p>
 
-![OneEval logo](assets/logo.png)
+<p align="center">
+  <a href="mailto:chenxuan026@icloud.com">Xuan Chen</a>
+  ·
+  <a href="mailto:482501090@qq.com">Qiuxuan Chen</a>
+  ·
+  <a href="mailto:mjv1cp@gmail.com">Bo Liu</a>
+</p>
 
-OneEval is a repository-first release of open-model evaluation artifacts.
-
-Project overview (Chinese): [README.zh-CN.md](README.zh-CN.md).
-
-**Authors**
-
-- Xuan Chen (<chenxuan026@icloud.com>)
-- Qiuxuan Chen (<482501090@qq.com>)
-- Bo Liu (<mjv1cp@gmail.com>)
-
-**Website**
-
-- https://XChen-Zero.github.io/OneEval/
+<p align="center">
+  <a href="https://XChen-Zero.github.io/OneEval/">🌐 Website</a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/XChen-Zero/OneEval/">💻 Code</a>
+  &nbsp;|&nbsp;
+  <a href="published_results/">📦 Results</a>
+  &nbsp;|&nbsp;
+  <a href="README.zh-CN.md">🇨🇳 中文</a>
+</p>
 
 ## Motivation
 

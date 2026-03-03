@@ -1,8 +1,23 @@
-# OneEval
+<p align="center">
+  <img src="assets/logo.png" alt="OneEval logo" width="500" />
+</p>
+<p align="center">
+  <a href="mailto:chenxuan026@icloud.com">Xuan Chen</a>
+  ·
+  <a href="mailto:482501090@qq.com">Qiuxuan Chen</a>
+  ·
+  <a href="mailto:mjv1cp@gmail.com">Bo Liu</a>
+</p>
 
-![OneEval logo](assets/logo.png)
-
-OneEval 是一个以仓库为中心发布的开放模型评测产物（artifacts）集合。
+<p align="center">
+  <a href="https://XChen-Zero.github.io/OneEval/">🌐 项目站点</a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/XChen-Zero/OneEval/">💻 代码</a>
+  &nbsp;|&nbsp;
+  <a href="published_results/">📦 结果</a>
+  &nbsp;|&nbsp;
+  <a href="README.md">🇬🇧 English</a>
+</p>
 
 ## 动机
 
@@ -12,16 +27,6 @@ OneEval 是一个以仓库为中心发布的开放模型评测产物（artifacts
 - 丰富 benchmark 往往被压缩为单一 headline score，掩盖了 subset 结构（如 MMLU-Pro 领域划分）或多采样行为（如 pass@k 曲线）
 
 OneEval 以证据链的方式发布用于审阅的必要信息：运行脚本、脱敏后的协议摘要，以及解释 overall 数值来源的细粒度结果切片。
-
-**作者**
-
-- Xuan Chen (<chenxuan026@icloud.com>)
-- Qiuxuan Chen (<482501090@qq.com>)
-- Bo Liu (<mjv1cp@gmail.com>)
-
-**项目站点**
-
-- https://XChen-Zero.github.io/OneEval/
 
 ## 项目边界
 
