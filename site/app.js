@@ -707,8 +707,31 @@ function renderCategoryCards(indexPayload) {
     return;
   }
 
+  const rawSummary = indexPayload.category_summary || [];
+  const categoryEntries = Array.isArray(rawSummary)
+    ? rawSummary
+    : Object.entries(rawSummary).map(([category, stats]) => {
+        const featuredBenchmarks = (indexPayload.featured_benchmarks || []).filter(
+          (entry) => entry.category === category,
+        );
+        const href = category === "instruction_following" ? "./if.html" : `./${category}.html`;
+        return {
+          category,
+          href,
+          display_name: CATEGORY_META[category]?.label || category,
+          featured_note: CATEGORY_META[category]?.emphasis || "Benchmark results",
+          benchmark_count: stats?.benchmark_count || featuredBenchmarks.length,
+          model_count: stats?.model_count || 0,
+          description:
+            category === "instruction_following"
+              ? "Read instruction-following compliance results with benchmark-specific tables."
+              : `Read ${CATEGORY_META[category]?.label || category} results with benchmark-specific tables.`,
+          benchmarks: featuredBenchmarks,
+        };
+      });
+
   const fragment = document.createDocumentFragment();
-  (indexPayload.category_summary || []).forEach((entry) => {
+  categoryEntries.forEach((entry) => {
     const card = document.createElement("a");
     card.className = "category-card";
     card.href = entry.href;
@@ -723,7 +746,7 @@ function renderCategoryCards(indexPayload) {
     const description = createNode("p", "card-copy", entry.description);
 
     const list = createNode("div", "chip-row");
-    entry.benchmarks.forEach((benchmark) => {
+    (entry.benchmarks || []).forEach((benchmark) => {
       list.appendChild(createNode("span", "chip", benchmark.display_name));
     });
 
