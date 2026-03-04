@@ -221,6 +221,34 @@ a {
   border-color: rgba(23, 60, 122, 0.24);
 }
 
+.hero-project-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.hero-project-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border: 1px solid rgba(193, 205, 221, 0.86);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--accent);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-project-link a:hover {
+  border-color: rgba(23, 60, 122, 0.28);
+  background: rgba(247, 250, 255, 0.96);
+}
+
 .hero-advantages {
   display: flex;
   flex-wrap: wrap;
